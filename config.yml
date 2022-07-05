@@ -2,6 +2,7 @@ baseURL: 'https://dudutwizer.com/'
 title: Dudu Twizer's Site
 paginate: 5
 theme: PaperMod
+publishDir: docs
 
 enableRobotsTXT: true
 buildDrafts: false
