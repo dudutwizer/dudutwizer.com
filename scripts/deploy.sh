@@ -12,7 +12,7 @@ hugo
 git add .
 
 # Commit changes
-msg="Rebuilding site $(date)"
+msg="Rebuild site $(date +%D-%T)"
 if [ -n "$*" ]; then
 	msg="$*"
 fi
