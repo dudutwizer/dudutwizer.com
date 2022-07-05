@@ -125,9 +125,10 @@ menu:
 pygmentsUseClasses: true
 markup:
   highlight:
-    noClasses: false
-     anchorLineNos: true
-     codeFences: true
-     guessSyntax: true
-     lineNos: true
+    noClasses:
+      false
+      # anchorLineNos: true
+      # codeFences: true
+      # guessSyntax: true
+      # lineNos: true
     # style: monokai
