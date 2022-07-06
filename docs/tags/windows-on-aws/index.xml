@@ -28,6 +28,16 @@ We create and use an Amazon CloudWatch dashboard to highlight any limits and bot
     </item>
     
     <item>
+      <title>Reduce complexity &amp; cost for Microsoft SQL with Amazon FSx for Windows (Hebrew)</title>
+      <link>https://dudutwizer.com/videos/how-to-run-sql-on-fsx-webinar/</link>
+      <pubDate>Wed, 01 Jul 2020 17:36:18 +0300</pubDate>
+      
+      <guid>https://dudutwizer.com/videos/how-to-run-sql-on-fsx-webinar/</guid>
+      <description>In this webinar we will learn and discuss different SQL deployments and why preferred option for high availability deployments has traditionally been difficult to deploy and manage.
+During the webinar, we will walk you through a Demo on how to deploy and configure Windows fail over cluster using Amazon FSx for windows to achieve a simple architecture and reduce operational overhead and licensing costs.</description>
+    </item>
+    
+    <item>
       <title>Running SQL Server with Amazon FSx as a shared storage</title>
       <link>https://dudutwizer.com/blogs/sql-on-fsx/</link>
       <pubDate>Fri, 06 Mar 2020 13:07:25 +0300</pubDate>

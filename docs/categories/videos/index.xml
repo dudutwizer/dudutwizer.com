@@ -17,6 +17,16 @@ In this session, you will learn how to apply the Reliability Pillar from the AWS
     </item>
     
     <item>
+      <title>Reduce complexity &amp; cost for Microsoft SQL with Amazon FSx for Windows (Hebrew)</title>
+      <link>https://dudutwizer.com/videos/how-to-run-sql-on-fsx-webinar/</link>
+      <pubDate>Wed, 01 Jul 2020 17:36:18 +0300</pubDate>
+      
+      <guid>https://dudutwizer.com/videos/how-to-run-sql-on-fsx-webinar/</guid>
+      <description>In this webinar we will learn and discuss different SQL deployments and why preferred option for high availability deployments has traditionally been difficult to deploy and manage.
+During the webinar, we will walk you through a Demo on how to deploy and configure Windows fail over cluster using Amazon FSx for windows to achieve a simple architecture and reduce operational overhead and licensing costs.</description>
+    </item>
+    
+    <item>
       <title>Blur the Boundaries between Your on-Premises to AWS Cloud</title>
       <link>https://dudutwizer.com/videos/blur-the-boundaries-between-your-on-premises-to-aws-cloud/</link>
       <pubDate>Fri, 01 Mar 2019 17:02:38 +0300</pubDate>
