@@ -147,3 +147,4 @@ outputs:
   home:
     - JSON # is necessary
     - HTML
+    - RSS
