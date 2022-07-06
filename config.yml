@@ -96,14 +96,14 @@ params:
   analytics:
     google:
       SiteVerificationTag: 'G-NVG2GPLVSG'
-      
+
   cover:
     hidden: false # hide everywhere but not in structured data
     hiddenInList: false # hide on list pages and home
     hiddenInSingle: false # hide on single page
 
   editPost:
-    URL: 'https://github.com/dudutwizer/dudutwizer.com/tree/main/docs'
+    URL: 'https://github.com/dudutwizer/dudutwizer.com/'
     Text: 'Suggest Changes' # edit text
     appendFilePath: true # to append file path to Edit link
 
