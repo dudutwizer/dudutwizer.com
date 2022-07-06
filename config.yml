@@ -3,11 +3,13 @@ title: Dudu Twizer's Site
 paginate: 5
 theme: PaperMod
 publishDir: docs
+builddrafts: true
 
 enableRobotsTXT: true
-buildDrafts: false
 buildFuture: false
 buildExpired: false
+
+opengraph_io_api_key: 'f6114928-a490-40f2-a56a-39444df414e8'
 
 googleAnalytics: G-NVG2GPLVSG
 
@@ -20,9 +22,9 @@ params:
   title: Dudu Twizer's Site
   description: 'A site to share links and thoughts without using 3rd party SaaS solutions'
   keywords: [Blog, Portfolio, Dudu, Twizer, Dudu Twizer]
-  author: Me
+  author: Dudu Twizer
   # author: ["Me", "You"] # multiple authors
-  images: ['<link or path of image for opengraph, twitter-cards>']
+  # images: ['<link or path of image for opengraph, twitter-cards>']
   DateFormat: 'January 2, 2006'
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -30,6 +32,9 @@ params:
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
+
+  ShowAllPagesInArchive: true
+  ShowAllPagesInCategories: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowWordCount: true
@@ -46,34 +51,35 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: '<link / abs url>'
-    favicon16x16: '<link / abs url>'
-    favicon32x32: '<link / abs url>'
-    apple_touch_icon: '<link / abs url>'
-    safari_pinned_tab: '<link / abs url>'
+    favicon: 'fav.png'
+    favicon16x16: 'fav16.png'
+    favicon32x32: 'fav32.png'
 
   label:
     text: 'Home'
-    icon: /apple-touch-icon.png
+    icon: /icon.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: 'This is subtitle'
-    imageUrl: '<img location>'
+    enabled: true # needs to be explicitly set
+    title: Dudu (David) Twizer
+    subtitle: The content on this blog includes some of the technical content I have published on the internet over the years as well as some random thoughts mainly about cloud computing.
+    imageUrl: 'https://avatars.githubusercontent.com/u/24310417?v=4'
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
     buttons:
       - name: Posts
-        url: posts
+        url: archives
       - name: Tags
         url: tags
+      - name: Categories
+        url: categories
 
   # home-info mode
   homeInfoParams:
+    enabled: false # needs to be explicitly set
     Title: "Hi there \U0001F44B"
     Content: Welcome to my blog
 
@@ -84,22 +90,20 @@ params:
       url: 'https://www.linkedin.com/in/dudutwizer/'
     - name: github
       url: 'https://github.com/dudutwizer'
+    - name: email
+      url: 'mailto:dudu@twizer.net'
 
   analytics:
     google:
-      SiteVerificationTag: 'XYZabc'
-    bing:
-      SiteVerificationTag: 'XYZabc'
-    yandex:
-      SiteVerificationTag: 'XYZabc'
-
+      SiteVerificationTag: 'G-NVG2GPLVSG'
+      
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
   editPost:
-    URL: 'https://github.com/dudutwizer/dudutwizer.com/content'
+    URL: 'https://github.com/dudutwizer/dudutwizer.com/tree/main/docs'
     Text: 'Suggest Changes' # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -123,6 +127,14 @@ menu:
       name: tags
       url: /tags/
       weight: 20
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 20
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 20
 pygmentsUseClasses: true
 markup:
   highlight:
@@ -133,3 +145,7 @@ markup:
       # guessSyntax: true
       # lineNos: true
     # style: monokai
+outputs:
+  home:
+    - JSON # is necessary
+    - HTML

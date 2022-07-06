@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Shuffle Sharding on Dudu Twizer&#39;s Site</title>
+    <link>https://dudutwizer.com/tags/shuffle-sharding/</link>
+    <description>Recent content in Shuffle Sharding on Dudu Twizer&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 06 Jul 2022 02:22:49 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/shuffle-sharding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Minimize the blast radius of your applications</title>
+      <link>https://dudutwizer.com/videos/minimize-the-blast-radius-of-your-applications/</link>
+      <pubDate>Wed, 06 Jul 2022 02:22:49 +0300</pubDate>
+      
+      <guid>https://dudutwizer.com/videos/minimize-the-blast-radius-of-your-applications/</guid>
+      <description>Code sample published in aws-samples/shuffle-sharding-demo-app .
+In this session, you will learn how to apply the Reliability Pillar from the AWS Well-Architected Framework to your workloads. We will dive into modern architectural techniques and best practices like shuffle sharding and cell-based architecture. We will provide practical implementations with a short demo and reference architecture diagrams.</description>
+    </item>
+    
+  </channel>
+</rss>
