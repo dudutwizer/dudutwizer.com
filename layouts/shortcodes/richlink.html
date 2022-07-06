@@ -1,0 +1,32 @@
+{{ with getJSON (printf "https://api.microlink.io/?url=%s" (.Get "src")) }}
+<div
+  style="
+    display: flex;
+    height: auto;
+    border: 1px solid;
+    border-radius: 5px;
+    border-style: dotted;
+    line-height: 1.1em;
+  "
+>
+  <div style="flex: 100%; text-align: justify; padding: 10px">
+    <a
+      style="
+        text-decoration: none;
+        box-shadow: 0px 0px;
+        font-size: 0.7em;
+        display: inline-block;
+        font-weight: bold;
+      "
+      href="{{ .data.url }}"
+      >{{ .data.title | title }}</a
+    >
+    {{ with .data.description }}
+    <div style="font-size: 0.7em">
+      {{ . | htmlUnescape | markdownify }}
+      <i> {{ end }}</i>
+    </div>
+    {{$time := time (string .data.date)}}
+  </div>
+</div>
+{{ end }}

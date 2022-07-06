@@ -16,5 +16,15 @@
 In this session, you will learn how to apply the Reliability Pillar from the AWS Well-Architected Framework to your workloads. We will dive into modern architectural techniques and best practices like shuffle sharding and cell-based architecture. We will provide practical implementations with a short demo and reference architecture diagrams.</description>
     </item>
     
+    <item>
+      <title>Architect Reliable Applications on Aws</title>
+      <link>https://dudutwizer.com/workshops/architect-reliable-applications-on-aws/</link>
+      <pubDate>Wed, 01 Dec 2021 17:06:59 +0300</pubDate>
+      
+      <guid>https://dudutwizer.com/workshops/architect-reliable-applications-on-aws/</guid>
+      <description>aws-samples/windows-on-aws-samples/reinvent-2021-win306 Workshop link : Workshop Studio Discover and participate in AWS workshops and GameDays This workshop presents a new way to design your application using the Well-Architected Reliability Pillar. You will get exposure to implementing advanced and modern techniques like Shuffle Sharding, Horizontal Scaling for windows workloads, and infrastructure as code using the Cloud Development Kit (CDK).
+In modern design techniques, Chaos Engineering taught us how to design for failure.</description>
+    </item>
+    
   </channel>
 </rss>

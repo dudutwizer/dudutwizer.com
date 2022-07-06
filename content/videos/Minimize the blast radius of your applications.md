@@ -4,7 +4,8 @@ date: 2022-07-06T02:22:49+03:00
 categories:
   - Videos
 tags:
-  - Summit 2022
+  - Tel Aviv Summit 2022
+  - AWS Events
   - Shuffle Sharding
   - Cell based architecture
 draft: false

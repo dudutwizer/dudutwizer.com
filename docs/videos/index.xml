@@ -16,5 +16,14 @@
 In this session, you will learn how to apply the Reliability Pillar from the AWS Well-Architected Framework to your workloads. We will dive into modern architectural techniques and best practices like shuffle sharding and cell-based architecture. We will provide practical implementations with a short demo and reference architecture diagrams.</description>
     </item>
     
+    <item>
+      <title>Blur the Boundaries between Your on-Premises to AWS Cloud</title>
+      <link>https://dudutwizer.com/videos/blur-the-boundaries-between-your-on-premises-to-aws-cloud/</link>
+      <pubDate>Fri, 01 Mar 2019 17:02:38 +0300</pubDate>
+      
+      <guid>https://dudutwizer.com/videos/blur-the-boundaries-between-your-on-premises-to-aws-cloud/</guid>
+      <description>So, you have workloads running on premises and you wish to extend to the Cloud? You are not that different! Let&amp;rsquo;s discuss few of your options for running in a hybrid mode. How to connect the two in a secure manner? Which services you should utilize? what you can also use on premises?</description>
+    </item>
+    
   </channel>
 </rss>

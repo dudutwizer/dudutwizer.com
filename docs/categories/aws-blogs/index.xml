@@ -5,7 +5,17 @@
     <link>https://dudutwizer.com/categories/aws-blogs/</link>
     <description>Recent content in AWS Blogs on Dudu Twizer&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 06 Mar 2020 13:07:25 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/categories/aws-blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Jun 2021 16:44:58 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/categories/aws-blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimizing EC2 Workloads with Amazon CloudWatch</title>
+      <link>https://dudutwizer.com/blogs/optimize-ec2-workloads-with-cloudwatch/</link>
+      <pubDate>Wed, 09 Jun 2021 16:44:58 +0300</pubDate>
+      
+      <guid>https://dudutwizer.com/blogs/optimize-ec2-workloads-with-cloudwatch/</guid>
+      <description>Many customers ask for our advice on choosing the ‘best’ or the ‘right’ storage and instance configuration, but there is no one solution that fits all circumstances. This blog post covers the critical techniques to right-size your workloads. We focus on right-sizing a SQL Server as our example workload, but the techniques we will demonstrate apply equally to any Amazon EC2 instance running any operating system or workload.
+We create and use an Amazon CloudWatch dashboard to highlight any limits and bottlenecks within our example instance.</description>
+    </item>
+    
     <item>
       <title>Running SQL Server with Amazon FSx as a shared storage</title>
       <link>https://dudutwizer.com/blogs/sql-on-fsx/</link>

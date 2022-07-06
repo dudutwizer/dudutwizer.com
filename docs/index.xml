@@ -17,6 +17,37 @@ In this session, you will learn how to apply the Reliability Pillar from the AWS
     </item>
     
     <item>
+      <title>Cdk Skylight</title>
+      <link>https://dudutwizer.com/opensource/cdk-skylight/</link>
+      <pubDate>Thu, 06 Jan 2022 16:51:17 +0300</pubDate>
+      
+      <guid>https://dudutwizer.com/opensource/cdk-skylight/</guid>
+      <description>cdklabs/cdk-skylight Overview CDK Skylight is a set of Level 3 constructs for the Microsoft products on AWS ecosystem (Windows OS, SQL Server, Active Directory, Windows Containers, Amazon FSx for Windows, and so on). CDK Skylight Constructs are a natural fit for Platform Teams building Platform as a Product.
+Examples
+Windows Worker with Domain join and Powershell API that allows running complex automation with a single line of code Managed Active Directory configured with DNS Topology and an API to create new AD Group with a domain-joined machine.</description>
+    </item>
+    
+    <item>
+      <title>Architect Reliable Applications on Aws</title>
+      <link>https://dudutwizer.com/workshops/architect-reliable-applications-on-aws/</link>
+      <pubDate>Wed, 01 Dec 2021 17:06:59 +0300</pubDate>
+      
+      <guid>https://dudutwizer.com/workshops/architect-reliable-applications-on-aws/</guid>
+      <description>aws-samples/windows-on-aws-samples/reinvent-2021-win306 Workshop link : Workshop Studio Discover and participate in AWS workshops and GameDays This workshop presents a new way to design your application using the Well-Architected Reliability Pillar. You will get exposure to implementing advanced and modern techniques like Shuffle Sharding, Horizontal Scaling for windows workloads, and infrastructure as code using the Cloud Development Kit (CDK).
+In modern design techniques, Chaos Engineering taught us how to design for failure.</description>
+    </item>
+    
+    <item>
+      <title>Optimizing EC2 Workloads with Amazon CloudWatch</title>
+      <link>https://dudutwizer.com/blogs/optimize-ec2-workloads-with-cloudwatch/</link>
+      <pubDate>Wed, 09 Jun 2021 16:44:58 +0300</pubDate>
+      
+      <guid>https://dudutwizer.com/blogs/optimize-ec2-workloads-with-cloudwatch/</guid>
+      <description>Many customers ask for our advice on choosing the ‘best’ or the ‘right’ storage and instance configuration, but there is no one solution that fits all circumstances. This blog post covers the critical techniques to right-size your workloads. We focus on right-sizing a SQL Server as our example workload, but the techniques we will demonstrate apply equally to any Amazon EC2 instance running any operating system or workload.
+We create and use an Amazon CloudWatch dashboard to highlight any limits and bottlenecks within our example instance.</description>
+    </item>
+    
+    <item>
       <title>Running SQL Server with Amazon FSx as a shared storage</title>
       <link>https://dudutwizer.com/blogs/sql-on-fsx/</link>
       <pubDate>Fri, 06 Mar 2020 13:07:25 +0300</pubDate>
@@ -24,6 +55,15 @@ In this session, you will learn how to apply the Reliability Pillar from the AWS
       <guid>https://dudutwizer.com/blogs/sql-on-fsx/</guid>
       <description>With Amazon FSx, you get fully managed shared file storage that automatically replicates the storage synchronously across two Availability Zones. Moreover, Amazon FSx provides high availability with automatic failure detection, failover, and failback. The service also fully supports the SMB Continuous Availability (CA) feature required to support SQL Server Always On FCI deployments.
 For those of you who chose to deploy SQL AG with Enterprise Edition licenses, to avoid the complexity and cost of using FCI with shared storage, now you can use Standard Edition licenses.</description>
+    </item>
+    
+    <item>
+      <title>Blur the Boundaries between Your on-Premises to AWS Cloud</title>
+      <link>https://dudutwizer.com/videos/blur-the-boundaries-between-your-on-premises-to-aws-cloud/</link>
+      <pubDate>Fri, 01 Mar 2019 17:02:38 +0300</pubDate>
+      
+      <guid>https://dudutwizer.com/videos/blur-the-boundaries-between-your-on-premises-to-aws-cloud/</guid>
+      <description>So, you have workloads running on premises and you wish to extend to the Cloud? You are not that different! Let&amp;rsquo;s discuss few of your options for running in a hybrid mode. How to connect the two in a secure manner? Which services you should utilize? what you can also use on premises?</description>
     </item>
     
     

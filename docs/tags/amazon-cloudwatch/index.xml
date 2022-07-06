@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Amazon CloudWatch on Dudu Twizer&#39;s Site</title>
+    <link>https://dudutwizer.com/tags/amazon-cloudwatch/</link>
+    <description>Recent content in Amazon CloudWatch on Dudu Twizer&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 09 Jun 2021 16:44:58 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/amazon-cloudwatch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimizing EC2 Workloads with Amazon CloudWatch</title>
+      <link>https://dudutwizer.com/blogs/optimize-ec2-workloads-with-cloudwatch/</link>
+      <pubDate>Wed, 09 Jun 2021 16:44:58 +0300</pubDate>
+      
+      <guid>https://dudutwizer.com/blogs/optimize-ec2-workloads-with-cloudwatch/</guid>
+      <description>Many customers ask for our advice on choosing the ‘best’ or the ‘right’ storage and instance configuration, but there is no one solution that fits all circumstances. This blog post covers the critical techniques to right-size your workloads. We focus on right-sizing a SQL Server as our example workload, but the techniques we will demonstrate apply equally to any Amazon EC2 instance running any operating system or workload.
+We create and use an Amazon CloudWatch dashboard to highlight any limits and bottlenecks within our example instance.</description>
+    </item>
+    
+  </channel>
+</rss>

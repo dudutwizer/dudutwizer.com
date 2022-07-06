@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tel Aviv Summit 2019 on Dudu Twizer&#39;s Site</title>
+    <link>https://dudutwizer.com/tags/tel-aviv-summit-2019/</link>
+    <description>Recent content in Tel Aviv Summit 2019 on Dudu Twizer&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 01 Mar 2019 17:02:38 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/tel-aviv-summit-2019/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blur the Boundaries between Your on-Premises to AWS Cloud</title>
+      <link>https://dudutwizer.com/videos/blur-the-boundaries-between-your-on-premises-to-aws-cloud/</link>
+      <pubDate>Fri, 01 Mar 2019 17:02:38 +0300</pubDate>
+      
+      <guid>https://dudutwizer.com/videos/blur-the-boundaries-between-your-on-premises-to-aws-cloud/</guid>
+      <description>So, you have workloads running on premises and you wish to extend to the Cloud? You are not that different! Let&amp;rsquo;s discuss few of your options for running in a hybrid mode. How to connect the two in a secure manner? Which services you should utilize? what you can also use on premises?</description>
+    </item>
+    
+  </channel>
+</rss>

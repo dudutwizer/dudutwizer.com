@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 06 Jul 2022 02:22:49 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>AWS Events</title>
+      <link>https://dudutwizer.com/tags/aws-events/</link>
+      <pubDate>Wed, 06 Jul 2022 02:22:49 +0300</pubDate>
+      
+      <guid>https://dudutwizer.com/tags/aws-events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Cell based architecture</title>
       <link>https://dudutwizer.com/tags/cell-based-architecture/</link>
       <pubDate>Wed, 06 Jul 2022 02:22:49 +0300</pubDate>
@@ -25,11 +34,74 @@
     </item>
     
     <item>
-      <title>Summit 2022</title>
-      <link>https://dudutwizer.com/tags/summit-2022/</link>
+      <title>Tel Aviv Summit 2022</title>
+      <link>https://dudutwizer.com/tags/tel-aviv-summit-2022/</link>
       <pubDate>Wed, 06 Jul 2022 02:22:49 +0300</pubDate>
       
-      <guid>https://dudutwizer.com/tags/summit-2022/</guid>
+      <guid>https://dudutwizer.com/tags/tel-aviv-summit-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Amazon CDK</title>
+      <link>https://dudutwizer.com/tags/amazon-cdk/</link>
+      <pubDate>Thu, 06 Jan 2022 16:51:17 +0300</pubDate>
+      
+      <guid>https://dudutwizer.com/tags/amazon-cdk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automation</title>
+      <link>https://dudutwizer.com/tags/automation/</link>
+      <pubDate>Thu, 06 Jan 2022 16:51:17 +0300</pubDate>
+      
+      <guid>https://dudutwizer.com/tags/automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows on AWS</title>
+      <link>https://dudutwizer.com/tags/windows-on-aws/</link>
+      <pubDate>Thu, 06 Jan 2022 16:51:17 +0300</pubDate>
+      
+      <guid>https://dudutwizer.com/tags/windows-on-aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ReInvent 2021</title>
+      <link>https://dudutwizer.com/tags/reinvent-2021/</link>
+      <pubDate>Wed, 01 Dec 2021 17:06:59 +0300</pubDate>
+      
+      <guid>https://dudutwizer.com/tags/reinvent-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Amazon CloudWatch</title>
+      <link>https://dudutwizer.com/tags/amazon-cloudwatch/</link>
+      <pubDate>Wed, 09 Jun 2021 16:44:58 +0300</pubDate>
+      
+      <guid>https://dudutwizer.com/tags/amazon-cloudwatch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EC2 Windows</title>
+      <link>https://dudutwizer.com/tags/ec2-windows/</link>
+      <pubDate>Wed, 09 Jun 2021 16:44:58 +0300</pubDate>
+      
+      <guid>https://dudutwizer.com/tags/ec2-windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SQL Server</title>
+      <link>https://dudutwizer.com/tags/sql-server/</link>
+      <pubDate>Wed, 09 Jun 2021 16:44:58 +0300</pubDate>
+      
+      <guid>https://dudutwizer.com/tags/sql-server/</guid>
       <description></description>
     </item>
     
@@ -43,20 +115,20 @@
     </item>
     
     <item>
-      <title>SQL Server</title>
-      <link>https://dudutwizer.com/tags/sql-server/</link>
-      <pubDate>Fri, 06 Mar 2020 13:07:25 +0300</pubDate>
+      <title>Tel Aviv Summit 2019</title>
+      <link>https://dudutwizer.com/tags/tel-aviv-summit-2019/</link>
+      <pubDate>Fri, 01 Mar 2019 17:02:38 +0300</pubDate>
       
-      <guid>https://dudutwizer.com/tags/sql-server/</guid>
+      <guid>https://dudutwizer.com/tags/tel-aviv-summit-2019/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Windows on AWS</title>
-      <link>https://dudutwizer.com/tags/windows-on-aws/</link>
-      <pubDate>Fri, 06 Mar 2020 13:07:25 +0300</pubDate>
+      <title>CI/CD</title>
+      <link>https://dudutwizer.com/tags/ci/cd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dudutwizer.com/tags/windows-on-aws/</guid>
+      <guid>https://dudutwizer.com/tags/ci/cd/</guid>
       <description></description>
     </item>
     

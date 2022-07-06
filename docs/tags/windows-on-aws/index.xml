@@ -5,7 +5,28 @@
     <link>https://dudutwizer.com/tags/windows-on-aws/</link>
     <description>Recent content in Windows on AWS on Dudu Twizer&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 06 Mar 2020 13:07:25 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/windows-on-aws/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Jan 2022 16:51:17 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/windows-on-aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cdk Skylight</title>
+      <link>https://dudutwizer.com/opensource/cdk-skylight/</link>
+      <pubDate>Thu, 06 Jan 2022 16:51:17 +0300</pubDate>
+      
+      <guid>https://dudutwizer.com/opensource/cdk-skylight/</guid>
+      <description>cdklabs/cdk-skylight Overview CDK Skylight is a set of Level 3 constructs for the Microsoft products on AWS ecosystem (Windows OS, SQL Server, Active Directory, Windows Containers, Amazon FSx for Windows, and so on). CDK Skylight Constructs are a natural fit for Platform Teams building Platform as a Product.
+Examples
+Windows Worker with Domain join and Powershell API that allows running complex automation with a single line of code Managed Active Directory configured with DNS Topology and an API to create new AD Group with a domain-joined machine.</description>
+    </item>
+    
+    <item>
+      <title>Optimizing EC2 Workloads with Amazon CloudWatch</title>
+      <link>https://dudutwizer.com/blogs/optimize-ec2-workloads-with-cloudwatch/</link>
+      <pubDate>Wed, 09 Jun 2021 16:44:58 +0300</pubDate>
+      
+      <guid>https://dudutwizer.com/blogs/optimize-ec2-workloads-with-cloudwatch/</guid>
+      <description>Many customers ask for our advice on choosing the ‘best’ or the ‘right’ storage and instance configuration, but there is no one solution that fits all circumstances. This blog post covers the critical techniques to right-size your workloads. We focus on right-sizing a SQL Server as our example workload, but the techniques we will demonstrate apply equally to any Amazon EC2 instance running any operating system or workload.
+We create and use an Amazon CloudWatch dashboard to highlight any limits and bottlenecks within our example instance.</description>
+    </item>
+    
     <item>
       <title>Running SQL Server with Amazon FSx as a shared storage</title>
       <link>https://dudutwizer.com/blogs/sql-on-fsx/</link>
