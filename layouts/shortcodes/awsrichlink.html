@@ -1,5 +1,4 @@
 {{ with getJSON (printf "https://api.microlink.io/?url=%s" (.Get "src")) }}
-<br />
 <div
   style="
     display: flex;
@@ -7,6 +6,7 @@
     border: 1px solid;
     border-radius: 5px;
     border-style: dotted;
+    line-height: 1.1em;
   "
 >
   <div style="flex: 15%; padding: 5px">
@@ -39,5 +39,4 @@
     {{$time := time (string .data.date)}}
   </div>
 </div>
-<br />
 {{ end }}
