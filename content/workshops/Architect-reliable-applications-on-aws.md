@@ -11,7 +11,7 @@ tags:
 draft: false
 ---
 
-{{< repo "aws-samples" "windows-on-aws-samples/reinvent-2021-win306" "true">}}
+{{< repo "aws-samples" "windows-on-aws-samples" "true">}}
 
 Workshop link :
 {{< richlink src="https://catalog.us-east-1.prod.workshops.aws/workshops/a9ae9061-fef9-43d8-918b-39835ece04a9/en-US" >}}
