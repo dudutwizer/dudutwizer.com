@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Dudu Twizer&#39;s Site</title>
-    <link>https://dudutwizer.com/index.json</link>
-    <description>Recent content on Dudu Twizer&#39;s Site</description>
+    <title>Amazon FSx for Windows on Dudu Twizer&#39;s Site</title>
+    <link>https://dudutwizer.com/tags/amazon-fsx-for-windows/</link>
+    <description>Recent content in Amazon FSx for Windows on Dudu Twizer&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 06 Jul 2022 02:22:49 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Minimize the blast radius of your applications</title>
-      <link>https://dudutwizer.com/videos/minimize-the-blast-radius-of-your-applications/</link>
-      <pubDate>Wed, 06 Jul 2022 02:22:49 +0300</pubDate>
-      
-      <guid>https://dudutwizer.com/videos/minimize-the-blast-radius-of-your-applications/</guid>
-      <description>Code sample published in aws-samples/shuffle-sharding-demo-app .
-In this session, you will learn how to apply the Reliability Pillar from the AWS Well-Architected Framework to your workloads. We will dive into modern architectural techniques and best practices like shuffle sharding and cell-based architecture. We will provide practical implementations with a short demo and reference architecture diagrams.</description>
-    </item>
-    
+    <lastBuildDate>Fri, 06 Mar 2020 13:07:25 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/amazon-fsx-for-windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Running SQL Server with Amazon FSx as a shared storage</title>
       <link>https://dudutwizer.com/blogs/sql-on-fsx/</link>
@@ -25,8 +15,6 @@ In this session, you will learn how to apply the Reliability Pillar from the AWS
       <description>With Amazon FSx, you get fully managed shared file storage that automatically replicates the storage synchronously across two Availability Zones. Moreover, Amazon FSx provides high availability with automatic failure detection, failover, and failback. The service also fully supports the SMB Continuous Availability (CA) feature required to support SQL Server Always On FCI deployments.
 For those of you who chose to deploy SQL AG with Enterprise Edition licenses, to avoid the complexity and cost of using FCI with shared storage, now you can use Standard Edition licenses.</description>
     </item>
-    
-    
     
   </channel>
 </rss>

@@ -33,5 +33,32 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Amazon FSx for Windows</title>
+      <link>https://dudutwizer.com/tags/amazon-fsx-for-windows/</link>
+      <pubDate>Fri, 06 Mar 2020 13:07:25 +0300</pubDate>
+      
+      <guid>https://dudutwizer.com/tags/amazon-fsx-for-windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SQL Server</title>
+      <link>https://dudutwizer.com/tags/sql-server/</link>
+      <pubDate>Fri, 06 Mar 2020 13:07:25 +0300</pubDate>
+      
+      <guid>https://dudutwizer.com/tags/sql-server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows on AWS</title>
+      <link>https://dudutwizer.com/tags/windows-on-aws/</link>
+      <pubDate>Fri, 06 Mar 2020 13:07:25 +0300</pubDate>
+      
+      <guid>https://dudutwizer.com/tags/windows-on-aws/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,42 @@
+{{ with getJSON (printf "https://api.microlink.io/?url=%s" (.Get "src")) }}
+<br />
+<div
+  style="
+    display: flex;
+    height: auto;
+    border: 1px solid;
+    border-radius: 25px;
+    border-style: dotted;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 10px;
+  "
+>
+  <div style="flex: 20%; padding: 5px; vertical-align: top">
+    <div style="height: 100px">
+      {{ with .data.logo }}
+      <img src="{{ .url }}" alt="" />
+      {{ end }}
+    </div>
+  </div>
+  <div style="flex: 80%">
+    <div style="text-align: justify; vertical-align: middle">
+      <h5>
+        <i class="las la-external-link-alt"></i>
+        <a href="{{ .data.url }}" class="stretched-link"
+          >{{ .data.title | title }}</a
+        >
+      </h5>
+      {{ with .data.description }}
+      <div style="font-size: 0.7em">
+        {{ . | htmlUnescape | markdownify }}
+        <i>
+          {{ end }}
+          <a href="{{ .data.url }}">continue reading on AWS Blog</a></i
+        >
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+{{ end }}
