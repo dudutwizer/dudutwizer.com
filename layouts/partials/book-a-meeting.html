@@ -33,7 +33,9 @@
 <script>
 (function () {
   var local = ['localhost', '127.0.0.1'].indexOf(location.hostname) !== -1;
-  var AGENT_ENDPOINT = local ? 'http://localhost:8787/chat' : '/api/chat';
+  // The domain's DNS lives on Route53 (GitHub Pages), not Cloudflare, so there's no
+  // /api/* route on the origin - production calls the Worker's workers.dev URL directly.
+  var AGENT_ENDPOINT = local ? 'http://localhost:8787/chat' : 'https://dudutwizer-chat.dudutwizer.workers.dev/chat';
   var btn = document.getElementById('dm-btn'), panel = document.getElementById('dm-panel'),
       msgs = document.getElementById('dm-msgs'), form = document.getElementById('dm-form'), input = document.getElementById('dm-input');
   var greeted = false, busy = false;

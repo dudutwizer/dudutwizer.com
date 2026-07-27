@@ -77,7 +77,7 @@ const upstream = await fetch(`https://api.xpander.ai/v1/agents/${AGENT_ID}/gatew
 return new Response(upstream.body, { headers: { ...cors, 'Content-Type': 'text/event-stream' } });
 ```
 
-The key lives only as a Worker secret (`wrangler secret put XPANDER_API_KEY`) - never in the repo, never in the page. The browser just POSTs `{ message, conversationId }` to `/api/chat` and reads the stream back.
+The key lives only as a Worker secret (`wrangler secret put XPANDER_API_KEY`) - never in the repo, never in the page. The browser just POSTs `{ message, conversationId }` to the Worker's endpoint and reads the stream back.
 
 ## Step 4: every visitor is anonymous, enforced server-side
 
