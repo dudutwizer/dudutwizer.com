@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Function Calling on Dudu Twizer&#39;s Site</title>
+    <link>https://dudutwizer.com/tags/function-calling/</link>
+    <description>Recent content in Function Calling on Dudu Twizer&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>Dudu Twizer</managingEditor>
+    <webMaster>Dudu Twizer</webMaster>
+    <lastBuildDate>Wed, 20 Nov 2024 09:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/function-calling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Announcing Agent Graph System: 4x Better Multi-Step Tool Use</title>
+      <link>https://dudutwizer.com/blogs/announcing-agent-graph-system/</link>
+      <pubDate>Wed, 20 Nov 2024 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/announcing-agent-graph-system/</guid>
+      <description>An agent built with Agentic Interfaces and Agent Graph System hit a 98% success rate on multi-step tasks, versus 24% for GPT-4o alone, and did it 38% faster with 31.5% fewer tokens.</description>
+    </item>
+    
+  </channel>
+</rss>

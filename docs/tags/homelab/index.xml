@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Homelab on Dudu Twizer&#39;s Site</title>
+    <link>https://dudutwizer.com/tags/homelab/</link>
+    <description>Recent content in Homelab on Dudu Twizer&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>Dudu Twizer</managingEditor>
+    <webMaster>Dudu Twizer</webMaster>
+    <lastBuildDate>Sun, 26 Jul 2026 11:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/homelab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Home Assistant Setup, and the Lutron Shade Automation I Love</title>
+      <link>https://dudutwizer.com/blogs/home-assistant-lutron-covers/</link>
+      <pubDate>Sun, 26 Jul 2026 11:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/home-assistant-lutron-covers/</guid>
+      <description>Home Assistant on a Raspberry Pi 4, Lutron shades, an agent plugin, and the sun-tracking cover automation that quietly runs my windows for me.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,15 +5,32 @@
     <link>https://dudutwizer.com/workshops/</link>
     <description>Recent content in Workshops on Dudu Twizer&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>Dudu Twizer</managingEditor>
+    <webMaster>Dudu Twizer</webMaster>
     <lastBuildDate>Wed, 01 Dec 2021 17:06:59 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/workshops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Architect Reliable Applications on Aws</title>
       <link>https://dudutwizer.com/workshops/architect-reliable-applications-on-aws/</link>
       <pubDate>Wed, 01 Dec 2021 17:06:59 +0300</pubDate>
-      
+      <author>Dudu Twizer</author>
       <guid>https://dudutwizer.com/workshops/architect-reliable-applications-on-aws/</guid>
-      <description>aws-samples/windows-on-aws-samples Workshop link : Workshop Studio Discover and participate in AWS workshops and GameDays This workshop presents a new way to design your application using the Well-Architected Reliability Pillar. You will get exposure to implementing advanced and modern techniques like Shuffle Sharding, Horizontal Scaling for windows workloads, and infrastructure as code using the Cloud Development Kit (CDK).
-In modern design techniques, Chaos Engineering taught us how to design for failure.</description>
+      <description>&lt;a
+  class=&#34;github-button&#34;
+  href=&#34;https://github.com/aws-samples/windows-on-aws-samples&#34;
+  aria-label=&#34;Star aws-samples/windows-on-aws-samples on GitHub&#34;
+  data-show-count=&#34;true&#34;
+&gt;
+  aws-samples/windows-on-aws-samples
+&lt;/a&gt;
+
+&lt;p&gt;Workshop link :
+&lt;div style=&#34;border:1px dotted;border-radius:5px;padding:10px;line-height:1.3em;margin:0.5em 0;&#34;&gt;
+  &lt;a style=&#34;text-decoration:none;font-size:0.9em;font-weight:bold;word-break:break-all;&#34; href=&#34;https://catalog.us-east-1.prod.workshops.aws/workshops/a9ae9061-fef9-43d8-918b-39835ece04a9/en-US&#34;&gt;https://catalog.us-east-1.prod.workshops.aws/workshops/a9ae9061-fef9-43d8-918b-39835ece04a9/en-US&lt;/a&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;This workshop presents a new way to design your application using the Well-Architected Reliability Pillar. You will get exposure to implementing advanced and modern techniques like Shuffle Sharding, Horizontal Scaling for windows workloads, and infrastructure as code using the Cloud Development Kit (CDK).&lt;/p&gt;
+&lt;p&gt;In modern design techniques, Chaos Engineering taught us how to design for failure. Each architecture is designed using multiple AWS services, and each service has its own SLA. In this workshop, you will learn how to evaluate each AWS services SLA and combine them to ensure your architecture will meet the availability requirements for your business using the Cloud 9 IDE.&lt;/p&gt;</description>
     </item>
     
   </channel>

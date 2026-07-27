@@ -1,0 +1,175 @@
+{{ define "main" }}
+<style>
+  .home {
+    --mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    --accent: #2f81f7;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 8px 0 110px;
+  }
+
+  /* --- Hero --- */
+  .hero { display: flex; align-items: center; gap: 20px; }
+  .hero img { width: 66px; height: 66px; border-radius: 999px; object-fit: cover; box-shadow: 0 0 0 1px var(--border); }
+  .hero h1 { margin: 0 0 2px; font-size: 1.7rem; line-height: 1.05; letter-spacing: -0.035em; font-weight: 700; }
+  .hero .role { color: var(--secondary); font-size: 0.96rem; }
+  .hero .role a { color: var(--secondary); text-underline-offset: 3px; }
+  .hero .role a:hover { color: var(--accent); }
+
+  .lead { font-size: 1.18rem; line-height: 1.58; letter-spacing: -0.017em; margin: 32px 0 0; font-weight: 400; }
+  .lead b { font-weight: 600; }
+  .bio { color: var(--secondary); line-height: 1.7; margin: 14px 0 0; font-size: 0.99rem; }
+  .bio a { color: var(--secondary); text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--border); }
+  .bio a:hover { color: var(--accent); text-decoration-color: var(--accent); }
+
+  /* --- Section label --- */
+  .sec { font-family: var(--mono); font-size: 0.7rem; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--secondary); opacity: 0.72; margin: 58px 0 6px; }
+
+  /* --- Writing index (rauchg-style three-column) --- */
+  .writing { margin-top: 6px; }
+  .writing .row {
+    display: grid; grid-template-columns: 52px 1fr auto; gap: 22px; align-items: baseline;
+    padding: 11px 12px; margin: 0 -12px; border-radius: 10px;
+    transition: background .16s ease;
+  }
+  .writing .row:hover { background: var(--code-bg); }
+  .writing .yr { font-family: var(--mono); font-size: 0.82rem; color: var(--secondary); opacity: 0.6; font-variant-numeric: tabular-nums; }
+  .writing .mid { min-width: 0; }
+  .writing .row a { color: var(--primary); text-decoration: none; letter-spacing: -0.014em; font-size: 1.02rem; transition: color .16s ease; }
+  .writing .row:hover a { color: var(--accent); }
+  .writing .tags { margin-top: 5px; display: flex; flex-wrap: wrap; gap: 4px 10px; }
+  .writing .tag { font-family: var(--mono); font-size: 0.68rem; color: var(--secondary); opacity: 0.5; letter-spacing: 0.01em; }
+  .writing .tag::before { content: "#"; opacity: 0.6; }
+  .writing .meta { text-align: right; font-family: var(--mono); font-size: 0.8rem; color: var(--secondary); opacity: 0.75; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+  /* --- Experience timeline --- */
+  .tl { list-style: none; margin: 0; padding: 0; }
+  .tl li { display: grid; grid-template-columns: 108px 1fr; gap: 18px; padding: 9px 0; line-height: 1.5; }
+  .tl li + li { border-top: 1px solid var(--border); }
+  .tl .yr { color: var(--secondary); font-family: var(--mono); font-size: 0.8rem; padding-top: 3px; font-variant-numeric: tabular-nums; opacity: 0.7; }
+  .tl .what b { font-weight: 600; }
+  .tl .what span { color: var(--secondary); }
+
+  /* --- GitHub graph --- */
+  #ghgraph { display: block; }
+  /* Fluid grid: cells scale to fit the container width at any screen size. */
+  #ghgrid { display: grid; grid-auto-flow: column; grid-template-rows: repeat(7, 1fr); grid-auto-columns: 1fr; gap: 2.2px; width: 100%; aspect-ratio: 53 / 7; }
+  #ghgrid i { border-radius: 2px; background: var(--gh0, #ebedf0); min-width: 0; }
+  #ghtotal { color: var(--secondary); font-family: var(--mono); font-size: 0.76rem; margin-top: 10px; opacity: 0.8; }
+  :root { --gh0:#ebedf0; }
+  @media (prefers-color-scheme: dark) { :root { --gh0:#161b22; } }
+  .dark #ghgrid i { background: var(--gh0-dark, #161b22); }
+
+  /* --- Elsewhere --- */
+  .links { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 4px; }
+  .links a { font-size: 0.96rem; color: var(--primary); text-underline-offset: 3px; }
+  .links a:hover { color: var(--accent); }
+
+  @media (max-width: 640px) {
+    .hero { gap: 15px; }
+    .hero img { width: 56px; height: 56px; }
+    .hero h1 { font-size: 1.44rem; }
+    .lead { font-size: 1.08rem; }
+    .writing .row { grid-template-columns: 40px 1fr auto; gap: 12px; }
+    .tl li { grid-template-columns: 92px 1fr; gap: 12px; }
+  }
+</style>
+
+<section class="home">
+  <div class="hero">
+    <img src="/images/dudu.jpg" alt="Dudu Twizer" />
+    <div>
+      <h1>Dudu (David) Twizer</h1>
+      <div class="role">Co-Founder &amp; CEO, <a href="https://xpander.ai">xpander.ai</a></div>
+    </div>
+  </div>
+
+  <p class="lead">
+    I build platforms. Now I'm building the one for <b>multiplayer AI</b> - where your agents and
+    your team share a single live session and deliver results together.
+  </p>
+  <p class="bio">
+    At <a href="https://xpander.ai">xpander.ai</a> I'm building agent infrastructure that runs inside
+    your own environment - with your permissions, your APIs, your constraints - so agents can own real,
+    multi-step workflows for hours or days at a time, not just answer questions in a chat box. I care
+    about the unglamorous parts that make autonomy actually work: reliable tool-calling, memory,
+    orchestration, and staying vendor-agnostic so you're never locked into someone else's runtime. My
+    bet is that every role is becoming a human+AI role, and the companies that learn to onboard, govern,
+    and manage AI employees alongside people will win the next decade.
+  </p>
+  <p class="bio">
+    Before this I spent nearly seven years at <a href="https://aws.amazon.com">AWS</a>, most recently
+    leading GenAI Specialist Solutions Architecture across EMEA, and before that shaping the hardest
+    Microsoft-and-.NET migrations to the cloud as a Principal Solutions Architect. I started out
+    hands-on - a DevOps engineer and then an officer, building and designing complex datacenters and
+    production systems - and I've been shipping on and around the cloud for well over a decade. I split
+    my time between Tel Aviv and San Francisco, and I write here about agents, infrastructure, and the
+    future of work.
+  </p>
+
+  <h2 class="sec">Writing</h2>
+  <div class="writing">
+    {{ $posts := where site.RegularPages "Section" "blogs" }}
+    {{ $lastYear := "" }}
+    {{ range $posts }}
+    {{ $y := .Date.Format "2006" }}
+    <div class="row">
+      <span class="yr">{{ if ne $y $lastYear }}{{ $y }}{{ end }}</span>
+      <div class="mid">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ with .Params.tags }}<div class="tags">{{ range first 3 . }}<span class="tag">{{ . }}</span>{{ end }}</div>{{ end }}
+      </div>
+      <span class="meta">{{ .Date.Format "Jan 2" }}</span>
+    </div>
+    {{ $lastYear = $y }}
+    {{ end }}
+  </div>
+
+  <h2 class="sec">Experience</h2>
+  <ul class="tl">
+    <li><span class="yr">2024 - Now</span><span class="what"><b>Co-Founder &amp; CEO</b>, xpander.ai <span>- multiplayer AI: agents and employees in one shared session.</span></span></li>
+    <li><span class="yr">2022 - 2023</span><span class="what"><b>Sr. Manager, GenAI Specialist SA</b>, AWS <span>- led the EMEA team accelerating customers' GenAI.</span></span></li>
+    <li><span class="yr">2020 - 2022</span><span class="what"><b>Principal Solutions Architect</b>, AWS <span>- the most complex workloads; shaped Microsoft-on-AWS services.</span></span></li>
+    <li><span class="yr">2018 - 2020</span><span class="what"><b>Specialist Solutions Architect</b>, AWS <span>- lighthouse .NET / Microsoft migrations.</span></span></li>
+    <li><span class="yr">2017 - 2018</span><span class="what"><b>Technical Account Manager</b>, AWS <span>- trusted advisor to strategic enterprise customers on AWS.</span></span></li>
+    <li><span class="yr">2014 - 2017</span><span class="what"><b>Solutions Architect</b>, Comm-IT <span>- designed cloud and datacenter solutions for enterprise clients.</span></span></li>
+    <li><span class="yr">2012 - 2014</span><span class="what"><b>Officer</b>, IDF <span>- built and designed complex datacenters and production systems.</span></span></li>
+    <li><span class="yr">2009 - 2012</span><span class="what"><b>DevOps Engineer</b>, IDF <span>- hands-on automation and production operations.</span></span></li>
+  </ul>
+
+  <h2 class="sec">Building in the open</h2>
+  <a href="https://github.com/dudutwizer" id="ghgraph" aria-label="GitHub contribution graph">
+    <div id="ghgrid"></div><div id="ghtotal"></div>
+  </a>
+  <script>
+  (function () {
+    var dark = document.documentElement.classList.contains('dark') || document.body.classList.contains('dark') ||
+      (window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches);
+    var L = [dark ? '#161b22' : '#ebedf0', '#9be9a8', '#40c463', '#30a14e', '#216e39'];
+    fetch('https://github-contributions-api.jogruber.de/v4/dudutwizer?y=last')
+      .then(function (r) { return r.json(); })
+      .then(function (j) {
+        var days = j.contributions || [];
+        if (!days.length) return;
+        var grid = document.getElementById('ghgrid');
+        var pad = new Date(days[0].date + 'T00:00:00').getDay();
+        for (var i = 0; i < pad; i++) { var e = document.createElement('i'); e.style.visibility = 'hidden'; grid.appendChild(e); }
+        days.forEach(function (d) { var c = document.createElement('i'); c.style.background = L[d.level || 0]; c.title = d.count + ' on ' + d.date; grid.appendChild(c); });
+        var total = (j.total && (j.total.lastYear || Object.values(j.total)[0])) || days.reduce(function (a, d) { return a + d.count; }, 0);
+        document.getElementById('ghtotal').textContent = total.toLocaleString() + ' contributions in the last year';
+      })
+      .catch(function () { document.getElementById('ghtotal').innerHTML = '<a href="https://github.com/dudutwizer">See my activity on GitHub &rarr;</a>'; });
+  })();
+  </script>
+
+  <h2 class="sec">Elsewhere</h2>
+  <div class="links">
+    <a href="https://x.com/DuduTwizer">X</a>
+    <a href="https://www.linkedin.com/in/dudutwizer/">LinkedIn</a>
+    <a href="https://github.com/dudutwizer">GitHub</a>
+    <a href="mailto:david@twizer.net">Email</a>
+  </div>
+</section>
+
+{{ partial "book-a-meeting.html" . }}
+{{ end }}

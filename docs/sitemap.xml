@@ -2,25 +2,262 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dudutwizer.com/tags/ai-agents/</loc>
+    <lastmod>2026-07-26T13:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/</loc>
+    <lastmod>2026-07-26T13:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/categories/</loc>
+    <lastmod>2026-07-26T13:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/cloudflare-workers/</loc>
+    <lastmod>2026-07-26T13:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/</loc>
+    <lastmod>2026-07-26T13:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/categories/meta/</loc>
+    <lastmod>2026-07-26T13:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/sse/</loc>
+    <lastmod>2026-07-26T13:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/</loc>
+    <lastmod>2026-07-26T13:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/chatbot-static-site-cloudflare-worker/</loc>
+    <lastmod>2026-07-26T13:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/xpander/</loc>
+    <lastmod>2026-07-26T13:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/cloudflare/</loc>
+    <lastmod>2026-07-26T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/github-pages/</loc>
+    <lastmod>2026-07-26T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/how-this-site-is-built/</loc>
+    <lastmod>2026-07-26T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/hugo/</loc>
+    <lastmod>2026-07-26T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/static-site/</loc>
+    <lastmod>2026-07-26T12:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/automation/</loc>
+    <lastmod>2026-07-26T11:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/home-assistant/</loc>
+    <lastmod>2026-07-26T11:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/categories/homelab/</loc>
+    <lastmod>2026-07-26T11:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/homelab/</loc>
+    <lastmod>2026-07-26T11:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/lutron/</loc>
+    <lastmod>2026-07-26T11:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/home-assistant-lutron-covers/</loc>
+    <lastmod>2026-07-26T11:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/aws/</loc>
+    <lastmod>2026-07-26T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/immich/</loc>
+    <lastmod>2026-07-26T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/self-hosting/</loc>
+    <lastmod>2026-07-26T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/self-hosting-immich-ec2-s3/</loc>
+    <lastmod>2026-07-26T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/tailscale/</loc>
+    <lastmod>2026-07-26T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/ai/</loc>
+    <lastmod>2026-07-12T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/intelligence-per-hour-pricing/</loc>
+    <lastmod>2026-07-12T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/categories/notes/</loc>
+    <lastmod>2026-07-12T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/platform-engineering/</loc>
+    <lastmod>2026-07-12T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/pricing/</loc>
+    <lastmod>2026-07-12T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/enterprise-ai/</loc>
+    <lastmod>2026-07-02T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/own-your-ai-stack/</loc>
+    <lastmod>2026-07-02T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/vendor-lock-in/</loc>
+    <lastmod>2026-07-02T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/do-you-also-feel-cheated/</loc>
+    <lastmod>2026-06-10T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/productivity/</loc>
+    <lastmod>2026-06-10T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/saas/</loc>
+    <lastmod>2026-05-05T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/the-next-productivity-paradox/</loc>
+    <lastmod>2026-05-05T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/ai-as-the-micromanager/</loc>
+    <lastmod>2026-05-02T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/workflow/</loc>
+    <lastmod>2026-05-02T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/ai-employees/</loc>
+    <lastmod>2026-03-09T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/anthropic-jobs-paper-read-it-again/</loc>
+    <lastmod>2026-03-09T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/future-of-work/</loc>
+    <lastmod>2026-03-09T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/agent-infrastructure/</loc>
+    <lastmod>2026-01-15T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/why-your-organization-needs-agent-infrastructure-not-more-agents/</loc>
+    <lastmod>2026-01-15T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/categories/xpander/</loc>
+    <lastmod>2026-01-15T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/not-the-only-ones-building-agent-infrastructure/</loc>
+    <lastmod>2026-01-13T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/chatgpt-5-2-what-you-really-need-to-know/</loc>
+    <lastmod>2025-12-12T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/llms/</loc>
+    <lastmod>2025-12-12T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/api-design/</loc>
+    <lastmod>2025-11-15T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/architecture/</loc>
+    <lastmod>2025-11-15T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/structured-output/</loc>
+    <lastmod>2025-11-15T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/the-api-contract-without-the-server/</loc>
+    <lastmod>2025-11-15T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/build-production-ready-autonomous-expense-agent/</loc>
+    <lastmod>2025-11-11T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/engineering/</loc>
+    <lastmod>2025-11-11T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/google-drive/</loc>
+    <lastmod>2025-11-11T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/memory/</loc>
+    <lastmod>2025-11-11T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/tutorial/</loc>
+    <lastmod>2025-11-11T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/introducing-slack-native-ai-agents/</loc>
+    <lastmod>2025-08-07T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/product/</loc>
+    <lastmod>2025-08-07T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/slack/</loc>
+    <lastmod>2025-08-07T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/startups/</loc>
+    <lastmod>2025-08-01T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/stop-building-startups-like-2024/</loc>
+    <lastmod>2025-08-01T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/agent-graph-system/</loc>
+    <lastmod>2025-04-21T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/autonomy/</loc>
+    <lastmod>2025-04-21T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/most-ai-agents-are-just-fancy-chatbots/</loc>
+    <lastmod>2025-04-21T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/datadog-github-troubleshooting-agent/</loc>
+    <lastmod>2025-04-15T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/devops/</loc>
+    <lastmod>2025-04-15T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/deep-dive/</loc>
+    <lastmod>2025-03-31T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/how-xpander-embraces-mcp-in-practice/</loc>
+    <lastmod>2025-03-31T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/mcp/</loc>
+    <lastmod>2025-03-31T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/ai-workforce/</loc>
+    <lastmod>2025-01-02T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/opinion/</loc>
+    <lastmod>2025-01-02T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/the-year-ai-will-start-building-and-managing-other-ai-agents/</loc>
+    <lastmod>2025-01-02T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/announcing-agent-graph-system/</loc>
+    <lastmod>2024-11-20T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/benchmarks/</loc>
+    <lastmod>2024-11-20T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/function-calling/</loc>
+    <lastmod>2024-11-20T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/from-manual-to-autonomous/</loc>
+    <lastmod>2024-11-18T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/openai/</loc>
+    <lastmod>2024-10-03T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/xpander-openai-realtime-api/</loc>
+    <lastmod>2024-10-03T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/nvidia/</loc>
+    <lastmod>2024-09-16T09:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/xpander-nvidia-nim-integration/</loc>
+    <lastmod>2024-09-16T09:00:00+03:00</lastmod>
+  </url><url>
     <loc>https://dudutwizer.com/tags/aws-events/</loc>
     <lastmod>2022-07-06T02:22:49+03:00</lastmod>
   </url><url>
-    <loc>https://dudutwizer.com/categories/</loc>
-    <lastmod>2022-07-06T02:22:49+03:00</lastmod>
-  </url><url>
     <loc>https://dudutwizer.com/tags/cell-based-architecture/</loc>
-    <lastmod>2022-07-06T02:22:49+03:00</lastmod>
-  </url><url>
-    <loc>https://dudutwizer.com/</loc>
     <lastmod>2022-07-06T02:22:49+03:00</lastmod>
   </url><url>
     <loc>https://dudutwizer.com/videos/minimize-the-blast-radius-of-your-applications/</loc>
     <lastmod>2022-07-06T02:22:49+03:00</lastmod>
   </url><url>
     <loc>https://dudutwizer.com/tags/shuffle-sharding/</loc>
-    <lastmod>2022-07-06T02:22:49+03:00</lastmod>
-  </url><url>
-    <loc>https://dudutwizer.com/tags/</loc>
     <lastmod>2022-07-06T02:22:49+03:00</lastmod>
   </url><url>
     <loc>https://dudutwizer.com/tags/tel-aviv-summit-2022/</loc>
@@ -35,10 +272,10 @@
     <loc>https://dudutwizer.com/tags/amazon-cdk/</loc>
     <lastmod>2022-01-06T16:51:17+03:00</lastmod>
   </url><url>
-    <loc>https://dudutwizer.com/tags/automation/</loc>
+    <loc>https://dudutwizer.com/opensource/cdk-skylight/</loc>
     <lastmod>2022-01-06T16:51:17+03:00</lastmod>
   </url><url>
-    <loc>https://dudutwizer.com/opensource/cdk-skylight/</loc>
+    <loc>https://dudutwizer.com/tags/ci/cd/</loc>
     <lastmod>2022-01-06T16:51:17+03:00</lastmod>
   </url><url>
     <loc>https://dudutwizer.com/categories/open-source-projects/</loc>
@@ -68,9 +305,6 @@
     <loc>https://dudutwizer.com/categories/aws-blogs/</loc>
     <lastmod>2021-06-09T16:44:58+03:00</lastmod>
   </url><url>
-    <loc>https://dudutwizer.com/blogs/</loc>
-    <lastmod>2021-06-09T16:44:58+03:00</lastmod>
-  </url><url>
     <loc>https://dudutwizer.com/tags/ec2-windows/</loc>
     <lastmod>2021-06-09T16:44:58+03:00</lastmod>
   </url><url>
@@ -95,7 +329,7 @@
     <loc>https://dudutwizer.com/tags/tel-aviv-summit-2019/</loc>
     <lastmod>2019-03-01T17:02:38+03:00</lastmod>
   </url><url>
-    <loc>https://dudutwizer.com/tags/ci/cd/</loc>
+    <loc>https://dudutwizer.com/stack/</loc>
   </url><url>
     <loc>https://dudutwizer.com/archives/</loc>
   </url><url>

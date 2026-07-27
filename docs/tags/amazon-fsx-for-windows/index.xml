@@ -5,25 +5,31 @@
     <link>https://dudutwizer.com/tags/amazon-fsx-for-windows/</link>
     <description>Recent content in Amazon FSx for Windows on Dudu Twizer&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>Dudu Twizer</managingEditor>
+    <webMaster>Dudu Twizer</webMaster>
     <lastBuildDate>Wed, 01 Jul 2020 17:36:18 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/amazon-fsx-for-windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reduce complexity &amp; cost for Microsoft SQL with Amazon FSx for Windows (Hebrew)</title>
       <link>https://dudutwizer.com/videos/how-to-run-sql-on-fsx-webinar/</link>
       <pubDate>Wed, 01 Jul 2020 17:36:18 +0300</pubDate>
-      
+      <author>Dudu Twizer</author>
       <guid>https://dudutwizer.com/videos/how-to-run-sql-on-fsx-webinar/</guid>
-      <description>In this webinar we will learn and discuss different SQL deployments and why preferred option for high availability deployments has traditionally been difficult to deploy and manage.
-During the webinar, we will walk you through a Demo on how to deploy and configure Windows fail over cluster using Amazon FSx for windows to achieve a simple architecture and reduce operational overhead and licensing costs.</description>
+      <description>&lt;p&gt;In this webinar we will learn and discuss different SQL deployments and why preferred option for high availability deployments has traditionally been difficult to deploy and manage.&lt;/p&gt;
+&lt;p&gt;During the webinar, we will walk you through a Demo on how to deploy and configure Windows fail over cluster using Amazon FSx for windows to achieve a simple architecture and reduce operational overhead and licensing costs.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+			&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/697G9iJskvM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+		&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Running SQL Server with Amazon FSx as a shared storage</title>
       <link>https://dudutwizer.com/blogs/sql-on-fsx/</link>
       <pubDate>Fri, 06 Mar 2020 13:07:25 +0300</pubDate>
-      
+      <author>Dudu Twizer</author>
       <guid>https://dudutwizer.com/blogs/sql-on-fsx/</guid>
-      <description>With Amazon FSx, you get fully managed shared file storage that automatically replicates the storage synchronously across two Availability Zones. Moreover, Amazon FSx provides high availability with automatic failure detection, failover, and failback. The service also fully supports the SMB Continuous Availability (CA) feature required to support SQL Server Always On FCI deployments.
-For those of you who chose to deploy SQL AG with Enterprise Edition licenses, to avoid the complexity and cost of using FCI with shared storage, now you can use Standard Edition licenses.</description>
+      <description>&lt;p&gt;With Amazon FSx, you get fully managed shared file storage that automatically replicates the storage synchronously across two Availability Zones. Moreover, Amazon FSx provides high availability with automatic failure detection, failover, and failback. The service also fully supports the SMB Continuous Availability (CA) feature required to support SQL Server Always On FCI deployments.&lt;/p&gt;
+&lt;p&gt;For those of you who chose to deploy SQL AG with Enterprise Edition licenses, to avoid the complexity and cost of using FCI with shared storage, now you can use Standard Edition licenses. This will save you 50–60% in license costs. It will also simplify the overall complexity of your SQL deployment and ongoing management (like not needing to replicate system database objects across all replicas, which you must do in AG deployments).&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -1,32 +1,5 @@
-{{ with getJSON (printf "https://api.microlink.io/?url=%s" (.Get "src")) }}
-<div
-  style="
-    display: flex;
-    height: auto;
-    border: 1px solid;
-    border-radius: 5px;
-    border-style: dotted;
-    line-height: 1.1em;
-  "
->
-  <div style="flex: 100%; text-align: justify; padding: 10px">
-    <a
-      style="
-        text-decoration: none;
-        box-shadow: 0px 0px;
-        font-size: 0.7em;
-        display: inline-block;
-        font-weight: bold;
-      "
-      href="{{ .data.url }}"
-      >{{ .data.title | title }}</a
-    >
-    {{ with .data.description }}
-    <div style="font-size: 0.7em">
-      {{ . | htmlUnescape | markdownify }}
-      <i> {{ end }}</i>
-    </div>
-    {{$time := time (string .data.date)}}
-  </div>
+{{- /* Simple, robust link card - no build-time remote fetch (microlink/getJSON removed). */ -}}
+{{- $src := .Get "src" -}}
+<div style="border:1px dotted;border-radius:5px;padding:10px;line-height:1.3em;margin:0.5em 0;">
+  <a style="text-decoration:none;font-size:0.9em;font-weight:bold;word-break:break-all;" href="{{ $src }}">{{ with .Get "title" }}{{ . }}{{ else }}{{ $src }}{{ end }}</a>
 </div>
-{{ end }}

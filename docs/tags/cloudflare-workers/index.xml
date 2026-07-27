@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cloudflare Workers on Dudu Twizer&#39;s Site</title>
+    <link>https://dudutwizer.com/tags/cloudflare-workers/</link>
+    <description>Recent content in Cloudflare Workers on Dudu Twizer&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>Dudu Twizer</managingEditor>
+    <webMaster>Dudu Twizer</webMaster>
+    <lastBuildDate>Sun, 26 Jul 2026 13:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/cloudflare-workers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Two API Calls to Put an AI Agent on a Static Site</title>
+      <link>https://dudutwizer.com/blogs/chatbot-static-site-cloudflare-worker/</link>
+      <pubDate>Sun, 26 Jul 2026 13:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/chatbot-static-site-cloudflare-worker/</guid>
+      <description>The &amp;ldquo;Chat with my AI&amp;rdquo; button is a real xpander agent - created with one API call, streamed with another, and dropped onto a static site behind a tiny key-holding Worker.</description>
+    </item>
+    
+  </channel>
+</rss>

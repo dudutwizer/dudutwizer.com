@@ -1,20 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Open source projects on Dudu Twizer&#39;s Site</title>
+    <title>Open Source Projects on Dudu Twizer&#39;s Site</title>
     <link>https://dudutwizer.com/categories/open-source-projects/</link>
-    <description>Recent content in Open source projects on Dudu Twizer&#39;s Site</description>
+    <description>Recent content in Open Source Projects on Dudu Twizer&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>Dudu Twizer</managingEditor>
+    <webMaster>Dudu Twizer</webMaster>
     <lastBuildDate>Thu, 06 Jan 2022 16:51:17 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/categories/open-source-projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cdk Skylight</title>
       <link>https://dudutwizer.com/opensource/cdk-skylight/</link>
       <pubDate>Thu, 06 Jan 2022 16:51:17 +0300</pubDate>
-      
+      <author>Dudu Twizer</author>
       <guid>https://dudutwizer.com/opensource/cdk-skylight/</guid>
-      <description>cdklabs/cdk-skylight Overview CDK Skylight is a set of Level 3 constructs for the Microsoft products on AWS ecosystem (Windows OS, SQL Server, Active Directory, Windows Containers, Amazon FSx for Windows, and so on). CDK Skylight Constructs are a natural fit for Platform Teams building Platform as a Product.
-Examples
-Windows Worker with Domain join and Powershell API that allows running complex automation with a single line of code Managed Active Directory configured with DNS Topology and an API to create new AD Group with a domain-joined machine.</description>
+      <description>&lt;a
+  class=&#34;github-button&#34;
+  href=&#34;https://github.com/cdklabs/cdk-skylight&#34;
+  aria-label=&#34;Star cdklabs/cdk-skylight on GitHub&#34;
+  data-show-count=&#34;true&#34;
+&gt;
+  cdklabs/cdk-skylight
+&lt;/a&gt;
+
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.shields.io/badge/CDK%20Skylight-Developer%20Preview-orange.svg?style=for-the-badge&#34; alt=&#34;&#34;  /&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;CDK Skylight is a set of &lt;strong&gt;Level 3 constructs&lt;/strong&gt; for the &lt;a href=&#34;https://aws.amazon.com/windows/&#34;&gt;Microsoft products on AWS&lt;/a&gt; ecosystem (Windows OS, SQL Server, Active Directory, Windows Containers, Amazon FSx for Windows, and so on). &lt;strong&gt;CDK Skylight Constructs are a natural fit for Platform Teams building Platform as a Product.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Examples&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Windows Worker with Domain join and Powershell API that allows running complex automation with a single line of code&lt;/li&gt;
+&lt;li&gt;Managed Active Directory configured with DNS Topology and an API to create new AD Group with a domain-joined machine.&lt;/li&gt;
+&lt;li&gt;Amazon FSx library that creates Filesystem with API to create Folder on it&lt;/li&gt;
+&lt;li&gt;Windows EKS Workers that joins to specified AD domain with APIs to create and configure complex integrations such as SMB with Global Mapping and Domain authentication with gMSA plugin.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;All those examples are built with CDK Skylight libraries and can be used separately with maximum flexibility to change the default settings.&lt;/p&gt;</description>
     </item>
     
   </channel>

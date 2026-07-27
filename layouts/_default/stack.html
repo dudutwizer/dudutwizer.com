@@ -1,0 +1,94 @@
+{{ define "main" }}
+<style>
+  .stack-page {
+    --mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    --accent: #2f81f7;
+    --paid: #216e39;
+    max-width: 720px; margin: 0 auto; padding: 8px 0 110px;
+  }
+  .stack-page h1 { font-size: 2rem; letter-spacing: -0.035em; margin: 0 0 12px; line-height: 1.05; }
+  .stack-page .intro { color: var(--secondary); font-size: 1.06rem; line-height: 1.65; max-width: 640px; }
+  .stack-page .intro p { margin: 0; }
+
+  .cat { font-family: var(--mono); font-size: 0.72rem; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--secondary); opacity: 0.72; margin: 56px 0 16px; }
+
+  .tools { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .tool { border: 1px solid var(--border); border-radius: 14px; padding: 16px 16px 15px; transition: border-color .16s ease, transform .16s ease; }
+  .tool:hover { border-color: var(--accent); transform: translateY(-2px); }
+  .tool-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 7px; }
+  .tname { font-weight: 600; font-size: 1.04rem; letter-spacing: -0.015em; color: inherit; text-decoration: none; }
+  a.tname:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+  .tnote { color: var(--secondary); font-size: 0.9rem; line-height: 1.5; }
+  .tpost { display: inline-block; margin-top: 9px; font-family: var(--mono); font-size: 0.74rem; color: var(--accent); text-decoration: none; }
+  .tpost:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+  .pill { font-family: var(--mono); font-size: 0.66rem; font-weight: 500; letter-spacing: 0.03em; padding: 3px 8px; border-radius: 999px; white-space: nowrap; }
+  .pill.paid { color: #fff; background: var(--paid); }
+  .pill.free { color: var(--secondary); background: var(--code-bg); border: 1px solid var(--border); }
+  .pill.own  { color: var(--accent); background: color-mix(in srgb, var(--accent) 14%, transparent); }
+  .pill.self { color: #9a6b00; background: color-mix(in srgb, #f0a500 20%, transparent); }
+  @media (prefers-color-scheme: dark) { .pill.self { color: #f0c04a; } }
+
+  /* --- Graveyard --- */
+  .grave-h { margin-top: 72px; }
+  .grave-sub { color: var(--secondary); font-size: 0.98rem; margin: -6px 0 22px; font-style: italic; }
+  .graves { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+  .grave {
+    background: var(--code-bg); border: 1px solid var(--border);
+    border-radius: 90px 90px 12px 12px; padding: 26px 12px 18px; text-align: center;
+    transition: transform .18s ease, filter .18s ease; filter: grayscale(0.2);
+  }
+  .grave:hover { transform: translateY(-3px) rotate(-1deg); filter: grayscale(0); }
+  .grave .rip { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.28em; color: var(--secondary); opacity: 0.6; margin-bottom: 6px; }
+  .grave .gname { display: block; font-weight: 600; font-size: 1rem; text-decoration: line-through; text-decoration-thickness: 1px; opacity: 0.85; color: inherit; }
+  .grave a.gname:hover { color: var(--accent); opacity: 1; }
+  .grave .gyears { font-family: var(--mono); font-size: 0.68rem; color: var(--secondary); opacity: 0.6; margin: 3px 0 9px; }
+  .grave .cause { font-size: 0.82rem; line-height: 1.45; color: var(--secondary); font-style: italic; }
+
+  @media (max-width: 640px) {
+    .stack-page h1 { font-size: 1.6rem; }
+    .tools { grid-template-columns: 1fr; }
+    .graves { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+
+<section class="stack-page">
+  <h1>{{ .Title }}</h1>
+  <div class="intro">{{ .Content }}</div>
+
+  {{ range .Params.stack }}
+  <h2 class="cat">{{ .category }}</h2>
+  <div class="tools">
+    {{ range .tools }}
+    <div class="tool">
+      <div class="tool-head">
+        {{ if .url }}<a class="tname" href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>{{ else }}<span class="tname">{{ .name }}</span>{{ end }}
+        {{ if eq .status "paid" }}<span class="pill paid">{{ with .price }}{{ . }}{{ else }}Paid{{ end }}</span>
+        {{ else if eq .status "free" }}<span class="pill free">Free</span>
+        {{ else if eq .status "own" }}<span class="pill own">Built it</span>
+        {{ else if eq .status "self" }}<span class="pill self">Self-hosted</span>
+        {{ else if .status }}<span class="pill free">{{ .status }}</span>{{ end }}
+      </div>
+      <div class="tnote">{{ .note }}</div>
+      {{ with .post }}<a class="tpost" href="{{ . }}">Read the setup &rarr;</a>{{ end }}
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{ with .Params.graveyard }}
+  <h2 class="cat grave-h">The Graveyard</h2>
+  <p class="grave-sub">Tools I loved, used, and buried. Rest in peace. 🪦</p>
+  <div class="graves">
+    {{ range . }}
+    <div class="grave">
+      <div class="rip">R.I.P.</div>
+      {{ if .url }}<a class="gname" href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>{{ else }}<div class="gname">{{ .name }}</div>{{ end }}
+      <div class="gyears">{{ .years }}</div>
+      <div class="cause">{{ .cause }}</div>
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+</section>
+{{ end }}

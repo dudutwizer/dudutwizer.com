@@ -5,46 +5,70 @@
     <link>https://dudutwizer.com/tags/windows-on-aws/</link>
     <description>Recent content in Windows on AWS on Dudu Twizer&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>Dudu Twizer</managingEditor>
+    <webMaster>Dudu Twizer</webMaster>
     <lastBuildDate>Thu, 06 Jan 2022 16:51:17 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/windows-on-aws/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cdk Skylight</title>
       <link>https://dudutwizer.com/opensource/cdk-skylight/</link>
       <pubDate>Thu, 06 Jan 2022 16:51:17 +0300</pubDate>
-      
+      <author>Dudu Twizer</author>
       <guid>https://dudutwizer.com/opensource/cdk-skylight/</guid>
-      <description>cdklabs/cdk-skylight Overview CDK Skylight is a set of Level 3 constructs for the Microsoft products on AWS ecosystem (Windows OS, SQL Server, Active Directory, Windows Containers, Amazon FSx for Windows, and so on). CDK Skylight Constructs are a natural fit for Platform Teams building Platform as a Product.
-Examples
-Windows Worker with Domain join and Powershell API that allows running complex automation with a single line of code Managed Active Directory configured with DNS Topology and an API to create new AD Group with a domain-joined machine.</description>
+      <description>&lt;a
+  class=&#34;github-button&#34;
+  href=&#34;https://github.com/cdklabs/cdk-skylight&#34;
+  aria-label=&#34;Star cdklabs/cdk-skylight on GitHub&#34;
+  data-show-count=&#34;true&#34;
+&gt;
+  cdklabs/cdk-skylight
+&lt;/a&gt;
+
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.shields.io/badge/CDK%20Skylight-Developer%20Preview-orange.svg?style=for-the-badge&#34; alt=&#34;&#34;  /&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;CDK Skylight is a set of &lt;strong&gt;Level 3 constructs&lt;/strong&gt; for the &lt;a href=&#34;https://aws.amazon.com/windows/&#34;&gt;Microsoft products on AWS&lt;/a&gt; ecosystem (Windows OS, SQL Server, Active Directory, Windows Containers, Amazon FSx for Windows, and so on). &lt;strong&gt;CDK Skylight Constructs are a natural fit for Platform Teams building Platform as a Product.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Examples&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Windows Worker with Domain join and Powershell API that allows running complex automation with a single line of code&lt;/li&gt;
+&lt;li&gt;Managed Active Directory configured with DNS Topology and an API to create new AD Group with a domain-joined machine.&lt;/li&gt;
+&lt;li&gt;Amazon FSx library that creates Filesystem with API to create Folder on it&lt;/li&gt;
+&lt;li&gt;Windows EKS Workers that joins to specified AD domain with APIs to create and configure complex integrations such as SMB with Global Mapping and Domain authentication with gMSA plugin.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;All those examples are built with CDK Skylight libraries and can be used separately with maximum flexibility to change the default settings.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Optimizing EC2 Workloads with Amazon CloudWatch</title>
       <link>https://dudutwizer.com/blogs/optimize-ec2-workloads-with-cloudwatch/</link>
       <pubDate>Wed, 09 Jun 2021 16:44:58 +0300</pubDate>
-      
+      <author>Dudu Twizer</author>
       <guid>https://dudutwizer.com/blogs/optimize-ec2-workloads-with-cloudwatch/</guid>
-      <description>Many customers ask for our advice on choosing the ‘best’ or the ‘right’ storage and instance configuration, but there is no one solution that fits all circumstances. This blog post covers the critical techniques to right-size your workloads. We focus on right-sizing a SQL Server as our example workload, but the techniques we will demonstrate apply equally to any Amazon EC2 instance running any operating system or workload.
-We create and use an Amazon CloudWatch dashboard to highlight any limits and bottlenecks within our example instance.</description>
+      <description>&lt;p&gt;Many customers ask for our advice on choosing the ‘best’ or the ‘right’ storage and instance configuration, but there is no one solution that fits all circumstances. This blog post covers the critical techniques to right-size your workloads. We focus on right-sizing a SQL Server as our example workload, but the techniques we will demonstrate apply equally to any Amazon EC2 instance running any operating system or workload.&lt;/p&gt;
+&lt;p&gt;We create and use an Amazon CloudWatch dashboard to highlight any limits and bottlenecks within our example instance. Using our dashboard, we can ensure that we are using the right instance type and size, and the right storage volume configuration. The dimensions we look into are EC2 Network throughput, Amazon EBS throughput and IOPS, and the relationship between instance size and Amazon EBS performance.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Reduce complexity &amp; cost for Microsoft SQL with Amazon FSx for Windows (Hebrew)</title>
       <link>https://dudutwizer.com/videos/how-to-run-sql-on-fsx-webinar/</link>
       <pubDate>Wed, 01 Jul 2020 17:36:18 +0300</pubDate>
-      
+      <author>Dudu Twizer</author>
       <guid>https://dudutwizer.com/videos/how-to-run-sql-on-fsx-webinar/</guid>
-      <description>In this webinar we will learn and discuss different SQL deployments and why preferred option for high availability deployments has traditionally been difficult to deploy and manage.
-During the webinar, we will walk you through a Demo on how to deploy and configure Windows fail over cluster using Amazon FSx for windows to achieve a simple architecture and reduce operational overhead and licensing costs.</description>
+      <description>&lt;p&gt;In this webinar we will learn and discuss different SQL deployments and why preferred option for high availability deployments has traditionally been difficult to deploy and manage.&lt;/p&gt;
+&lt;p&gt;During the webinar, we will walk you through a Demo on how to deploy and configure Windows fail over cluster using Amazon FSx for windows to achieve a simple architecture and reduce operational overhead and licensing costs.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+			&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/697G9iJskvM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+		&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Running SQL Server with Amazon FSx as a shared storage</title>
       <link>https://dudutwizer.com/blogs/sql-on-fsx/</link>
       <pubDate>Fri, 06 Mar 2020 13:07:25 +0300</pubDate>
-      
+      <author>Dudu Twizer</author>
       <guid>https://dudutwizer.com/blogs/sql-on-fsx/</guid>
-      <description>With Amazon FSx, you get fully managed shared file storage that automatically replicates the storage synchronously across two Availability Zones. Moreover, Amazon FSx provides high availability with automatic failure detection, failover, and failback. The service also fully supports the SMB Continuous Availability (CA) feature required to support SQL Server Always On FCI deployments.
-For those of you who chose to deploy SQL AG with Enterprise Edition licenses, to avoid the complexity and cost of using FCI with shared storage, now you can use Standard Edition licenses.</description>
+      <description>&lt;p&gt;With Amazon FSx, you get fully managed shared file storage that automatically replicates the storage synchronously across two Availability Zones. Moreover, Amazon FSx provides high availability with automatic failure detection, failover, and failback. The service also fully supports the SMB Continuous Availability (CA) feature required to support SQL Server Always On FCI deployments.&lt;/p&gt;
+&lt;p&gt;For those of you who chose to deploy SQL AG with Enterprise Edition licenses, to avoid the complexity and cost of using FCI with shared storage, now you can use Standard Edition licenses. This will save you 50–60% in license costs. It will also simplify the overall complexity of your SQL deployment and ongoing management (like not needing to replicate system database objects across all replicas, which you must do in AG deployments).&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -5,34 +5,54 @@
     <link>https://dudutwizer.com/videos/</link>
     <description>Recent content in Videos on Dudu Twizer&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>Dudu Twizer</managingEditor>
+    <webMaster>Dudu Twizer</webMaster>
     <lastBuildDate>Wed, 06 Jul 2022 02:22:49 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/videos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Minimize the blast radius of your applications</title>
       <link>https://dudutwizer.com/videos/minimize-the-blast-radius-of-your-applications/</link>
       <pubDate>Wed, 06 Jul 2022 02:22:49 +0300</pubDate>
-      
+      <author>Dudu Twizer</author>
       <guid>https://dudutwizer.com/videos/minimize-the-blast-radius-of-your-applications/</guid>
-      <description>Code sample published in aws-samples/shuffle-sharding-demo-app .
-In this session, you will learn how to apply the Reliability Pillar from the AWS Well-Architected Framework to your workloads. We will dive into modern architectural techniques and best practices like shuffle sharding and cell-based architecture. We will provide practical implementations with a short demo and reference architecture diagrams.</description>
+      <description>&lt;p&gt;Code sample published in &lt;a
+  class=&#34;github-button&#34;
+  href=&#34;https://github.com/aws-samples/shuffle-sharding-demo-app&#34;
+  aria-label=&#34;Star aws-samples/shuffle-sharding-demo-app on GitHub&#34;
+  data-show-count=&#34;true&#34;
+&gt;
+  aws-samples/shuffle-sharding-demo-app
+&lt;/a&gt;
+ .&lt;/p&gt;
+&lt;p&gt;In this session, you will learn how to apply the Reliability Pillar from the AWS Well-Architected Framework to your workloads. We will dive into modern architectural techniques and best practices like shuffle sharding and cell-based architecture. We will provide practical implementations with a short demo and reference architecture diagrams.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+			&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/da1v4jDmiWM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+		&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Reduce complexity &amp; cost for Microsoft SQL with Amazon FSx for Windows (Hebrew)</title>
       <link>https://dudutwizer.com/videos/how-to-run-sql-on-fsx-webinar/</link>
       <pubDate>Wed, 01 Jul 2020 17:36:18 +0300</pubDate>
-      
+      <author>Dudu Twizer</author>
       <guid>https://dudutwizer.com/videos/how-to-run-sql-on-fsx-webinar/</guid>
-      <description>In this webinar we will learn and discuss different SQL deployments and why preferred option for high availability deployments has traditionally been difficult to deploy and manage.
-During the webinar, we will walk you through a Demo on how to deploy and configure Windows fail over cluster using Amazon FSx for windows to achieve a simple architecture and reduce operational overhead and licensing costs.</description>
+      <description>&lt;p&gt;In this webinar we will learn and discuss different SQL deployments and why preferred option for high availability deployments has traditionally been difficult to deploy and manage.&lt;/p&gt;
+&lt;p&gt;During the webinar, we will walk you through a Demo on how to deploy and configure Windows fail over cluster using Amazon FSx for windows to achieve a simple architecture and reduce operational overhead and licensing costs.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+			&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/697G9iJskvM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+		&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Blur the Boundaries between Your on-Premises to AWS Cloud</title>
       <link>https://dudutwizer.com/videos/blur-the-boundaries-between-your-on-premises-to-aws-cloud/</link>
       <pubDate>Fri, 01 Mar 2019 17:02:38 +0300</pubDate>
-      
+      <author>Dudu Twizer</author>
       <guid>https://dudutwizer.com/videos/blur-the-boundaries-between-your-on-premises-to-aws-cloud/</guid>
-      <description>So, you have workloads running on premises and you wish to extend to the Cloud? You are not that different! Let&amp;rsquo;s discuss few of your options for running in a hybrid mode. How to connect the two in a secure manner? Which services you should utilize? what you can also use on premises?</description>
+      <description>&lt;p&gt;So, you have workloads running on premises and you wish to extend to the Cloud? You are not that different! Let&amp;rsquo;s discuss few of your options for running in a hybrid mode. How to connect the two in a secure manner? Which services you should utilize? what you can also use on premises?&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+			&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/R6Eeva48iPc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+		&lt;/div&gt;</description>
     </item>
     
   </channel>

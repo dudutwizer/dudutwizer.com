@@ -5,75 +5,361 @@
     <link>https://dudutwizer.com/index.json</link>
     <description>Recent content on Dudu Twizer&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 06 Jul 2022 02:22:49 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <managingEditor>Dudu Twizer</managingEditor>
+    <webMaster>Dudu Twizer</webMaster>
+    <lastBuildDate>Sun, 26 Jul 2026 13:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Two API Calls to Put an AI Agent on a Static Site</title>
+      <link>https://dudutwizer.com/blogs/chatbot-static-site-cloudflare-worker/</link>
+      <pubDate>Sun, 26 Jul 2026 13:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/chatbot-static-site-cloudflare-worker/</guid>
+      <description>The &amp;ldquo;Chat with my AI&amp;rdquo; button is a real xpander agent - created with one API call, streamed with another, and dropped onto a static site behind a tiny key-holding Worker.</description>
+    </item>
+    
+    <item>
+      <title>How This Site Is Built</title>
+      <link>https://dudutwizer.com/blogs/how-this-site-is-built/</link>
+      <pubDate>Sun, 26 Jul 2026 12:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/how-this-site-is-built/</guid>
+      <description>A static Hugo site on GitHub Pages, fronted by Cloudflare, with zero backend - except one small Worker for the chat.</description>
+    </item>
+    
+    <item>
+      <title>My Home Assistant Setup, and the Lutron Shade Automation I Love</title>
+      <link>https://dudutwizer.com/blogs/home-assistant-lutron-covers/</link>
+      <pubDate>Sun, 26 Jul 2026 11:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/home-assistant-lutron-covers/</guid>
+      <description>Home Assistant on a Raspberry Pi 4, Lutron shades, an agent plugin, and the sun-tracking cover automation that quietly runs my windows for me.</description>
+    </item>
+    
+    <item>
+      <title>Self-Hosting Immich on EC2 with Unlimited S3 Storage</title>
+      <link>https://dudutwizer.com/blogs/self-hosting-immich-ec2-s3/</link>
+      <pubDate>Sun, 26 Jul 2026 10:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/self-hosting-immich-ec2-s3/</guid>
+      <description>How I run my own Google Photos: Immich on a Linux EC2 box, photos on an S3 mount for effectively unlimited storage, private over Tailscale, with SSL at Cloudflare.</description>
+    </item>
+    
+    <item>
+      <title>Intelligence Per Hour: The Next AI Pricing Model</title>
+      <link>https://dudutwizer.com/blogs/intelligence-per-hour-pricing/</link>
+      <pubDate>Sun, 12 Jul 2026 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/intelligence-per-hour-pricing/</guid>
+      <description>The more intelligent the runtime becomes, the more expensive it will be to leave.</description>
+    </item>
+    
+    <item>
+      <title>Own Your AI Stack</title>
+      <link>https://dudutwizer.com/blogs/own-your-ai-stack/</link>
+      <pubDate>Thu, 02 Jul 2026 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/own-your-ai-stack/</guid>
+      <description>They don&amp;rsquo;t give you an AI stack. They give you dependency.</description>
+    </item>
+    
+    <item>
+      <title>Do You Also Feel Cheated?</title>
+      <link>https://dudutwizer.com/blogs/do-you-also-feel-cheated/</link>
+      <pubDate>Wed, 10 Jun 2026 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/do-you-also-feel-cheated/</guid>
+      <description>Instead of full delegation, we are literally working harder, not smarter.</description>
+    </item>
+    
+    <item>
+      <title>The Next Productivity Paradox</title>
+      <link>https://dudutwizer.com/blogs/the-next-productivity-paradox/</link>
+      <pubDate>Tue, 05 May 2026 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/the-next-productivity-paradox/</guid>
+      <description>AI agents only create durable productivity when they remove humans from being the integration layer between systems.</description>
+    </item>
+    
+    <item>
+      <title>AI as the Micromanager?</title>
+      <link>https://dudutwizer.com/blogs/ai-as-the-micromanager/</link>
+      <pubDate>Sat, 02 May 2026 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/ai-as-the-micromanager/</guid>
+      <description>It might be the most useful AI layer: watching the mess, extracting the work, and telling you what needs to happen next.</description>
+    </item>
+    
+    <item>
+      <title>Anthropic Says AI Hasn&#39;t Impacted Jobs. Read It Again.</title>
+      <link>https://dudutwizer.com/blogs/anthropic-jobs-paper-read-it-again/</link>
+      <pubDate>Mon, 09 Mar 2026 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/anthropic-jobs-paper-read-it-again/</guid>
+      <description>Jobs aren&amp;rsquo;t disappearing. They&amp;rsquo;re splitting. Every role is becoming a human+AI role.</description>
+    </item>
+    
+    <item>
+      <title>Why Your Organization Needs Agent Infrastructure, Not More Agents</title>
+      <link>https://dudutwizer.com/blogs/why-your-organization-needs-agent-infrastructure-not-more-agents/</link>
+      <pubDate>Thu, 15 Jan 2026 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/why-your-organization-needs-agent-infrastructure-not-more-agents/</guid>
+      <description>The gap between &amp;ldquo;we have 5 agents&amp;rdquo; and &amp;ldquo;we have 500 agents&amp;rdquo; is not filled by buying more products. It is filled by building the foundation.</description>
+    </item>
+    
+    <item>
+      <title>We&#39;re Not the Only Ones Building Agent Infrastructure. Here&#39;s the Difference.</title>
+      <link>https://dudutwizer.com/blogs/not-the-only-ones-building-agent-infrastructure/</link>
+      <pubDate>Tue, 13 Jan 2026 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/not-the-only-ones-building-agent-infrastructure/</guid>
+      <description>An external vertical agent is not an internal agent. A platform that wraps your code and takes over the runtime is not really infrastructure.</description>
+    </item>
+    
+    <item>
+      <title>ChatGPT 5.2: What You Really Need to Know</title>
+      <link>https://dudutwizer.com/blogs/chatgpt-5-2-what-you-really-need-to-know/</link>
+      <pubDate>Fri, 12 Dec 2025 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/chatgpt-5-2-what-you-really-need-to-know/</guid>
+      <description>A lot of &amp;ldquo;knowledge work&amp;rdquo; is now delegatable. The value shifts from doing the task to scoping it well.</description>
+    </item>
+    
+    <item>
+      <title>The API Contract Without the Server</title>
+      <link>https://dudutwizer.com/blogs/the-api-contract-without-the-server/</link>
+      <pubDate>Sat, 15 Nov 2025 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/the-api-contract-without-the-server/</guid>
+      <description>How AI agents change the traditional API development model: skip the server layer and let agents work directly with API contracts.</description>
+    </item>
+    
+    <item>
+      <title>Build a Production-Ready Autonomous Expense Agent</title>
+      <link>https://dudutwizer.com/blogs/build-production-ready-autonomous-expense-agent/</link>
+      <pubDate>Tue, 11 Nov 2025 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/build-production-ready-autonomous-expense-agent/</guid>
+      <description>Upload an invoice and the agent reads it, classifies it, renames it, files it into the right Google Drive folder, and keeps an audit trail: the parts that break in production, solved.</description>
+    </item>
+    
+    <item>
+      <title>Introducing Slack-Native AI Agents</title>
+      <link>https://dudutwizer.com/blogs/introducing-slack-native-ai-agents/</link>
+      <pubDate>Thu, 07 Aug 2025 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/introducing-slack-native-ai-agents/</guid>
+      <description>Deploy custom AI agents to Slack in minutes. They respond to mentions, keep memory across threads, and work like real coworkers inside the tools you already use.</description>
+    </item>
+    
+    <item>
+      <title>Stop Building Startups Like It&#39;s 2024</title>
+      <link>https://dudutwizer.com/blogs/stop-building-startups-like-2024/</link>
+      <pubDate>Fri, 01 Aug 2025 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/stop-building-startups-like-2024/</guid>
+      <description>Stop building for procurement. Start building for real autonomous transformation.</description>
+    </item>
+    
+    <item>
+      <title>Most AI Agents Are Just Fancy Chatbots</title>
+      <link>https://dudutwizer.com/blogs/most-ai-agents-are-just-fancy-chatbots/</link>
+      <pubDate>Mon, 21 Apr 2025 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/most-ai-agents-are-just-fancy-chatbots/</guid>
+      <description>Autonomy without control is chaos. We don&amp;rsquo;t ship chaos. We ship infrastructure.</description>
+    </item>
+    
+    <item>
+      <title>An Agent That Closes the Troubleshooting Loop</title>
+      <link>https://dudutwizer.com/blogs/datadog-github-troubleshooting-agent/</link>
+      <pubDate>Tue, 15 Apr 2025 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/datadog-github-troubleshooting-agent/</guid>
+      <description>Automating the entire troubleshooting loop across Datadog logs and GitHub Actions. No tickets, no waiting.</description>
+    </item>
+    
+    <item>
+      <title>How xpander.ai Embraces the Model Context Protocol in Practice: An Engineering Deep-Dive</title>
+      <link>https://dudutwizer.com/blogs/how-xpander-embraces-mcp-in-practice/</link>
+      <pubDate>Mon, 31 Mar 2025 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/how-xpander-embraces-mcp-in-practice/</guid>
+      <description>The architecture, the gritty engineering challenges (from SSE streaming to multi-tenant security), and how we wove MCP into a production agent platform.</description>
+    </item>
+    
+    <item>
+      <title>The Year AI Will Start Building and Managing Other AI Agents</title>
+      <link>https://dudutwizer.com/blogs/the-year-ai-will-start-building-and-managing-other-ai-agents/</link>
+      <pubDate>Thu, 02 Jan 2025 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/the-year-ai-will-start-building-and-managing-other-ai-agents/</guid>
+      <description>When you have a genie in a bottle granting you three wishes, clever thinkers will ask the genie for another genie.</description>
+    </item>
+    
+    <item>
+      <title>Announcing Agent Graph System: 4x Better Multi-Step Tool Use</title>
+      <link>https://dudutwizer.com/blogs/announcing-agent-graph-system/</link>
+      <pubDate>Wed, 20 Nov 2024 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/announcing-agent-graph-system/</guid>
+      <description>An agent built with Agentic Interfaces and Agent Graph System hit a 98% success rate on multi-step tasks, versus 24% for GPT-4o alone, and did it 38% faster with 31.5% fewer tokens.</description>
+    </item>
+    
+    <item>
+      <title>From Manual to Autonomous: Revolutionize Business Tasks In-House</title>
+      <link>https://dudutwizer.com/blogs/from-manual-to-autonomous/</link>
+      <pubDate>Mon, 18 Nov 2024 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/from-manual-to-autonomous/</guid>
+      <description>How enterprises can build and deploy AI agents in-house: autonomous digital workers that automate complex tasks while keeping full control over data, security, and cost.</description>
+    </item>
+    
+    <item>
+      <title>xpander.ai &#43; OpenAI Realtime API</title>
+      <link>https://dudutwizer.com/blogs/xpander-openai-realtime-api/</link>
+      <pubDate>Thu, 03 Oct 2024 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/xpander-openai-realtime-api/</guid>
+      <description>Real-time function calls across any system: 1st-party APIs, 3rd-party services, or custom platforms.</description>
+    </item>
+    
+    <item>
+      <title>xpander.ai &#43; NVIDIA NIM</title>
+      <link>https://dudutwizer.com/blogs/xpander-nvidia-nim-integration/</link>
+      <pubDate>Mon, 16 Sep 2024 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/xpander-nvidia-nim-integration/</guid>
+      <description>A Text-to-Action runtime that turns text inputs into tangible results with graph-driven agents.</description>
+    </item>
+    
     <item>
       <title>Minimize the blast radius of your applications</title>
       <link>https://dudutwizer.com/videos/minimize-the-blast-radius-of-your-applications/</link>
       <pubDate>Wed, 06 Jul 2022 02:22:49 +0300</pubDate>
-      
+      <author>Dudu Twizer</author>
       <guid>https://dudutwizer.com/videos/minimize-the-blast-radius-of-your-applications/</guid>
-      <description>Code sample published in aws-samples/shuffle-sharding-demo-app .
-In this session, you will learn how to apply the Reliability Pillar from the AWS Well-Architected Framework to your workloads. We will dive into modern architectural techniques and best practices like shuffle sharding and cell-based architecture. We will provide practical implementations with a short demo and reference architecture diagrams.</description>
+      <description>&lt;p&gt;Code sample published in &lt;a
+  class=&#34;github-button&#34;
+  href=&#34;https://github.com/aws-samples/shuffle-sharding-demo-app&#34;
+  aria-label=&#34;Star aws-samples/shuffle-sharding-demo-app on GitHub&#34;
+  data-show-count=&#34;true&#34;
+&gt;
+  aws-samples/shuffle-sharding-demo-app
+&lt;/a&gt;
+ .&lt;/p&gt;
+&lt;p&gt;In this session, you will learn how to apply the Reliability Pillar from the AWS Well-Architected Framework to your workloads. We will dive into modern architectural techniques and best practices like shuffle sharding and cell-based architecture. We will provide practical implementations with a short demo and reference architecture diagrams.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+			&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/da1v4jDmiWM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+		&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Cdk Skylight</title>
       <link>https://dudutwizer.com/opensource/cdk-skylight/</link>
       <pubDate>Thu, 06 Jan 2022 16:51:17 +0300</pubDate>
-      
+      <author>Dudu Twizer</author>
       <guid>https://dudutwizer.com/opensource/cdk-skylight/</guid>
-      <description>cdklabs/cdk-skylight Overview CDK Skylight is a set of Level 3 constructs for the Microsoft products on AWS ecosystem (Windows OS, SQL Server, Active Directory, Windows Containers, Amazon FSx for Windows, and so on). CDK Skylight Constructs are a natural fit for Platform Teams building Platform as a Product.
-Examples
-Windows Worker with Domain join and Powershell API that allows running complex automation with a single line of code Managed Active Directory configured with DNS Topology and an API to create new AD Group with a domain-joined machine.</description>
+      <description>&lt;a
+  class=&#34;github-button&#34;
+  href=&#34;https://github.com/cdklabs/cdk-skylight&#34;
+  aria-label=&#34;Star cdklabs/cdk-skylight on GitHub&#34;
+  data-show-count=&#34;true&#34;
+&gt;
+  cdklabs/cdk-skylight
+&lt;/a&gt;
+
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.shields.io/badge/CDK%20Skylight-Developer%20Preview-orange.svg?style=for-the-badge&#34; alt=&#34;&#34;  /&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;CDK Skylight is a set of &lt;strong&gt;Level 3 constructs&lt;/strong&gt; for the &lt;a href=&#34;https://aws.amazon.com/windows/&#34;&gt;Microsoft products on AWS&lt;/a&gt; ecosystem (Windows OS, SQL Server, Active Directory, Windows Containers, Amazon FSx for Windows, and so on). &lt;strong&gt;CDK Skylight Constructs are a natural fit for Platform Teams building Platform as a Product.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Examples&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Windows Worker with Domain join and Powershell API that allows running complex automation with a single line of code&lt;/li&gt;
+&lt;li&gt;Managed Active Directory configured with DNS Topology and an API to create new AD Group with a domain-joined machine.&lt;/li&gt;
+&lt;li&gt;Amazon FSx library that creates Filesystem with API to create Folder on it&lt;/li&gt;
+&lt;li&gt;Windows EKS Workers that joins to specified AD domain with APIs to create and configure complex integrations such as SMB with Global Mapping and Domain authentication with gMSA plugin.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;All those examples are built with CDK Skylight libraries and can be used separately with maximum flexibility to change the default settings.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Architect Reliable Applications on Aws</title>
       <link>https://dudutwizer.com/workshops/architect-reliable-applications-on-aws/</link>
       <pubDate>Wed, 01 Dec 2021 17:06:59 +0300</pubDate>
-      
+      <author>Dudu Twizer</author>
       <guid>https://dudutwizer.com/workshops/architect-reliable-applications-on-aws/</guid>
-      <description>aws-samples/windows-on-aws-samples Workshop link : Workshop Studio Discover and participate in AWS workshops and GameDays This workshop presents a new way to design your application using the Well-Architected Reliability Pillar. You will get exposure to implementing advanced and modern techniques like Shuffle Sharding, Horizontal Scaling for windows workloads, and infrastructure as code using the Cloud Development Kit (CDK).
-In modern design techniques, Chaos Engineering taught us how to design for failure.</description>
+      <description>&lt;a
+  class=&#34;github-button&#34;
+  href=&#34;https://github.com/aws-samples/windows-on-aws-samples&#34;
+  aria-label=&#34;Star aws-samples/windows-on-aws-samples on GitHub&#34;
+  data-show-count=&#34;true&#34;
+&gt;
+  aws-samples/windows-on-aws-samples
+&lt;/a&gt;
+
+&lt;p&gt;Workshop link :
+&lt;div style=&#34;border:1px dotted;border-radius:5px;padding:10px;line-height:1.3em;margin:0.5em 0;&#34;&gt;
+  &lt;a style=&#34;text-decoration:none;font-size:0.9em;font-weight:bold;word-break:break-all;&#34; href=&#34;https://catalog.us-east-1.prod.workshops.aws/workshops/a9ae9061-fef9-43d8-918b-39835ece04a9/en-US&#34;&gt;https://catalog.us-east-1.prod.workshops.aws/workshops/a9ae9061-fef9-43d8-918b-39835ece04a9/en-US&lt;/a&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;This workshop presents a new way to design your application using the Well-Architected Reliability Pillar. You will get exposure to implementing advanced and modern techniques like Shuffle Sharding, Horizontal Scaling for windows workloads, and infrastructure as code using the Cloud Development Kit (CDK).&lt;/p&gt;
+&lt;p&gt;In modern design techniques, Chaos Engineering taught us how to design for failure. Each architecture is designed using multiple AWS services, and each service has its own SLA. In this workshop, you will learn how to evaluate each AWS services SLA and combine them to ensure your architecture will meet the availability requirements for your business using the Cloud 9 IDE.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Optimizing EC2 Workloads with Amazon CloudWatch</title>
       <link>https://dudutwizer.com/blogs/optimize-ec2-workloads-with-cloudwatch/</link>
       <pubDate>Wed, 09 Jun 2021 16:44:58 +0300</pubDate>
-      
+      <author>Dudu Twizer</author>
       <guid>https://dudutwizer.com/blogs/optimize-ec2-workloads-with-cloudwatch/</guid>
-      <description>Many customers ask for our advice on choosing the ‘best’ or the ‘right’ storage and instance configuration, but there is no one solution that fits all circumstances. This blog post covers the critical techniques to right-size your workloads. We focus on right-sizing a SQL Server as our example workload, but the techniques we will demonstrate apply equally to any Amazon EC2 instance running any operating system or workload.
-We create and use an Amazon CloudWatch dashboard to highlight any limits and bottlenecks within our example instance.</description>
+      <description>&lt;p&gt;Many customers ask for our advice on choosing the ‘best’ or the ‘right’ storage and instance configuration, but there is no one solution that fits all circumstances. This blog post covers the critical techniques to right-size your workloads. We focus on right-sizing a SQL Server as our example workload, but the techniques we will demonstrate apply equally to any Amazon EC2 instance running any operating system or workload.&lt;/p&gt;
+&lt;p&gt;We create and use an Amazon CloudWatch dashboard to highlight any limits and bottlenecks within our example instance. Using our dashboard, we can ensure that we are using the right instance type and size, and the right storage volume configuration. The dimensions we look into are EC2 Network throughput, Amazon EBS throughput and IOPS, and the relationship between instance size and Amazon EBS performance.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Reduce complexity &amp; cost for Microsoft SQL with Amazon FSx for Windows (Hebrew)</title>
       <link>https://dudutwizer.com/videos/how-to-run-sql-on-fsx-webinar/</link>
       <pubDate>Wed, 01 Jul 2020 17:36:18 +0300</pubDate>
-      
+      <author>Dudu Twizer</author>
       <guid>https://dudutwizer.com/videos/how-to-run-sql-on-fsx-webinar/</guid>
-      <description>In this webinar we will learn and discuss different SQL deployments and why preferred option for high availability deployments has traditionally been difficult to deploy and manage.
-During the webinar, we will walk you through a Demo on how to deploy and configure Windows fail over cluster using Amazon FSx for windows to achieve a simple architecture and reduce operational overhead and licensing costs.</description>
+      <description>&lt;p&gt;In this webinar we will learn and discuss different SQL deployments and why preferred option for high availability deployments has traditionally been difficult to deploy and manage.&lt;/p&gt;
+&lt;p&gt;During the webinar, we will walk you through a Demo on how to deploy and configure Windows fail over cluster using Amazon FSx for windows to achieve a simple architecture and reduce operational overhead and licensing costs.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+			&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/697G9iJskvM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+		&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Running SQL Server with Amazon FSx as a shared storage</title>
       <link>https://dudutwizer.com/blogs/sql-on-fsx/</link>
       <pubDate>Fri, 06 Mar 2020 13:07:25 +0300</pubDate>
-      
+      <author>Dudu Twizer</author>
       <guid>https://dudutwizer.com/blogs/sql-on-fsx/</guid>
-      <description>With Amazon FSx, you get fully managed shared file storage that automatically replicates the storage synchronously across two Availability Zones. Moreover, Amazon FSx provides high availability with automatic failure detection, failover, and failback. The service also fully supports the SMB Continuous Availability (CA) feature required to support SQL Server Always On FCI deployments.
-For those of you who chose to deploy SQL AG with Enterprise Edition licenses, to avoid the complexity and cost of using FCI with shared storage, now you can use Standard Edition licenses.</description>
+      <description>&lt;p&gt;With Amazon FSx, you get fully managed shared file storage that automatically replicates the storage synchronously across two Availability Zones. Moreover, Amazon FSx provides high availability with automatic failure detection, failover, and failback. The service also fully supports the SMB Continuous Availability (CA) feature required to support SQL Server Always On FCI deployments.&lt;/p&gt;
+&lt;p&gt;For those of you who chose to deploy SQL AG with Enterprise Edition licenses, to avoid the complexity and cost of using FCI with shared storage, now you can use Standard Edition licenses. This will save you 50–60% in license costs. It will also simplify the overall complexity of your SQL deployment and ongoing management (like not needing to replicate system database objects across all replicas, which you must do in AG deployments).&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Blur the Boundaries between Your on-Premises to AWS Cloud</title>
       <link>https://dudutwizer.com/videos/blur-the-boundaries-between-your-on-premises-to-aws-cloud/</link>
       <pubDate>Fri, 01 Mar 2019 17:02:38 +0300</pubDate>
-      
+      <author>Dudu Twizer</author>
       <guid>https://dudutwizer.com/videos/blur-the-boundaries-between-your-on-premises-to-aws-cloud/</guid>
-      <description>So, you have workloads running on premises and you wish to extend to the Cloud? You are not that different! Let&amp;rsquo;s discuss few of your options for running in a hybrid mode. How to connect the two in a secure manner? Which services you should utilize? what you can also use on premises?</description>
+      <description>&lt;p&gt;So, you have workloads running on premises and you wish to extend to the Cloud? You are not that different! Let&amp;rsquo;s discuss few of your options for running in a hybrid mode. How to connect the two in a secure manner? Which services you should utilize? what you can also use on premises?&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+			&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/R6Eeva48iPc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+		&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>My Productivity Stack</title>
+      <link>https://dudutwizer.com/stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/stack/</guid>
+      <description>The software I actually pay for, how I use it, and a graveyard of the tools that didn&amp;rsquo;t survive my workflow.</description>
     </item>
     
     

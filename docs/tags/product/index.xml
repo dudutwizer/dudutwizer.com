@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Product on Dudu Twizer&#39;s Site</title>
+    <link>https://dudutwizer.com/tags/product/</link>
+    <description>Recent content in Product on Dudu Twizer&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>Dudu Twizer</managingEditor>
+    <webMaster>Dudu Twizer</webMaster>
+    <lastBuildDate>Thu, 07 Aug 2025 09:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/product/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing Slack-Native AI Agents</title>
+      <link>https://dudutwizer.com/blogs/introducing-slack-native-ai-agents/</link>
+      <pubDate>Thu, 07 Aug 2025 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/introducing-slack-native-ai-agents/</guid>
+      <description>Deploy custom AI agents to Slack in minutes. They respond to mentions, keep memory across threads, and work like real coworkers inside the tools you already use.</description>
+    </item>
+    
+    <item>
+      <title>Stop Building Startups Like It&#39;s 2024</title>
+      <link>https://dudutwizer.com/blogs/stop-building-startups-like-2024/</link>
+      <pubDate>Fri, 01 Aug 2025 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/stop-building-startups-like-2024/</guid>
+      <description>Stop building for procurement. Start building for real autonomous transformation.</description>
+    </item>
+    
+    <item>
+      <title>An Agent That Closes the Troubleshooting Loop</title>
+      <link>https://dudutwizer.com/blogs/datadog-github-troubleshooting-agent/</link>
+      <pubDate>Tue, 15 Apr 2025 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/datadog-github-troubleshooting-agent/</guid>
+      <description>Automating the entire troubleshooting loop across Datadog logs and GitHub Actions. No tickets, no waiting.</description>
+    </item>
+    
+    <item>
+      <title>xpander.ai &#43; OpenAI Realtime API</title>
+      <link>https://dudutwizer.com/blogs/xpander-openai-realtime-api/</link>
+      <pubDate>Thu, 03 Oct 2024 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/xpander-openai-realtime-api/</guid>
+      <description>Real-time function calls across any system: 1st-party APIs, 3rd-party services, or custom platforms.</description>
+    </item>
+    
+    <item>
+      <title>xpander.ai &#43; NVIDIA NIM</title>
+      <link>https://dudutwizer.com/blogs/xpander-nvidia-nim-integration/</link>
+      <pubDate>Mon, 16 Sep 2024 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/xpander-nvidia-nim-integration/</guid>
+      <description>A Text-to-Action runtime that turns text inputs into tangible results with graph-driven agents.</description>
+    </item>
+    
+  </channel>
+</rss>

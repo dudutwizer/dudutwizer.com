@@ -5,25 +5,28 @@
     <link>https://dudutwizer.com/categories/aws-blogs/</link>
     <description>Recent content in AWS Blogs on Dudu Twizer&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>Dudu Twizer</managingEditor>
+    <webMaster>Dudu Twizer</webMaster>
     <lastBuildDate>Wed, 09 Jun 2021 16:44:58 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/categories/aws-blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Optimizing EC2 Workloads with Amazon CloudWatch</title>
       <link>https://dudutwizer.com/blogs/optimize-ec2-workloads-with-cloudwatch/</link>
       <pubDate>Wed, 09 Jun 2021 16:44:58 +0300</pubDate>
-      
+      <author>Dudu Twizer</author>
       <guid>https://dudutwizer.com/blogs/optimize-ec2-workloads-with-cloudwatch/</guid>
-      <description>Many customers ask for our advice on choosing the ‘best’ or the ‘right’ storage and instance configuration, but there is no one solution that fits all circumstances. This blog post covers the critical techniques to right-size your workloads. We focus on right-sizing a SQL Server as our example workload, but the techniques we will demonstrate apply equally to any Amazon EC2 instance running any operating system or workload.
-We create and use an Amazon CloudWatch dashboard to highlight any limits and bottlenecks within our example instance.</description>
+      <description>&lt;p&gt;Many customers ask for our advice on choosing the ‘best’ or the ‘right’ storage and instance configuration, but there is no one solution that fits all circumstances. This blog post covers the critical techniques to right-size your workloads. We focus on right-sizing a SQL Server as our example workload, but the techniques we will demonstrate apply equally to any Amazon EC2 instance running any operating system or workload.&lt;/p&gt;
+&lt;p&gt;We create and use an Amazon CloudWatch dashboard to highlight any limits and bottlenecks within our example instance. Using our dashboard, we can ensure that we are using the right instance type and size, and the right storage volume configuration. The dimensions we look into are EC2 Network throughput, Amazon EBS throughput and IOPS, and the relationship between instance size and Amazon EBS performance.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Running SQL Server with Amazon FSx as a shared storage</title>
       <link>https://dudutwizer.com/blogs/sql-on-fsx/</link>
       <pubDate>Fri, 06 Mar 2020 13:07:25 +0300</pubDate>
-      
+      <author>Dudu Twizer</author>
       <guid>https://dudutwizer.com/blogs/sql-on-fsx/</guid>
-      <description>With Amazon FSx, you get fully managed shared file storage that automatically replicates the storage synchronously across two Availability Zones. Moreover, Amazon FSx provides high availability with automatic failure detection, failover, and failback. The service also fully supports the SMB Continuous Availability (CA) feature required to support SQL Server Always On FCI deployments.
-For those of you who chose to deploy SQL AG with Enterprise Edition licenses, to avoid the complexity and cost of using FCI with shared storage, now you can use Standard Edition licenses.</description>
+      <description>&lt;p&gt;With Amazon FSx, you get fully managed shared file storage that automatically replicates the storage synchronously across two Availability Zones. Moreover, Amazon FSx provides high availability with automatic failure detection, failover, and failback. The service also fully supports the SMB Continuous Availability (CA) feature required to support SQL Server Always On FCI deployments.&lt;/p&gt;
+&lt;p&gt;For those of you who chose to deploy SQL AG with Enterprise Edition licenses, to avoid the complexity and cost of using FCI with shared storage, now you can use Standard Edition licenses. This will save you 50–60% in license costs. It will also simplify the overall complexity of your SQL deployment and ongoing management (like not needing to replicate system database objects across all replicas, which you must do in AG deployments).&lt;/p&gt;</description>
     </item>
     
   </channel>

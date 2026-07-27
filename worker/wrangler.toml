@@ -1,0 +1,19 @@
+# Cloudflare Worker: the API-key-holding proxy between the static site's chat widget
+# and the xpander agent. Deploy:  cd worker && npx wrangler deploy
+# Secret (NEVER in this file):    npx wrangler secret put XPANDER_API_KEY
+name = "dudutwizer-chat"
+main = "src/index.js"
+compatibility_date = "2026-07-01"
+
+# Non-secret config. Set XPANDER_AGENT_URL once the scheduling agent exists.
+[vars]
+XPANDER_AGENT_URL = "https://api.xpander.ai/v1/agents/692f6896-9a89-4b13-b1d2-e9f8edd1af3d/gateway/invoke/stream"
+ALLOWED_ORIGIN    = "https://dudutwizer.com"
+BOOKING_URL       = ""            # your Cal.com / Calendly link (optional, agent can hand it out)
+
+# Route the widget calls through your domain (dudutwizer.com must be on Cloudflare):
+#   the widget POSTs https://dudutwizer.com/api/chat
+# Uncomment + set the zone once DNS is confirmed on Cloudflare:
+# [[routes]]
+# pattern = "dudutwizer.com/api/*"
+# zone_name = "dudutwizer.com"

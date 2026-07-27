@@ -5,21 +5,60 @@
     <link>https://dudutwizer.com/categories/</link>
     <description>Recent content in Categories on Dudu Twizer&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 06 Jul 2022 02:22:49 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <managingEditor>Dudu Twizer</managingEditor>
+    <webMaster>Dudu Twizer</webMaster>
+    <lastBuildDate>Sun, 26 Jul 2026 13:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meta</title>
+      <link>https://dudutwizer.com/categories/meta/</link>
+      <pubDate>Sun, 26 Jul 2026 13:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/categories/meta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Homelab</title>
+      <link>https://dudutwizer.com/categories/homelab/</link>
+      <pubDate>Sun, 26 Jul 2026 11:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/categories/homelab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Notes</title>
+      <link>https://dudutwizer.com/categories/notes/</link>
+      <pubDate>Sun, 12 Jul 2026 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/categories/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xpander</title>
+      <link>https://dudutwizer.com/categories/xpander/</link>
+      <pubDate>Thu, 15 Jan 2026 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/categories/xpander/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Videos</title>
       <link>https://dudutwizer.com/categories/videos/</link>
       <pubDate>Wed, 06 Jul 2022 02:22:49 +0300</pubDate>
-      
+      <author>Dudu Twizer</author>
       <guid>https://dudutwizer.com/categories/videos/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Open source projects</title>
+      <title>Open Source Projects</title>
       <link>https://dudutwizer.com/categories/open-source-projects/</link>
       <pubDate>Thu, 06 Jan 2022 16:51:17 +0300</pubDate>
-      
+      <author>Dudu Twizer</author>
       <guid>https://dudutwizer.com/categories/open-source-projects/</guid>
       <description></description>
     </item>
@@ -28,7 +67,7 @@
       <title>Workshops</title>
       <link>https://dudutwizer.com/categories/workshops/</link>
       <pubDate>Wed, 01 Dec 2021 17:06:59 +0300</pubDate>
-      
+      <author>Dudu Twizer</author>
       <guid>https://dudutwizer.com/categories/workshops/</guid>
       <description></description>
     </item>
@@ -37,7 +76,7 @@
       <title>AWS Blogs</title>
       <link>https://dudutwizer.com/categories/aws-blogs/</link>
       <pubDate>Wed, 09 Jun 2021 16:44:58 +0300</pubDate>
-      
+      <author>Dudu Twizer</author>
       <guid>https://dudutwizer.com/categories/aws-blogs/</guid>
       <description></description>
     </item>
