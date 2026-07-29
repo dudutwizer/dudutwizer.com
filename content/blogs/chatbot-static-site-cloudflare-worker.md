@@ -2,7 +2,7 @@
 title: 'Two API Calls to Put an AI Agent on a Static Site'
 date: 2026-07-26T13:00:00+03:00
 draft: false
-summary: 'The "Chat with my AI" button is a real xpander agent - created with one API call, streamed with another, and dropped onto a static site behind a tiny key-holding Worker.'
+summary: 'The "David''s AI" sidebar is a real xpander agent - created with one API call, streamed with another, and dropped onto a static site behind a tiny key-holding Worker.'
 categories:
   - Meta
 tags:
@@ -12,7 +12,7 @@ tags:
   - SSE
 ---
 
-The "Chat with my AI" button in the corner is a real agent. It answers questions about me, remembers the conversation, and helps book a meeting. What I like about how it's built is how little there is to build: with [xpander](https://xpander.ai), an agent is **infrastructure you provision in code** - you create one with an API call, you talk to it with another, and the memory, tools, user isolation, and auth are already handled. No orchestration glue, no runtime to babysit.
+The "David's AI" sidebar on this site (it docks itself open on desktop) is a real agent. It answers questions about me and remembers the conversation - and when someone wants a meeting, a Cal.com calendar embeds right in the panel, no agent required. What I like about how it's built is how little there is to build: with [xpander](https://xpander.ai), an agent is **infrastructure you provision in code** - you create one with an API call, you talk to it with another, and the memory, tools, user isolation, and auth are already handled. No orchestration glue, no runtime to babysit.
 
 Here's the whole thing, end to end.
 
@@ -93,6 +93,6 @@ const UNAUTH = "\n\n(Context: this message is from an UNAUTHENTICATED public vis
 
 A static page, a stable `conversationId` per session, and a ~60-line Worker. Everything that makes it feel like a real product - memory across turns, per-user isolation, streaming, tools - lives in the agent, not in my code.
 
-That's the pitch for [xpander](https://xpander.ai) in one page: **agents are infrastructure**. You create them with an API, you reach them through a gateway, and you can drop the same agent into a Slack workspace, an internal app, or a button in the corner of a static site - in about as much code as this post has snippets.
+That's the pitch for [xpander](https://xpander.ai) in one page: **agents are infrastructure**. You create them with an API, you reach them through a gateway, and you can drop the same agent into a Slack workspace, an internal app, or the sidebar of a static site - in about as much code as this post has snippets.
 
-The rest of the site's plumbing is in [how this site is built](/blogs/how-this-site-is-built/).
+Two follow-ups since this post: the agent now knows the whole site through [/llms.txt fetched at prompt time](/blogs/llms-txt-cheapest-rag/), and booking bypasses the agent entirely with an inline Cal.com embed - use the model for questions, use a calendar for calendars. The rest of the site's plumbing is in [how this site is built](/blogs/how-this-site-is-built/).

@@ -8,16 +8,7 @@
     <language>en</language>
     <managingEditor>David Twizer</managingEditor>
     <webMaster>David Twizer</webMaster>
-    <lastBuildDate>Sun, 26 Jul 2026 12:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/cloudflare/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>How This Site Is Built</title>
-      <link>https://dudutwizer.com/blogs/how-this-site-is-built/</link>
-      <pubDate>Sun, 26 Jul 2026 12:00:00 +0300</pubDate>
-      <author>David Twizer</author>
-      <guid>https://dudutwizer.com/blogs/how-this-site-is-built/</guid>
-      <description>A static Hugo site on GitHub Pages, fronted by Cloudflare, with zero backend - except one small Worker for the chat.</description>
-    </item>
-    
+    <lastBuildDate>Sun, 26 Jul 2026 10:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/cloudflare/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Self-Hosting Immich on EC2, with the Photo Library on S3</title>
       <link>https://dudutwizer.com/blogs/self-hosting-immich-ec2-s3/</link>

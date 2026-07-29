@@ -91,15 +91,6 @@
     </item>
     
     <item>
-      <title>Cloudflare</title>
-      <link>https://dudutwizer.com/tags/cloudflare/</link>
-      <pubDate>Sun, 26 Jul 2026 12:00:00 +0300</pubDate>
-      <author>David Twizer</author>
-      <guid>https://dudutwizer.com/tags/cloudflare/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>GitHub Pages</title>
       <link>https://dudutwizer.com/tags/github-pages/</link>
       <pubDate>Sun, 26 Jul 2026 12:00:00 +0300</pubDate>
@@ -168,6 +159,15 @@
       <pubDate>Sun, 26 Jul 2026 10:00:00 +0300</pubDate>
       <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloudflare</title>
+      <link>https://dudutwizer.com/tags/cloudflare/</link>
+      <pubDate>Sun, 26 Jul 2026 10:00:00 +0300</pubDate>
+      <author>David Twizer</author>
+      <guid>https://dudutwizer.com/tags/cloudflare/</guid>
       <description></description>
     </item>
     

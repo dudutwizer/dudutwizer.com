@@ -33,7 +33,7 @@
       <pubDate>Sun, 26 Jul 2026 13:00:00 +0300</pubDate>
       <author>David Twizer</author>
       <guid>https://dudutwizer.com/blogs/chatbot-static-site-cloudflare-worker/</guid>
-      <description>The &amp;ldquo;Chat with my AI&amp;rdquo; button is a real xpander agent - created with one API call, streamed with another, and dropped onto a static site behind a tiny key-holding Worker.</description>
+      <description>The &amp;ldquo;David&amp;rsquo;s AI&amp;rdquo; sidebar is a real xpander agent - created with one API call, streamed with another, and dropped onto a static site behind a tiny key-holding Worker.</description>
     </item>
     
     <item>
@@ -42,7 +42,7 @@
       <pubDate>Sun, 26 Jul 2026 12:00:00 +0300</pubDate>
       <author>David Twizer</author>
       <guid>https://dudutwizer.com/blogs/how-this-site-is-built/</guid>
-      <description>A static Hugo site on GitHub Pages, fronted by Cloudflare, with zero backend - except one small Worker for the chat.</description>
+      <description>A static Hugo site on GitHub Pages with zero backend - except one small Cloudflare Worker for the chat, an llms.txt for the agent, and a calendar in the sidebar.</description>
     </item>
     
     <item>

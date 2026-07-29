@@ -56,9 +56,6 @@
     <loc>https://dudutwizer.com/blogs/chatbot-static-site-cloudflare-worker/</loc>
     <lastmod>2026-07-26T13:00:00+03:00</lastmod>
   </url><url>
-    <loc>https://dudutwizer.com/tags/cloudflare/</loc>
-    <lastmod>2026-07-26T12:00:00+03:00</lastmod>
-  </url><url>
     <loc>https://dudutwizer.com/tags/github-pages/</loc>
     <lastmod>2026-07-26T12:00:00+03:00</lastmod>
   </url><url>
@@ -90,6 +87,9 @@
     <lastmod>2026-07-26T11:00:00+03:00</lastmod>
   </url><url>
     <loc>https://dudutwizer.com/tags/aws/</loc>
+    <lastmod>2026-07-26T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/cloudflare/</loc>
     <lastmod>2026-07-26T10:00:00+03:00</lastmod>
   </url><url>
     <loc>https://dudutwizer.com/tags/immich/</loc>
