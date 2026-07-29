@@ -1,63 +1,104 @@
-{{- /* Floating "chat with my AI to book a meeting" widget. Vanilla JS, no deps.
-       Streams from the Cloudflare Worker (/api/chat), which proxies the xpander gateway SSE.
-       The Worker holds the API key; the browser never sees it. */ -}}
+{{- /* "David's AI" chat sidebar. Vanilla JS, no deps.
+       Streams from a Cloudflare Worker that proxies the xpander gateway SSE;
+       the Worker holds the API key, the browser never sees it.
+       Docked open by default on wide screens; slide-over + backdrop on narrow. */ -}}
 <style>
-  /* xpander theme: brand purple #753cff, gradient to #a37cff, dark chrome #18191d/#28292d */
   :root { --xp: #753cff; --xp-2: #a37cff; --xp-grad: linear-gradient(135deg, #753cff, #a37cff); }
+
   #dm-btn { position: fixed; right: 20px; bottom: 20px; z-index: 70; display: inline-flex; align-items: center; justify-content: center;
-    width: 54px; height: 54px; padding: 0; border-radius: 999px; border: 0; cursor: pointer; font-size: 1.35rem; line-height: 1;
-    color: #fff; background: var(--xp-grad); box-shadow: 0 6px 24px rgba(117,60,255,0.45); transition: transform .15s ease, box-shadow .15s ease; }
-  #dm-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 32px rgba(117,60,255,0.6); }
+    width: 52px; height: 52px; padding: 0; border-radius: 999px; border: 0; cursor: pointer; font-size: 1.3rem; line-height: 1;
+    color: #fff; background: var(--xp-grad); box-shadow: 0 6px 24px rgba(117,60,255,0.4); transition: transform .15s ease, box-shadow .15s ease; }
+  #dm-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 32px rgba(117,60,255,0.55); }
+
   #dm-backdrop { position: fixed; inset: 0; z-index: 71; background: rgba(24,25,29,0.45); backdrop-filter: blur(2px);
     opacity: 0; pointer-events: none; transition: opacity .25s ease; }
   #dm-backdrop.open { opacity: 1; pointer-events: auto; }
-  #dm-panel { position: fixed; top: 0; right: 0; bottom: 0; z-index: 72; width: min(430px, 100vw); height: 100dvh;
-    display: flex; flex-direction: column; background: #fff; border-left: 1px solid rgba(117,60,255,0.25);
-    box-shadow: -24px 0 64px rgba(24,25,29,0.35); transform: translateX(102%); transition: transform .28s cubic-bezier(.32,.72,.33,1); }
+
+  #dm-panel { position: fixed; top: 0; right: 0; bottom: 0; z-index: 72; width: min(400px, 100vw); height: 100dvh;
+    display: flex; flex-direction: column; font-size: 0.92rem;
+    background: radial-gradient(900px 360px at 100% 0%, rgba(117,60,255,0.06), transparent 60%), #fdfdfd;
+    border-left: 1px solid rgba(0,0,0,0.08);
+    transform: translateX(102%); transition: transform .3s cubic-bezier(.32,.72,.33,1); }
   #dm-panel.open { transform: translateX(0); }
-  body.dark #dm-panel { background: #18191d; }
-  #dm-head { padding: 16px 18px; display: flex; justify-content: space-between; align-items: center; color: #fff;
-    background: var(--xp-grad); }
-  #dm-head span { font-weight: 700; font-size: 1.02rem; letter-spacing: .01em; }
-  #dm-head small { font-weight: 400; opacity: .85; display: block; font-size: 0.74rem; margin-top: 2px; }
-  #dm-head button { background: rgba(255,255,255,0.16); border: 0; width: 30px; height: 30px; border-radius: 8px;
-    font-size: 1.05rem; line-height: 1; cursor: pointer; color: #fff; transition: background .15s ease; }
-  #dm-head button:hover { background: rgba(255,255,255,0.3); }
-  #dm-msgs { flex: 1; overflow-y: auto; padding: 18px 16px; display: flex; flex-direction: column; gap: 12px;
-    font-size: 0.92rem; line-height: 1.5; }
-  #dm-msgs .m { max-width: 88%; padding: 10px 13px; border-radius: 14px; white-space: pre-wrap; }
-  #dm-msgs .bot { align-self: flex-start; background: #f5f3ff; border: 1px solid rgba(117,60,255,0.14); border-bottom-left-radius: 4px; }
-  body.dark #dm-msgs .bot { background: #28292d; border-color: rgba(163,124,255,0.22); color: #e8e6f0; }
-  #dm-msgs .me { align-self: flex-end; background: var(--xp-grad); color: #fff; border-bottom-right-radius: 4px; }
+  #dm-panel::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--xp-grad); opacity: .9; }
+  body.dark #dm-panel { background: radial-gradient(900px 360px at 100% 0%, rgba(117,60,255,0.1), transparent 60%), #1b1c21;
+    border-left-color: #2a2b31; }
+
+  #dm-head { display: flex; align-items: center; gap: 10px; padding: 18px 18px 14px; }
+  #dm-dot { width: 9px; height: 9px; border-radius: 999px; background: var(--xp-grad); flex: none; position: relative; }
+  #dm-dot::after { content: ''; position: absolute; inset: -4px; border-radius: 999px; border: 1.5px solid var(--xp);
+    opacity: 0; animation: dm-pulse 2.4s ease-out infinite; }
+  @keyframes dm-pulse { 0% { transform: scale(.5); opacity: .8; } 70%, 100% { transform: scale(1.35); opacity: 0; } }
+  #dm-title { flex: 1; min-width: 0; }
+  #dm-title b { font-size: 0.98rem; font-weight: 700; letter-spacing: -0.01em; color: var(--primary, #111); }
+  body.dark #dm-title b { color: #ececf1; }
+  #dm-title small { display: block; font-size: 0.72rem; color: #8a8a93; margin-top: 1px; }
+  #dm-close { background: transparent; border: 0; width: 30px; height: 30px; border-radius: 8px; flex: none;
+    font-size: 1.15rem; line-height: 1; cursor: pointer; color: #8a8a93; transition: background .15s ease, color .15s ease; }
+  #dm-close:hover { background: rgba(117,60,255,0.1); color: var(--xp); }
+
+  #dm-msgs { flex: 1; overflow-y: auto; padding: 6px 18px 12px; display: flex; flex-direction: column; gap: 10px; line-height: 1.55; }
+  #dm-msgs .m { max-width: 90%; padding: 9px 13px; border-radius: 14px; white-space: pre-wrap; }
+  #dm-msgs .bot { align-self: flex-start; border-bottom-left-radius: 5px; background: rgba(117,60,255,0.05);
+    border: 1px solid rgba(117,60,255,0.1); color: #24242b; }
+  body.dark #dm-msgs .bot { background: #232429; border-color: #303138; color: #dddde4; }
+  #dm-msgs .me { align-self: flex-end; border-bottom-right-radius: 5px; background: var(--xp-grad); color: #fff; }
   @keyframes dm-blink { 0%, 55% { opacity: 1; } 56%, 100% { opacity: 0; } }
   #dm-msgs .bot.typing::after { content: '▍'; color: var(--xp); animation: dm-blink 0.9s steps(1) infinite; }
   body.dark #dm-msgs .bot.typing::after { color: var(--xp-2); }
   #dm-msgs .bot a { color: var(--xp); text-decoration: underline; text-underline-offset: 2px; word-break: break-all; }
   body.dark #dm-msgs .bot a { color: var(--xp-2); }
-  #dm-msgs .bot code { background: rgba(117,60,255,0.1); border-radius: 4px; padding: 1px 4px; font-size: 0.85em; }
-  body.dark #dm-msgs .bot code { background: rgba(163,124,255,0.16); }
-  #dm-form { display: flex; gap: 8px; padding: 12px; border-top: 1px solid rgba(117,60,255,0.15); }
-  body.dark #dm-form { border-top-color: rgba(163,124,255,0.2); }
-  #dm-input { flex: 1; padding: 11px 13px; border-radius: 12px; border: 1px solid rgba(117,60,255,0.3); font: inherit;
-    background: transparent; color: inherit; outline: none; transition: border-color .15s ease, box-shadow .15s ease; }
-  #dm-input:focus { border-color: var(--xp); box-shadow: 0 0 0 3px rgba(117,60,255,0.18); }
-  #dm-form button { padding: 0 18px; border-radius: 12px; border: 0; background: var(--xp-grad); color: #fff; cursor: pointer; font-weight: 700; }
-  #dm-form button:hover { filter: brightness(1.08); }
-  /* Docked mode (desktop default): panel lives alongside the page - no backdrop,
-     the content slides over to make room instead of being dimmed. */
-  body.dm-docked { transition: padding-right .28s cubic-bezier(.32,.72,.33,1); }
+  #dm-msgs .bot code { background: rgba(117,60,255,0.09); border-radius: 4px; padding: 1px 4px; font-size: 0.85em; }
+  body.dark #dm-msgs .bot code { background: rgba(163,124,255,0.14); }
+
+  #dm-chips { display: flex; flex-wrap: wrap; gap: 8px; padding: 2px 18px 8px; }
+  #dm-chips button { font: inherit; font-size: 0.78rem; padding: 7px 12px; border-radius: 999px; cursor: pointer;
+    color: #55555e; background: transparent; border: 1px solid rgba(0,0,0,0.14); transition: all .15s ease; }
+  body.dark #dm-chips button { color: #b9b9c3; border-color: #34353c; }
+  #dm-chips button:hover { border-color: var(--xp); color: var(--xp); background: rgba(117,60,255,0.06); }
+  body.dark #dm-chips button:hover { color: var(--xp-2); border-color: var(--xp-2); }
+
+  #dm-form { display: flex; align-items: center; gap: 8px; margin: 10px 14px 6px; padding: 5px 5px 5px 16px;
+    border-radius: 999px; background: #fff; border: 1px solid rgba(0,0,0,0.12);
+    transition: border-color .15s ease, box-shadow .15s ease; }
+  body.dark #dm-form { background: #202127; border-color: #32333a; }
+  #dm-form:focus-within { border-color: var(--xp); box-shadow: 0 0 0 3px rgba(117,60,255,0.14); }
+  #dm-input { flex: 1; min-width: 0; padding: 8px 0; border: 0; font: inherit; background: transparent; color: inherit; outline: none; }
+  #dm-input::placeholder { color: #9a9aa3; }
+  #dm-send { width: 36px; height: 36px; flex: none; border-radius: 999px; border: 0; cursor: pointer;
+    background: var(--xp-grad); color: #fff; font-size: 1rem; line-height: 1; transition: filter .15s ease, transform .1s ease; }
+  #dm-send:hover { filter: brightness(1.1); }
+  #dm-send:active { transform: scale(.94); }
+
+  #dm-foot { text-align: center; font-size: 0.66rem; color: #9a9aa3; padding: 4px 0 10px; }
+  #dm-foot a { color: inherit; text-decoration: none; border-bottom: 1px solid rgba(154,154,163,0.4); }
+  #dm-foot a:hover { color: var(--xp); border-color: var(--xp); }
+
+  /* Docked mode (desktop default): the page slides over, nothing is dimmed. */
+  body.dm-docked { transition: padding-right .3s cubic-bezier(.32,.72,.33,1); }
   @media (min-width: 1150px) {
-    body.dm-docked { padding-right: 430px; }
-    #dm-panel.docked { box-shadow: -8px 0 32px rgba(24,25,29,0.12); }
+    body.dm-docked { padding-right: 400px; }
+    #dm-panel.docked { box-shadow: none; }
   }
 </style>
 
 <button id="dm-btn" aria-label="Chat with David's AI to book a meeting" title="Chat with my AI">💬</button>
 <div id="dm-backdrop"></div>
-<aside id="dm-panel" role="dialog" aria-label="Book a meeting" aria-modal="true">
-  <div id="dm-head"><span>David's AI<small>Powered by xpander.ai · Ask about my work or book a meeting</small></span><button id="dm-close" aria-label="Close">×</button></div>
+<aside id="dm-panel" role="dialog" aria-label="Book a meeting">
+  <div id="dm-head">
+    <span id="dm-dot" aria-hidden="true"></span>
+    <span id="dm-title"><b>David's AI</b><small>Usually replies in seconds</small></span>
+    <button id="dm-close" aria-label="Close">×</button>
+  </div>
   <div id="dm-msgs"></div>
-  <form id="dm-form"><input id="dm-input" autocomplete="off" placeholder="Ask me anything, or say 'book a meeting'…" /><button type="submit">Send</button></form>
+  <div id="dm-chips">
+    <button type="button">What is xpander.ai?</button>
+    <button type="button">Book a meeting</button>
+    <button type="button">How is this chat built?</button>
+    <button type="button">What does David write about?</button>
+  </div>
+  <form id="dm-form"><input id="dm-input" autocomplete="off" placeholder="Ask me anything…" /><button id="dm-send" type="submit" aria-label="Send">↑</button></form>
+  <div id="dm-foot">Powered by <a href="https://xpander.ai" target="_blank" rel="noopener">xpander.ai</a> · streams live, remembers the conversation</div>
 </aside>
 
 <script>
@@ -67,7 +108,8 @@
   // /api/* route on the origin - production calls the Worker's workers.dev URL directly.
   var AGENT_ENDPOINT = local ? 'http://localhost:8787/chat' : 'https://dudutwizer-chat.dudutwizer.workers.dev/chat';
   var btn = document.getElementById('dm-btn'), panel = document.getElementById('dm-panel'),
-      msgs = document.getElementById('dm-msgs'), form = document.getElementById('dm-form'), input = document.getElementById('dm-input');
+      msgs = document.getElementById('dm-msgs'), form = document.getElementById('dm-form'), input = document.getElementById('dm-input'),
+      chips = document.getElementById('dm-chips'), backdrop = document.getElementById('dm-backdrop');
   var greeted = false, busy = false;
   // One stable conversation id for this browser session -> the agent keeps context across turns.
   var conversationId = (window.crypto && crypto.randomUUID) ? crypto.randomUUID() : 'c-' + Date.now() + '-' + Math.floor(Math.random() * 1e9);
@@ -89,7 +131,7 @@
     return h;
   }
   function setBot(el, text) { el.innerHTML = md(text); msgs.scrollTop = msgs.scrollHeight; }
-  var backdrop = document.getElementById('dm-backdrop');
+
   var GREETING = "Hey, I'm David's AI. Ask me about his work, or tell me you'd like to meet and I'll help you book a time.";
 
   // Typewriter greeting: the panel says hello like a live terminal, cursor blinking.
@@ -119,6 +161,13 @@
   backdrop.addEventListener('click', function () { close(true); });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(true); });
 
+  // Suggestion chips: one tap asks the question, then they get out of the way.
+  chips.addEventListener('click', function (e) {
+    if (e.target.tagName !== 'BUTTON') return;
+    input.value = e.target.textContent;
+    form.dispatchEvent(new Event('submit', { cancelable: true }));
+  });
+
   // Open by default on wide screens (docked beside the content, not over it),
   // unless the visitor dismissed it earlier this session.
   var dismissed = false; try { dismissed = sessionStorage.getItem('dm-dismissed') === '1'; } catch (_) {}
@@ -130,6 +179,7 @@
     e.preventDefault();
     if (busy) return;
     var text = input.value.trim(); if (!text) return;
+    chips.style.display = 'none';
     add(text, 'me'); input.value = ''; busy = true;
     var bot = add('', 'bot'); bot.classList.add('typing');
     var acc = '';
