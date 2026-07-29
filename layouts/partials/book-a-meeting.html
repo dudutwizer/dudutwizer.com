@@ -65,6 +65,17 @@
   #dm-msgs .bot code { background: rgba(117,60,255,0.09); border-radius: 4px; padding: 1px 4px; font-size: 0.85em; }
   body.dark #dm-msgs .bot code { background: rgba(163,124,255,0.14); }
 
+  /* Inline Cal.com booking view - swaps in for the chat when someone wants a meeting. */
+  #dm-cal { display: none; flex: 1; min-height: 0; flex-direction: column; }
+  #dm-cal.live { display: flex; }
+  #dm-cal-bar { display: flex; justify-content: space-between; align-items: center; padding: 2px 16px 8px; font-size: 0.76rem; }
+  #dm-cal-bar button { background: transparent; border: 0; padding: 4px 0; cursor: pointer; font: inherit; color: var(--xp); }
+  body.dark #dm-cal-bar button { color: var(--xp-2); }
+  #dm-cal-bar button:hover { text-decoration: underline; }
+  #dm-cal-bar a { color: var(--secondary, #6c6c6c); text-decoration: none; }
+  #dm-cal-bar a:hover { color: var(--xp); }
+  #dm-cal-inner { flex: 1; min-height: 0; overflow: auto; border-top: 1px solid var(--border, #eee); }
+
   #dm-form { display: flex; align-items: center; gap: 6px; margin: 10px 14px 6px; padding: 4px 4px 4px 16px; flex: none;
     border-radius: 999px; background: var(--entry, #fff); border: 1px solid var(--border, #ddd);
     transition: border-color .15s ease, box-shadow .15s ease; }
@@ -104,6 +115,13 @@
     </div>
   </div>
   <div id="dm-msgs"></div>
+  <div id="dm-cal">
+    <div id="dm-cal-bar">
+      <button type="button" id="dm-cal-back">← Back to chat</button>
+      <a href="https://cal.com/davidtwizer/public" target="_blank" rel="noopener">Open full page ↗</a>
+    </div>
+    <div id="dm-cal-inner"></div>
+  </div>
   <form id="dm-form"><input id="dm-input" autocomplete="off" placeholder="Ask me anything…" /><button id="dm-send" type="submit" aria-label="Send">↑</button></form>
   <div id="dm-foot">Powered by <a href="https://xpander.ai" target="_blank" rel="noopener">xpander.ai</a> · streams live, remembers the conversation</div>
 </aside>
@@ -169,9 +187,31 @@
   backdrop.addEventListener('click', function () { close(true); });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(true); });
 
-  // Suggestion chips: one tap asks the question.
+  // Cal.com inline embed, loaded lazily the first time someone wants to book.
+  // (Official embed loader, verbatim; theme follows the site's light/dark.)
+  var cal = document.getElementById('dm-cal'), calLoaded = false;
+  function loadCal() {
+    if (calLoaded) return; calLoaded = true;
+    (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if (typeof namespace === "string") { cal.ns[namespace] = cal.ns[namespace] || api; p(cal.ns[namespace], ar); p(cal, ["initNamespace", namespace]); } else p(cal, ar); return; } p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+    Cal("init", "public", { origin: "https://app.cal.com" });
+    Cal.config = Cal.config || {};
+    Cal.config.forwardQueryParams = true;
+    Cal.ns.public("inline", {
+      elementOrSelector: "#dm-cal-inner",
+      config: { layout: "month_view", useSlotsViewOnSmallScreen: "true", theme: document.body.classList.contains('dark') ? 'dark' : 'light' },
+      calLink: "davidtwizer/public",
+    });
+    Cal.ns.public("ui", { hideEventTypeDetails: false, layout: "month_view" });
+  }
+  function showCal() { hero.classList.add('gone'); msgs.classList.remove('live'); cal.classList.add('live'); loadCal(); }
+  function hideCal() { cal.classList.remove('live'); if (msgs.children.length) msgs.classList.add('live'); else hero.classList.remove('gone'); input.focus(); }
+  document.getElementById('dm-cal-back').addEventListener('click', hideCal);
+  var BOOKISH = /\b(book|schedule|set up|setup)\b.{0,24}\b(meeting|call|time|chat|meet)\b|\bbook a meeting\b/i;
+
+  // Suggestion chips: "Book a meeting" opens the calendar; the rest ask the agent.
   chips.addEventListener('click', function (e) {
     if (e.target.tagName !== 'BUTTON') return;
+    if (/book a meeting/i.test(e.target.textContent)) { showCal(); return; }
     input.value = e.target.textContent;
     form.dispatchEvent(new Event('submit', { cancelable: true }));
   });
@@ -187,7 +227,14 @@
     e.preventDefault();
     if (busy) return;
     var text = input.value.trim(); if (!text) return;
-    hero.classList.add('gone'); msgs.classList.add('live');   // hero hands off to the conversation
+    hero.classList.add('gone'); msgs.classList.add('live'); cal.classList.remove('live');
+    // Booking intent skips the agent entirely - the calendar is right here.
+    if (BOOKISH.test(text)) {
+      add(text, 'me'); input.value = '';
+      add("Sure - pick a time that works for you 👇", 'bot');
+      showCal();
+      return;
+    }
     add(text, 'me'); input.value = ''; busy = true;
     var bot = add('', 'bot'); bot.classList.add('typing');
     var acc = '';

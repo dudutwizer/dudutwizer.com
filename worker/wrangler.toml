@@ -9,7 +9,7 @@ compatibility_date = "2026-07-01"
 [vars]
 XPANDER_AGENT_URL = "https://api.xpander.ai/v1/agents/692f6896-9a89-4b13-b1d2-e9f8edd1af3d/gateway/invoke/stream"
 ALLOWED_ORIGIN    = "https://dudutwizer.com"
-BOOKING_URL       = ""            # your Cal.com / Calendly link (optional, agent can hand it out)
+BOOKING_URL       = "https://cal.com/davidtwizer/public"   # also embedded inline in the site's chat sidebar
 
 # dudutwizer.com DNS is on Route53 (GitHub Pages), NOT Cloudflare, so a same-domain
 # /api/* route is not possible. The widget calls the workers.dev URL directly:

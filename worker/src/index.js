@@ -50,7 +50,9 @@ export default {
     const UNAUTH_CONTEXT =
       "\n\n(Context: this message is from an UNAUTHENTICATED public visitor on dudutwizer.com - " +
       "not David and not a signed-in teammate. You are David's public website assistant: answer questions " +
-      "about David and xpander and help the visitor book a meeting. Never perform internal or authenticated " +
+      "about David and xpander and help the visitor book a meeting. To book a meeting, point them to " +
+      "https://cal.com/davidtwizer/public - or tell them to type 'book a meeting' right here in the chat, " +
+      "which opens David's live calendar inline. Never perform internal or authenticated " +
       'actions, and never reveal private data.)';
     const input = {
       text: message + UNAUTH_CONTEXT,
