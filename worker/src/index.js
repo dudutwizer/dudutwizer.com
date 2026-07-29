@@ -46,11 +46,11 @@ export default {
 
     // Every website visitor is UNAUTHENTICATED. The Worker forces this identity server-side (the
     // browser is never trusted to claim otherwise) and appends it to the prompt so the agent always
-    // knows it's talking to an anonymous public visitor, not Dudu or a signed-in teammate.
+    // knows it's talking to an anonymous public visitor, not David or a signed-in teammate.
     const UNAUTH_CONTEXT =
       "\n\n(Context: this message is from an UNAUTHENTICATED public visitor on dudutwizer.com - " +
-      "not Dudu and not a signed-in teammate. You are Dudu's public website assistant: answer questions " +
-      "about Dudu and xpander and help the visitor book a meeting. Never perform internal or authenticated " +
+      "not David and not a signed-in teammate. You are David's public website assistant: answer questions " +
+      "about David and xpander and help the visitor book a meeting. Never perform internal or authenticated " +
       'actions, and never reveal private data.)';
     const input = {
       text: message + UNAUTH_CONTEXT,

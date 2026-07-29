@@ -23,9 +23,9 @@
   #dm-form button { padding: 0 14px; border-radius: 10px; border: 0; background: #216e39; color: #fff; cursor: pointer; font-weight: 600; }
 </style>
 
-<button id="dm-btn" aria-label="Chat with Dudu's AI to book a meeting" title="Chat with my AI">💬</button>
+<button id="dm-btn" aria-label="Chat with David's AI to book a meeting" title="Chat with my AI">💬</button>
 <div id="dm-panel" role="dialog" aria-label="Book a meeting">
-  <div id="dm-head"><span>Dudu's AI<small>Ask about my work or book a meeting</small></span><button id="dm-close" aria-label="Close">×</button></div>
+  <div id="dm-head"><span>David's AI<small>Ask about my work or book a meeting</small></span><button id="dm-close" aria-label="Close">×</button></div>
   <div id="dm-msgs"></div>
   <form id="dm-form"><input id="dm-input" autocomplete="off" placeholder="Ask me anything, or say 'book a meeting'…" /><button type="submit">Send</button></form>
 </div>
@@ -43,7 +43,7 @@
   var conversationId = (window.crypto && crypto.randomUUID) ? crypto.randomUUID() : 'c-' + Date.now() + '-' + Math.floor(Math.random() * 1e9);
 
   function add(text, who) { var d = document.createElement('div'); d.className = 'm ' + who; d.textContent = text; msgs.appendChild(d); msgs.scrollTop = msgs.scrollHeight; return d; }
-  function open() { panel.classList.add('open'); input.focus(); if (!greeted) { greeted = true; add("Hey, I'm Dudu's AI. Ask me about his work, or tell me you'd like to meet and I'll help you book a time.", 'bot'); } }
+  function open() { panel.classList.add('open'); input.focus(); if (!greeted) { greeted = true; add("Hey, I'm David's AI. Ask me about his work, or tell me you'd like to meet and I'll help you book a time.", 'bot'); } }
   btn.addEventListener('click', function () { panel.classList.contains('open') ? panel.classList.remove('open') : open(); });
   document.getElementById('dm-close').addEventListener('click', function () { panel.classList.remove('open'); });
 

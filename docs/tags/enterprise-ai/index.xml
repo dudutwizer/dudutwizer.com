@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Enterprise AI on Dudu Twizer&#39;s Site</title>
+    <title>Enterprise AI on David Twizer&#39;s Site</title>
     <link>https://dudutwizer.com/tags/enterprise-ai/</link>
-    <description>Recent content in Enterprise AI on Dudu Twizer&#39;s Site</description>
+    <description>Recent content in Enterprise AI on David Twizer&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>Dudu Twizer</managingEditor>
-    <webMaster>Dudu Twizer</webMaster>
+    <managingEditor>David Twizer</managingEditor>
+    <webMaster>David Twizer</webMaster>
     <lastBuildDate>Thu, 02 Jul 2026 09:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/enterprise-ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Own Your AI Stack</title>
       <link>https://dudutwizer.com/blogs/own-your-ai-stack/</link>
       <pubDate>Thu, 02 Jul 2026 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/blogs/own-your-ai-stack/</guid>
       <description>They don&amp;rsquo;t give you an AI stack. They give you dependency.</description>
     </item>
@@ -22,7 +22,7 @@
       <title>Why Your Organization Needs Agent Infrastructure, Not More Agents</title>
       <link>https://dudutwizer.com/blogs/why-your-organization-needs-agent-infrastructure-not-more-agents/</link>
       <pubDate>Thu, 15 Jan 2026 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/blogs/why-your-organization-needs-agent-infrastructure-not-more-agents/</guid>
       <description>The gap between &amp;ldquo;we have 5 agents&amp;rdquo; and &amp;ldquo;we have 500 agents&amp;rdquo; is not filled by buying more products. It is filled by building the foundation.</description>
     </item>
@@ -31,7 +31,7 @@
       <title>We&#39;re Not the Only Ones Building Agent Infrastructure. Here&#39;s the Difference.</title>
       <link>https://dudutwizer.com/blogs/not-the-only-ones-building-agent-infrastructure/</link>
       <pubDate>Tue, 13 Jan 2026 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/blogs/not-the-only-ones-building-agent-infrastructure/</guid>
       <description>An external vertical agent is not an internal agent. A platform that wraps your code and takes over the runtime is not really infrastructure.</description>
     </item>
@@ -40,7 +40,7 @@
       <title>Stop Building Startups Like It&#39;s 2024</title>
       <link>https://dudutwizer.com/blogs/stop-building-startups-like-2024/</link>
       <pubDate>Fri, 01 Aug 2025 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/blogs/stop-building-startups-like-2024/</guid>
       <description>Stop building for procurement. Start building for real autonomous transformation.</description>
     </item>
@@ -49,7 +49,7 @@
       <title>From Manual to Autonomous: Revolutionize Business Tasks In-House</title>
       <link>https://dudutwizer.com/blogs/from-manual-to-autonomous/</link>
       <pubDate>Mon, 18 Nov 2024 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/blogs/from-manual-to-autonomous/</guid>
       <description>How enterprises can build and deploy AI agents in-house: autonomous digital workers that automate complex tasks while keeping full control over data, security, and cost.</description>
     </item>

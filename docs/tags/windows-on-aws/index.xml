@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Windows on AWS on Dudu Twizer&#39;s Site</title>
+    <title>Windows on AWS on David Twizer&#39;s Site</title>
     <link>https://dudutwizer.com/tags/windows-on-aws/</link>
-    <description>Recent content in Windows on AWS on Dudu Twizer&#39;s Site</description>
+    <description>Recent content in Windows on AWS on David Twizer&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>Dudu Twizer</managingEditor>
-    <webMaster>Dudu Twizer</webMaster>
+    <managingEditor>David Twizer</managingEditor>
+    <webMaster>David Twizer</webMaster>
     <lastBuildDate>Thu, 06 Jan 2022 16:51:17 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/windows-on-aws/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cdk Skylight</title>
       <link>https://dudutwizer.com/opensource/cdk-skylight/</link>
       <pubDate>Thu, 06 Jan 2022 16:51:17 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/opensource/cdk-skylight/</guid>
       <description>&lt;a
   class=&#34;github-button&#34;
@@ -42,7 +42,7 @@
       <title>Optimizing EC2 Workloads with Amazon CloudWatch</title>
       <link>https://dudutwizer.com/blogs/optimize-ec2-workloads-with-cloudwatch/</link>
       <pubDate>Wed, 09 Jun 2021 16:44:58 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/blogs/optimize-ec2-workloads-with-cloudwatch/</guid>
       <description>&lt;p&gt;Many customers ask for our advice on choosing the ‘best’ or the ‘right’ storage and instance configuration, but there is no one solution that fits all circumstances. This blog post covers the critical techniques to right-size your workloads. We focus on right-sizing a SQL Server as our example workload, but the techniques we will demonstrate apply equally to any Amazon EC2 instance running any operating system or workload.&lt;/p&gt;
 &lt;p&gt;We create and use an Amazon CloudWatch dashboard to highlight any limits and bottlenecks within our example instance. Using our dashboard, we can ensure that we are using the right instance type and size, and the right storage volume configuration. The dimensions we look into are EC2 Network throughput, Amazon EBS throughput and IOPS, and the relationship between instance size and Amazon EBS performance.&lt;/p&gt;</description>
@@ -52,7 +52,7 @@
       <title>Reduce complexity &amp; cost for Microsoft SQL with Amazon FSx for Windows (Hebrew)</title>
       <link>https://dudutwizer.com/videos/how-to-run-sql-on-fsx-webinar/</link>
       <pubDate>Wed, 01 Jul 2020 17:36:18 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/videos/how-to-run-sql-on-fsx-webinar/</guid>
       <description>&lt;p&gt;In this webinar we will learn and discuss different SQL deployments and why preferred option for high availability deployments has traditionally been difficult to deploy and manage.&lt;/p&gt;
 &lt;p&gt;During the webinar, we will walk you through a Demo on how to deploy and configure Windows fail over cluster using Amazon FSx for windows to achieve a simple architecture and reduce operational overhead and licensing costs.&lt;/p&gt;
@@ -65,7 +65,7 @@
       <title>Running SQL Server with Amazon FSx as a shared storage</title>
       <link>https://dudutwizer.com/blogs/sql-on-fsx/</link>
       <pubDate>Fri, 06 Mar 2020 13:07:25 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/blogs/sql-on-fsx/</guid>
       <description>&lt;p&gt;With Amazon FSx, you get fully managed shared file storage that automatically replicates the storage synchronously across two Availability Zones. Moreover, Amazon FSx provides high availability with automatic failure detection, failover, and failback. The service also fully supports the SMB Continuous Availability (CA) feature required to support SQL Server Always On FCI deployments.&lt;/p&gt;
 &lt;p&gt;For those of you who chose to deploy SQL AG with Enterprise Edition licenses, to avoid the complexity and cost of using FCI with shared storage, now you can use Standard Edition licenses. This will save you 50–60% in license costs. It will also simplify the overall complexity of your SQL deployment and ongoing management (like not needing to replicate system database objects across all replicas, which you must do in AG deployments).&lt;/p&gt;</description>

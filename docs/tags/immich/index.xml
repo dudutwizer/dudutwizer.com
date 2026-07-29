@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Immich on Dudu Twizer&#39;s Site</title>
+    <title>Immich on David Twizer&#39;s Site</title>
     <link>https://dudutwizer.com/tags/immich/</link>
-    <description>Recent content in Immich on Dudu Twizer&#39;s Site</description>
+    <description>Recent content in Immich on David Twizer&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>Dudu Twizer</managingEditor>
-    <webMaster>Dudu Twizer</webMaster>
+    <managingEditor>David Twizer</managingEditor>
+    <webMaster>David Twizer</webMaster>
     <lastBuildDate>Sun, 26 Jul 2026 10:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/immich/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Self-Hosting Immich on EC2, with the Photo Library on S3</title>
       <link>https://dudutwizer.com/blogs/self-hosting-immich-ec2-s3/</link>
       <pubDate>Sun, 26 Jul 2026 10:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/blogs/self-hosting-immich-ec2-s3/</guid>
       <description>How I run my own Google Photos: Immich on a Graviton EC2 box, originals on an S3 rclone mount, hot data on EBS, private over Tailscale, with a real Let&amp;rsquo;s Encrypt cert and zero open ports.</description>
     </item>

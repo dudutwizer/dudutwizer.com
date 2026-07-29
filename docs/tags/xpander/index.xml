@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Xpander on Dudu Twizer&#39;s Site</title>
+    <title>Xpander on David Twizer&#39;s Site</title>
     <link>https://dudutwizer.com/tags/xpander/</link>
-    <description>Recent content in Xpander on Dudu Twizer&#39;s Site</description>
+    <description>Recent content in Xpander on David Twizer&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>Dudu Twizer</managingEditor>
-    <webMaster>Dudu Twizer</webMaster>
+    <managingEditor>David Twizer</managingEditor>
+    <webMaster>David Twizer</webMaster>
     <lastBuildDate>Mon, 27 Jul 2026 09:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/xpander/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Get iOS Push Notifications When Your Agent Finishes (or Fails)</title>
       <link>https://dudutwizer.com/blogs/ios-push-notifications-for-agent-tasks/</link>
       <pubDate>Mon, 27 Jul 2026 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/blogs/ios-push-notifications-for-agent-tasks/</guid>
       <description>Wire an xpander agent&amp;rsquo;s success/error webhook into hark.ryan.ceo and your phone buzzes the moment a long-running agent task finishes - no polling, no forgotten tabs.</description>
     </item>
@@ -22,7 +22,7 @@
       <title>Two API Calls to Put an AI Agent on a Static Site</title>
       <link>https://dudutwizer.com/blogs/chatbot-static-site-cloudflare-worker/</link>
       <pubDate>Sun, 26 Jul 2026 13:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/blogs/chatbot-static-site-cloudflare-worker/</guid>
       <description>The &amp;ldquo;Chat with my AI&amp;rdquo; button is a real xpander agent - created with one API call, streamed with another, and dropped onto a static site behind a tiny key-holding Worker.</description>
     </item>
@@ -31,7 +31,7 @@
       <title>An Agent That Closes the Troubleshooting Loop</title>
       <link>https://dudutwizer.com/blogs/datadog-github-troubleshooting-agent/</link>
       <pubDate>Tue, 15 Apr 2025 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/blogs/datadog-github-troubleshooting-agent/</guid>
       <description>Automating the entire troubleshooting loop across Datadog logs and GitHub Actions. No tickets, no waiting.</description>
     </item>
@@ -40,7 +40,7 @@
       <title>xpander.ai &#43; OpenAI Realtime API</title>
       <link>https://dudutwizer.com/blogs/xpander-openai-realtime-api/</link>
       <pubDate>Thu, 03 Oct 2024 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/blogs/xpander-openai-realtime-api/</guid>
       <description>Real-time function calls across any system: 1st-party APIs, 3rd-party services, or custom platforms.</description>
     </item>
@@ -49,7 +49,7 @@
       <title>xpander.ai &#43; NVIDIA NIM</title>
       <link>https://dudutwizer.com/blogs/xpander-nvidia-nim-integration/</link>
       <pubDate>Mon, 16 Sep 2024 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/blogs/xpander-nvidia-nim-integration/</guid>
       <description>A Text-to-Action runtime that turns text inputs into tangible results with graph-driven agents.</description>
     </item>

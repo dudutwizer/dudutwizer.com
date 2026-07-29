@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Static Site on Dudu Twizer&#39;s Site</title>
+    <title>Static Site on David Twizer&#39;s Site</title>
     <link>https://dudutwizer.com/tags/static-site/</link>
-    <description>Recent content in Static Site on Dudu Twizer&#39;s Site</description>
+    <description>Recent content in Static Site on David Twizer&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>Dudu Twizer</managingEditor>
-    <webMaster>Dudu Twizer</webMaster>
+    <managingEditor>David Twizer</managingEditor>
+    <webMaster>David Twizer</webMaster>
     <lastBuildDate>Sun, 26 Jul 2026 12:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/static-site/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How This Site Is Built</title>
       <link>https://dudutwizer.com/blogs/how-this-site-is-built/</link>
       <pubDate>Sun, 26 Jul 2026 12:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/blogs/how-this-site-is-built/</guid>
       <description>A static Hugo site on GitHub Pages, fronted by Cloudflare, with zero backend - except one small Worker for the chat.</description>
     </item>

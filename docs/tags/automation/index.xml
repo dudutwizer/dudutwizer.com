@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Automation on Dudu Twizer&#39;s Site</title>
+    <title>Automation on David Twizer&#39;s Site</title>
     <link>https://dudutwizer.com/tags/automation/</link>
-    <description>Recent content in Automation on Dudu Twizer&#39;s Site</description>
+    <description>Recent content in Automation on David Twizer&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>Dudu Twizer</managingEditor>
-    <webMaster>Dudu Twizer</webMaster>
+    <managingEditor>David Twizer</managingEditor>
+    <webMaster>David Twizer</webMaster>
     <lastBuildDate>Sun, 26 Jul 2026 11:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/automation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Home Assistant Setup, and the Blinds That Track the Sun</title>
       <link>https://dudutwizer.com/blogs/home-assistant-lutron-covers/</link>
       <pubDate>Sun, 26 Jul 2026 11:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/blogs/home-assistant-lutron-covers/</guid>
       <description>Home Assistant OS on a Raspberry Pi 4, seven Lutron Caséta blinds driven by the Adaptive Cover integration, and an OpenClaw agent living on the Pi as an add-on.</description>
     </item>
@@ -22,7 +22,7 @@
       <title>From Manual to Autonomous: Revolutionize Business Tasks In-House</title>
       <link>https://dudutwizer.com/blogs/from-manual-to-autonomous/</link>
       <pubDate>Mon, 18 Nov 2024 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/blogs/from-manual-to-autonomous/</guid>
       <description>How enterprises can build and deploy AI agents in-house: autonomous digital workers that automate complex tasks while keeping full control over data, security, and cost.</description>
     </item>
@@ -31,7 +31,7 @@
       <title>Cdk Skylight</title>
       <link>https://dudutwizer.com/opensource/cdk-skylight/</link>
       <pubDate>Thu, 06 Jan 2022 16:51:17 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/opensource/cdk-skylight/</guid>
       <description>&lt;a
   class=&#34;github-button&#34;

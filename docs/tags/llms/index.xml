@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>LLMs on Dudu Twizer&#39;s Site</title>
+    <title>LLMs on David Twizer&#39;s Site</title>
     <link>https://dudutwizer.com/tags/llms/</link>
-    <description>Recent content in LLMs on Dudu Twizer&#39;s Site</description>
+    <description>Recent content in LLMs on David Twizer&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>Dudu Twizer</managingEditor>
-    <webMaster>Dudu Twizer</webMaster>
+    <managingEditor>David Twizer</managingEditor>
+    <webMaster>David Twizer</webMaster>
     <lastBuildDate>Fri, 12 Dec 2025 09:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/llms/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ChatGPT 5.2: What You Really Need to Know</title>
       <link>https://dudutwizer.com/blogs/chatgpt-5-2-what-you-really-need-to-know/</link>
       <pubDate>Fri, 12 Dec 2025 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/blogs/chatgpt-5-2-what-you-really-need-to-know/</guid>
       <description>A lot of &amp;ldquo;knowledge work&amp;rdquo; is now delegatable. The value shifts from doing the task to scoping it well.</description>
     </item>

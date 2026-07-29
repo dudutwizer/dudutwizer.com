@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Future of Work on Dudu Twizer&#39;s Site</title>
+    <title>Future of Work on David Twizer&#39;s Site</title>
     <link>https://dudutwizer.com/tags/future-of-work/</link>
-    <description>Recent content in Future of Work on Dudu Twizer&#39;s Site</description>
+    <description>Recent content in Future of Work on David Twizer&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>Dudu Twizer</managingEditor>
-    <webMaster>Dudu Twizer</webMaster>
+    <managingEditor>David Twizer</managingEditor>
+    <webMaster>David Twizer</webMaster>
     <lastBuildDate>Mon, 09 Mar 2026 09:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/future-of-work/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Anthropic Says AI Hasn&#39;t Impacted Jobs. Read It Again.</title>
       <link>https://dudutwizer.com/blogs/anthropic-jobs-paper-read-it-again/</link>
       <pubDate>Mon, 09 Mar 2026 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/blogs/anthropic-jobs-paper-read-it-again/</guid>
       <description>Jobs aren&amp;rsquo;t disappearing. They&amp;rsquo;re splitting. Every role is becoming a human+AI role.</description>
     </item>
@@ -22,7 +22,7 @@
       <title>ChatGPT 5.2: What You Really Need to Know</title>
       <link>https://dudutwizer.com/blogs/chatgpt-5-2-what-you-really-need-to-know/</link>
       <pubDate>Fri, 12 Dec 2025 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/blogs/chatgpt-5-2-what-you-really-need-to-know/</guid>
       <description>A lot of &amp;ldquo;knowledge work&amp;rdquo; is now delegatable. The value shifts from doing the task to scoping it well.</description>
     </item>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Dudu Twizer&#39;s Site</title>
+    <title>Tags on David Twizer&#39;s Site</title>
     <link>https://dudutwizer.com/tags/</link>
-    <description>Recent content in Tags on Dudu Twizer&#39;s Site</description>
+    <description>Recent content in Tags on David Twizer&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>Dudu Twizer</managingEditor>
-    <webMaster>Dudu Twizer</webMaster>
+    <managingEditor>David Twizer</managingEditor>
+    <webMaster>David Twizer</webMaster>
     <lastBuildDate>Mon, 27 Jul 2026 09:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI Agents</title>
       <link>https://dudutwizer.com/tags/ai-agents/</link>
       <pubDate>Mon, 27 Jul 2026 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/ai-agents/</guid>
       <description></description>
     </item>
@@ -22,7 +22,7 @@
       <title>IOS</title>
       <link>https://dudutwizer.com/tags/ios/</link>
       <pubDate>Mon, 27 Jul 2026 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/ios/</guid>
       <description></description>
     </item>
@@ -31,7 +31,7 @@
       <title>Notifications</title>
       <link>https://dudutwizer.com/tags/notifications/</link>
       <pubDate>Mon, 27 Jul 2026 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/notifications/</guid>
       <description></description>
     </item>
@@ -40,7 +40,7 @@
       <title>Product</title>
       <link>https://dudutwizer.com/tags/product/</link>
       <pubDate>Mon, 27 Jul 2026 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/product/</guid>
       <description></description>
     </item>
@@ -49,7 +49,7 @@
       <title>Xpander</title>
       <link>https://dudutwizer.com/tags/xpander/</link>
       <pubDate>Mon, 27 Jul 2026 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/xpander/</guid>
       <description></description>
     </item>
@@ -58,7 +58,7 @@
       <title>Cloudflare Workers</title>
       <link>https://dudutwizer.com/tags/cloudflare-workers/</link>
       <pubDate>Sun, 26 Jul 2026 13:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/cloudflare-workers/</guid>
       <description></description>
     </item>
@@ -67,7 +67,7 @@
       <title>SSE</title>
       <link>https://dudutwizer.com/tags/sse/</link>
       <pubDate>Sun, 26 Jul 2026 13:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/sse/</guid>
       <description></description>
     </item>
@@ -76,7 +76,7 @@
       <title>Cloudflare</title>
       <link>https://dudutwizer.com/tags/cloudflare/</link>
       <pubDate>Sun, 26 Jul 2026 12:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/cloudflare/</guid>
       <description></description>
     </item>
@@ -85,7 +85,7 @@
       <title>GitHub Pages</title>
       <link>https://dudutwizer.com/tags/github-pages/</link>
       <pubDate>Sun, 26 Jul 2026 12:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/github-pages/</guid>
       <description></description>
     </item>
@@ -94,7 +94,7 @@
       <title>Hugo</title>
       <link>https://dudutwizer.com/tags/hugo/</link>
       <pubDate>Sun, 26 Jul 2026 12:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/hugo/</guid>
       <description></description>
     </item>
@@ -103,7 +103,7 @@
       <title>Static Site</title>
       <link>https://dudutwizer.com/tags/static-site/</link>
       <pubDate>Sun, 26 Jul 2026 12:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/static-site/</guid>
       <description></description>
     </item>
@@ -112,7 +112,7 @@
       <title>Automation</title>
       <link>https://dudutwizer.com/tags/automation/</link>
       <pubDate>Sun, 26 Jul 2026 11:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/automation/</guid>
       <description></description>
     </item>
@@ -121,7 +121,7 @@
       <title>Home Assistant</title>
       <link>https://dudutwizer.com/tags/home-assistant/</link>
       <pubDate>Sun, 26 Jul 2026 11:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/home-assistant/</guid>
       <description></description>
     </item>
@@ -130,7 +130,7 @@
       <title>Homelab</title>
       <link>https://dudutwizer.com/tags/homelab/</link>
       <pubDate>Sun, 26 Jul 2026 11:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/homelab/</guid>
       <description></description>
     </item>
@@ -139,7 +139,7 @@
       <title>Lutron</title>
       <link>https://dudutwizer.com/tags/lutron/</link>
       <pubDate>Sun, 26 Jul 2026 11:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/lutron/</guid>
       <description></description>
     </item>
@@ -148,7 +148,7 @@
       <title>AWS</title>
       <link>https://dudutwizer.com/tags/aws/</link>
       <pubDate>Sun, 26 Jul 2026 10:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/aws/</guid>
       <description></description>
     </item>
@@ -157,7 +157,7 @@
       <title>Immich</title>
       <link>https://dudutwizer.com/tags/immich/</link>
       <pubDate>Sun, 26 Jul 2026 10:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/immich/</guid>
       <description></description>
     </item>
@@ -166,7 +166,7 @@
       <title>Self-Hosting</title>
       <link>https://dudutwizer.com/tags/self-hosting/</link>
       <pubDate>Sun, 26 Jul 2026 10:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/self-hosting/</guid>
       <description></description>
     </item>
@@ -175,7 +175,7 @@
       <title>Tailscale</title>
       <link>https://dudutwizer.com/tags/tailscale/</link>
       <pubDate>Sun, 26 Jul 2026 10:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/tailscale/</guid>
       <description></description>
     </item>
@@ -184,7 +184,7 @@
       <title>AI</title>
       <link>https://dudutwizer.com/tags/ai/</link>
       <pubDate>Sun, 12 Jul 2026 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/ai/</guid>
       <description></description>
     </item>
@@ -193,7 +193,7 @@
       <title>Platform Engineering</title>
       <link>https://dudutwizer.com/tags/platform-engineering/</link>
       <pubDate>Sun, 12 Jul 2026 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/platform-engineering/</guid>
       <description></description>
     </item>
@@ -202,7 +202,7 @@
       <title>Pricing</title>
       <link>https://dudutwizer.com/tags/pricing/</link>
       <pubDate>Sun, 12 Jul 2026 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/pricing/</guid>
       <description></description>
     </item>
@@ -211,7 +211,7 @@
       <title>Enterprise AI</title>
       <link>https://dudutwizer.com/tags/enterprise-ai/</link>
       <pubDate>Thu, 02 Jul 2026 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/enterprise-ai/</guid>
       <description></description>
     </item>
@@ -220,7 +220,7 @@
       <title>Vendor Lock-In</title>
       <link>https://dudutwizer.com/tags/vendor-lock-in/</link>
       <pubDate>Thu, 02 Jul 2026 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/vendor-lock-in/</guid>
       <description></description>
     </item>
@@ -229,7 +229,7 @@
       <title>Productivity</title>
       <link>https://dudutwizer.com/tags/productivity/</link>
       <pubDate>Wed, 10 Jun 2026 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/productivity/</guid>
       <description></description>
     </item>
@@ -238,7 +238,7 @@
       <title>SaaS</title>
       <link>https://dudutwizer.com/tags/saas/</link>
       <pubDate>Tue, 05 May 2026 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/saas/</guid>
       <description></description>
     </item>
@@ -247,7 +247,7 @@
       <title>Workflow</title>
       <link>https://dudutwizer.com/tags/workflow/</link>
       <pubDate>Sat, 02 May 2026 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/workflow/</guid>
       <description></description>
     </item>
@@ -256,7 +256,7 @@
       <title>AI Employees</title>
       <link>https://dudutwizer.com/tags/ai-employees/</link>
       <pubDate>Mon, 09 Mar 2026 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/ai-employees/</guid>
       <description></description>
     </item>
@@ -265,7 +265,7 @@
       <title>Future of Work</title>
       <link>https://dudutwizer.com/tags/future-of-work/</link>
       <pubDate>Mon, 09 Mar 2026 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/future-of-work/</guid>
       <description></description>
     </item>
@@ -274,7 +274,7 @@
       <title>Agent Infrastructure</title>
       <link>https://dudutwizer.com/tags/agent-infrastructure/</link>
       <pubDate>Thu, 15 Jan 2026 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/agent-infrastructure/</guid>
       <description></description>
     </item>
@@ -283,7 +283,7 @@
       <title>LLMs</title>
       <link>https://dudutwizer.com/tags/llms/</link>
       <pubDate>Fri, 12 Dec 2025 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/llms/</guid>
       <description></description>
     </item>
@@ -292,7 +292,7 @@
       <title>API Design</title>
       <link>https://dudutwizer.com/tags/api-design/</link>
       <pubDate>Sat, 15 Nov 2025 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/api-design/</guid>
       <description></description>
     </item>
@@ -301,7 +301,7 @@
       <title>Architecture</title>
       <link>https://dudutwizer.com/tags/architecture/</link>
       <pubDate>Sat, 15 Nov 2025 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/architecture/</guid>
       <description></description>
     </item>
@@ -310,7 +310,7 @@
       <title>Structured Output</title>
       <link>https://dudutwizer.com/tags/structured-output/</link>
       <pubDate>Sat, 15 Nov 2025 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/structured-output/</guid>
       <description></description>
     </item>
@@ -319,7 +319,7 @@
       <title>Engineering</title>
       <link>https://dudutwizer.com/tags/engineering/</link>
       <pubDate>Tue, 11 Nov 2025 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/engineering/</guid>
       <description></description>
     </item>
@@ -328,7 +328,7 @@
       <title>Google Drive</title>
       <link>https://dudutwizer.com/tags/google-drive/</link>
       <pubDate>Tue, 11 Nov 2025 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/google-drive/</guid>
       <description></description>
     </item>
@@ -337,7 +337,7 @@
       <title>Memory</title>
       <link>https://dudutwizer.com/tags/memory/</link>
       <pubDate>Tue, 11 Nov 2025 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/memory/</guid>
       <description></description>
     </item>
@@ -346,7 +346,7 @@
       <title>Tutorial</title>
       <link>https://dudutwizer.com/tags/tutorial/</link>
       <pubDate>Tue, 11 Nov 2025 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/tutorial/</guid>
       <description></description>
     </item>
@@ -355,7 +355,7 @@
       <title>Slack</title>
       <link>https://dudutwizer.com/tags/slack/</link>
       <pubDate>Thu, 07 Aug 2025 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/slack/</guid>
       <description></description>
     </item>
@@ -364,7 +364,7 @@
       <title>Startups</title>
       <link>https://dudutwizer.com/tags/startups/</link>
       <pubDate>Fri, 01 Aug 2025 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/startups/</guid>
       <description></description>
     </item>
@@ -373,7 +373,7 @@
       <title>Agent Graph System</title>
       <link>https://dudutwizer.com/tags/agent-graph-system/</link>
       <pubDate>Mon, 21 Apr 2025 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/agent-graph-system/</guid>
       <description></description>
     </item>
@@ -382,7 +382,7 @@
       <title>Autonomy</title>
       <link>https://dudutwizer.com/tags/autonomy/</link>
       <pubDate>Mon, 21 Apr 2025 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/autonomy/</guid>
       <description></description>
     </item>
@@ -391,7 +391,7 @@
       <title>DevOps</title>
       <link>https://dudutwizer.com/tags/devops/</link>
       <pubDate>Tue, 15 Apr 2025 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/devops/</guid>
       <description></description>
     </item>
@@ -400,7 +400,7 @@
       <title>Deep Dive</title>
       <link>https://dudutwizer.com/tags/deep-dive/</link>
       <pubDate>Mon, 31 Mar 2025 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/deep-dive/</guid>
       <description></description>
     </item>
@@ -409,7 +409,7 @@
       <title>MCP</title>
       <link>https://dudutwizer.com/tags/mcp/</link>
       <pubDate>Mon, 31 Mar 2025 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/mcp/</guid>
       <description></description>
     </item>
@@ -418,7 +418,7 @@
       <title>AI Workforce</title>
       <link>https://dudutwizer.com/tags/ai-workforce/</link>
       <pubDate>Thu, 02 Jan 2025 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/ai-workforce/</guid>
       <description></description>
     </item>
@@ -427,7 +427,7 @@
       <title>Opinion</title>
       <link>https://dudutwizer.com/tags/opinion/</link>
       <pubDate>Thu, 02 Jan 2025 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/opinion/</guid>
       <description></description>
     </item>
@@ -436,7 +436,7 @@
       <title>Benchmarks</title>
       <link>https://dudutwizer.com/tags/benchmarks/</link>
       <pubDate>Wed, 20 Nov 2024 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/benchmarks/</guid>
       <description></description>
     </item>
@@ -445,7 +445,7 @@
       <title>Function Calling</title>
       <link>https://dudutwizer.com/tags/function-calling/</link>
       <pubDate>Wed, 20 Nov 2024 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/function-calling/</guid>
       <description></description>
     </item>
@@ -454,7 +454,7 @@
       <title>OpenAI</title>
       <link>https://dudutwizer.com/tags/openai/</link>
       <pubDate>Thu, 03 Oct 2024 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/openai/</guid>
       <description></description>
     </item>
@@ -463,7 +463,7 @@
       <title>NVIDIA</title>
       <link>https://dudutwizer.com/tags/nvidia/</link>
       <pubDate>Mon, 16 Sep 2024 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/nvidia/</guid>
       <description></description>
     </item>
@@ -472,7 +472,7 @@
       <title>AWS Events</title>
       <link>https://dudutwizer.com/tags/aws-events/</link>
       <pubDate>Wed, 06 Jul 2022 02:22:49 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/aws-events/</guid>
       <description></description>
     </item>
@@ -481,7 +481,7 @@
       <title>Cell Based Architecture</title>
       <link>https://dudutwizer.com/tags/cell-based-architecture/</link>
       <pubDate>Wed, 06 Jul 2022 02:22:49 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/cell-based-architecture/</guid>
       <description></description>
     </item>
@@ -490,7 +490,7 @@
       <title>Shuffle Sharding</title>
       <link>https://dudutwizer.com/tags/shuffle-sharding/</link>
       <pubDate>Wed, 06 Jul 2022 02:22:49 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/shuffle-sharding/</guid>
       <description></description>
     </item>
@@ -499,7 +499,7 @@
       <title>Tel Aviv Summit 2022</title>
       <link>https://dudutwizer.com/tags/tel-aviv-summit-2022/</link>
       <pubDate>Wed, 06 Jul 2022 02:22:49 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/tel-aviv-summit-2022/</guid>
       <description></description>
     </item>
@@ -508,7 +508,7 @@
       <title>Amazon CDK</title>
       <link>https://dudutwizer.com/tags/amazon-cdk/</link>
       <pubDate>Thu, 06 Jan 2022 16:51:17 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/amazon-cdk/</guid>
       <description></description>
     </item>
@@ -517,7 +517,7 @@
       <title>CI/CD</title>
       <link>https://dudutwizer.com/tags/ci/cd/</link>
       <pubDate>Thu, 06 Jan 2022 16:51:17 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/ci/cd/</guid>
       <description></description>
     </item>
@@ -526,7 +526,7 @@
       <title>Windows on AWS</title>
       <link>https://dudutwizer.com/tags/windows-on-aws/</link>
       <pubDate>Thu, 06 Jan 2022 16:51:17 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/windows-on-aws/</guid>
       <description></description>
     </item>
@@ -535,7 +535,7 @@
       <title>ReInvent 2021</title>
       <link>https://dudutwizer.com/tags/reinvent-2021/</link>
       <pubDate>Wed, 01 Dec 2021 17:06:59 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/reinvent-2021/</guid>
       <description></description>
     </item>
@@ -544,7 +544,7 @@
       <title>Amazon CloudWatch</title>
       <link>https://dudutwizer.com/tags/amazon-cloudwatch/</link>
       <pubDate>Wed, 09 Jun 2021 16:44:58 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/amazon-cloudwatch/</guid>
       <description></description>
     </item>
@@ -553,7 +553,7 @@
       <title>EC2 Windows</title>
       <link>https://dudutwizer.com/tags/ec2-windows/</link>
       <pubDate>Wed, 09 Jun 2021 16:44:58 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/ec2-windows/</guid>
       <description></description>
     </item>
@@ -562,7 +562,7 @@
       <title>SQL Server</title>
       <link>https://dudutwizer.com/tags/sql-server/</link>
       <pubDate>Wed, 09 Jun 2021 16:44:58 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/sql-server/</guid>
       <description></description>
     </item>
@@ -571,7 +571,7 @@
       <title>Amazon FSx for Windows</title>
       <link>https://dudutwizer.com/tags/amazon-fsx-for-windows/</link>
       <pubDate>Wed, 01 Jul 2020 17:36:18 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/amazon-fsx-for-windows/</guid>
       <description></description>
     </item>
@@ -580,7 +580,7 @@
       <title>Tel Aviv Summit 2019</title>
       <link>https://dudutwizer.com/tags/tel-aviv-summit-2019/</link>
       <pubDate>Fri, 01 Mar 2019 17:02:38 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/tel-aviv-summit-2019/</guid>
       <description></description>
     </item>

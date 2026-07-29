@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>OpenAI on Dudu Twizer&#39;s Site</title>
+    <title>OpenAI on David Twizer&#39;s Site</title>
     <link>https://dudutwizer.com/tags/openai/</link>
-    <description>Recent content in OpenAI on Dudu Twizer&#39;s Site</description>
+    <description>Recent content in OpenAI on David Twizer&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>Dudu Twizer</managingEditor>
-    <webMaster>Dudu Twizer</webMaster>
+    <managingEditor>David Twizer</managingEditor>
+    <webMaster>David Twizer</webMaster>
     <lastBuildDate>Thu, 03 Oct 2024 09:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/openai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>xpander.ai &#43; OpenAI Realtime API</title>
       <link>https://dudutwizer.com/blogs/xpander-openai-realtime-api/</link>
       <pubDate>Thu, 03 Oct 2024 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/blogs/xpander-openai-realtime-api/</guid>
       <description>Real-time function calls across any system: 1st-party APIs, 3rd-party services, or custom platforms.</description>
     </item>

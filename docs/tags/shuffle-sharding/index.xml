@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Shuffle Sharding on Dudu Twizer&#39;s Site</title>
+    <title>Shuffle Sharding on David Twizer&#39;s Site</title>
     <link>https://dudutwizer.com/tags/shuffle-sharding/</link>
-    <description>Recent content in Shuffle Sharding on Dudu Twizer&#39;s Site</description>
+    <description>Recent content in Shuffle Sharding on David Twizer&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>Dudu Twizer</managingEditor>
-    <webMaster>Dudu Twizer</webMaster>
+    <managingEditor>David Twizer</managingEditor>
+    <webMaster>David Twizer</webMaster>
     <lastBuildDate>Wed, 06 Jul 2022 02:22:49 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/shuffle-sharding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Minimize the blast radius of your applications</title>
       <link>https://dudutwizer.com/videos/minimize-the-blast-radius-of-your-applications/</link>
       <pubDate>Wed, 06 Jul 2022 02:22:49 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/videos/minimize-the-blast-radius-of-your-applications/</guid>
       <description>&lt;p&gt;Code sample published in &lt;a
   class=&#34;github-button&#34;
@@ -34,7 +34,7 @@
       <title>Architect Reliable Applications on Aws</title>
       <link>https://dudutwizer.com/workshops/architect-reliable-applications-on-aws/</link>
       <pubDate>Wed, 01 Dec 2021 17:06:59 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/workshops/architect-reliable-applications-on-aws/</guid>
       <description>&lt;a
   class=&#34;github-button&#34;

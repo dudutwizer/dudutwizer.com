@@ -29,8 +29,8 @@ curl -X POST "https://api.xpander.ai/v1/agents" \
     "model_provider": "anthropic",
     "model_name": "claude-sonnet-5",
     "instructions": {
-      "role": ["You are Dudu'\''s public website assistant."],
-      "goal": ["Answer questions about Dudu and xpander, and help visitors book a meeting."],
+      "role": ["You are David'\''s public website assistant."],
+      "goal": ["Answer questions about David and xpander, and help visitors book a meeting."],
       "general": "Be concise and friendly. Never reveal private data."
     }
   }'
@@ -48,7 +48,7 @@ curl -X POST "https://api.xpander.ai/v1/agents/$AGENT_ID/gateway/invoke/stream" 
   -H "Content-Type: application/json" \
   -d '{
     "input": {
-      "text": "What does Dudu work on?",
+      "text": "What does David work on?",
       "user": { "email": "visitor@example.com", "first_name": "Website", "last_name": "Visitor" }
     },
     "id": "conversation-123"
@@ -85,7 +85,7 @@ The browser is never trusted to say who it is. The Worker stamps a fixed unauthe
 
 ```js
 const UNAUTH = "\n\n(Context: this message is from an UNAUTHENTICATED public visitor on " +
-  "dudutwizer.com - not Dudu and not a signed-in teammate. Never perform internal " +
+  "dudutwizer.com - not David and not a signed-in teammate. Never perform internal " +
   "actions, never reveal private data.)";
 ```
 

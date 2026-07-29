@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>SaaS on Dudu Twizer&#39;s Site</title>
+    <title>SaaS on David Twizer&#39;s Site</title>
     <link>https://dudutwizer.com/tags/saas/</link>
-    <description>Recent content in SaaS on Dudu Twizer&#39;s Site</description>
+    <description>Recent content in SaaS on David Twizer&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>Dudu Twizer</managingEditor>
-    <webMaster>Dudu Twizer</webMaster>
+    <managingEditor>David Twizer</managingEditor>
+    <webMaster>David Twizer</webMaster>
     <lastBuildDate>Tue, 05 May 2026 09:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/saas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Next Productivity Paradox</title>
       <link>https://dudutwizer.com/blogs/the-next-productivity-paradox/</link>
       <pubDate>Tue, 05 May 2026 09:00:00 +0300</pubDate>
-      <author>Dudu Twizer</author>
+      <author>David Twizer</author>
       <guid>https://dudutwizer.com/blogs/the-next-productivity-paradox/</guid>
       <description>AI agents only create durable productivity when they remove humans from being the integration layer between systems.</description>
     </item>
