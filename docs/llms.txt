@@ -1,52 +1,48 @@
 # David Twizer
 
-> Personal site of David (Dudu) Twizer, Co-Founder & CEO of xpander.ai. Essays on AI agents and agent infrastructure, product engineering deep-dives, and homelab write-ups. Before xpander: ~7 years at AWS, most recently leading GenAI Specialist Solutions Architecture across EMEA.
+> David (Dudu) Twizer — Co-Founder & CEO of xpander.ai, agent infrastructure that runs in your own environment so AI agents can own real multi-step workflows for hours or days. Ex-AWS: ~7 years, most recently leading GenAI Specialist Solutions Architecture across EMEA. Thesis: every role is becoming a human+AI role.
 
-David builds agent infrastructure that runs inside your own environment — your permissions, your APIs, your constraints — so agents can own real, multi-step workflows for hours or days, not just answer questions in a chat box. His bet: every role is becoming a human+AI role, and the companies that learn to onboard, govern, and manage AI employees alongside people will win the next decade.
-
-Site: https://dudutwizer.com — static Hugo site; the "Chat with my AI" button is a live xpander agent that answers questions about David and can help book a meeting.
+Site: https://dudutwizer.com (static Hugo). Email: david@twizer.net. X: @DuduTwizer. To book a meeting with David, use the site's chat widget. All post URLs are under https://dudutwizer.com/blogs/<slug>/.
 
 ## Essays: AI Agents & the Industry
 
-- [Intelligence Per Hour: The Next AI Pricing Model](https://dudutwizer.com/blogs/intelligence-per-hour-pricing/): The more intelligent the runtime becomes, the more expensive it will be to leave.
-- [Own Your AI Stack](https://dudutwizer.com/blogs/own-your-ai-stack/): They don't give you an AI stack. They give you dependency.
-- [Do You Also Feel Cheated?](https://dudutwizer.com/blogs/do-you-also-feel-cheated/): Instead of full delegation, we are literally working harder, not smarter.
-- [The Next Productivity Paradox](https://dudutwizer.com/blogs/the-next-productivity-paradox/): AI agents only create durable productivity when they remove humans from being the integration layer between systems.
-- [AI as the Micromanager?](https://dudutwizer.com/blogs/ai-as-the-micromanager/): Possibly the most useful AI layer: watching the mess, extracting the work, and telling you what needs to happen next.
-- [Anthropic Says AI Hasn't Impacted Jobs. Read It Again.](https://dudutwizer.com/blogs/anthropic-jobs-paper-read-it-again/): Jobs aren't disappearing. They're splitting. Every role is becoming a human+AI role.
-- [Why Your Organization Needs Agent Infrastructure, Not More Agents](https://dudutwizer.com/blogs/why-your-organization-needs-agent-infrastructure-not-more-agents/): The gap between "we have 5 agents" and "we have 500 agents" is filled by building the foundation, not buying more products.
-- [We're Not the Only Ones Building Agent Infrastructure. Here's the Difference.](https://dudutwizer.com/blogs/not-the-only-ones-building-agent-infrastructure/): An external vertical agent is not an internal agent; a platform that wraps your code and takes over the runtime is not really infrastructure.
-- [ChatGPT 5.2: What You Really Need to Know](https://dudutwizer.com/blogs/chatgpt-5-2-what-you-really-need-to-know/): A lot of "knowledge work" is now delegatable. The value shifts from doing the task to scoping it well.
-- [The API Contract Without the Server](https://dudutwizer.com/blogs/the-api-contract-without-the-server/): How AI agents change the traditional API development model: skip the server layer and let agents work directly with API contracts.
-- [Stop Building Startups Like It's 2024](https://dudutwizer.com/blogs/stop-building-startups-like-2024/): Stop building for procurement. Start building for real autonomous transformation.
-- [Most AI Agents Are Just Fancy Chatbots](https://dudutwizer.com/blogs/most-ai-agents-are-just-fancy-chatbots/): Autonomy without control is chaos. We don't ship chaos. We ship infrastructure.
-- [The Year AI Will Start Building and Managing Other AI Agents](https://dudutwizer.com/blogs/the-year-ai-will-start-building-and-managing-other-ai-agents/): When you have a genie granting three wishes, clever thinkers ask the genie for another genie.
+- [Intelligence Per Hour: The Next AI Pricing Model](/blogs/intelligence-per-hour-pricing/): the smarter the runtime, the pricier it is to leave
+- [Own Your AI Stack](/blogs/own-your-ai-stack/): they don't sell you a stack, they sell dependency
+- [Do You Also Feel Cheated?](/blogs/do-you-also-feel-cheated/): we're working harder, not smarter
+- [The Next Productivity Paradox](/blogs/the-next-productivity-paradox/): agents pay off when humans stop being the integration layer
+- [AI as the Micromanager?](/blogs/ai-as-the-micromanager/): the AI layer that watches the mess and extracts the work
+- [Anthropic Says AI Hasn't Impacted Jobs. Read It Again.](/blogs/anthropic-jobs-paper-read-it-again/): jobs aren't disappearing, they're splitting
+- [Why Your Organization Needs Agent Infrastructure, Not More Agents](/blogs/why-your-organization-needs-agent-infrastructure-not-more-agents/)
+- [We're Not the Only Ones Building Agent Infrastructure](/blogs/not-the-only-ones-building-agent-infrastructure/): what makes internal agents different
+- [ChatGPT 5.2: What You Really Need to Know](/blogs/chatgpt-5-2-what-you-really-need-to-know/): value shifts from doing to scoping
+- [The API Contract Without the Server](/blogs/the-api-contract-without-the-server/): agents work the contract, skip the server
+- [Stop Building Startups Like It's 2024](/blogs/stop-building-startups-like-2024/)
+- [Most AI Agents Are Just Fancy Chatbots](/blogs/most-ai-agents-are-just-fancy-chatbots/): autonomy without control is chaos
+- [The Year AI Will Start Building and Managing Other AI Agents](/blogs/the-year-ai-will-start-building-and-managing-other-ai-agents/)
 
-## Engineering & Product Deep-Dives (xpander.ai)
+## Engineering Deep-Dives (xpander.ai)
 
-- [Get iOS Push Notifications When Your Agent Finishes (or Fails)](https://dudutwizer.com/blogs/ios-push-notifications-for-agent-tasks/): Wire an xpander agent's success/error webhook into a push service and your phone buzzes the moment a long-running agent task finishes — no polling, no forgotten tabs.
-- [Two API Calls to Put an AI Agent on a Static Site](https://dudutwizer.com/blogs/chatbot-static-site-cloudflare-worker/): The "Chat with my AI" button is a real xpander agent — created with one API call, streamed with another, behind a tiny key-holding Cloudflare Worker.
-- [Build a Production-Ready Autonomous Expense Agent](https://dudutwizer.com/blogs/build-production-ready-autonomous-expense-agent/): Upload an invoice and the agent reads, classifies, renames, and files it into the right Google Drive folder with an audit trail — the parts that break in production, solved.
-- [Introducing Slack-Native AI Agents](https://dudutwizer.com/blogs/introducing-slack-native-ai-agents/): Deploy custom AI agents to Slack in minutes — they respond to mentions, keep memory across threads, and work like real coworkers.
-- [An Agent That Closes the Troubleshooting Loop](https://dudutwizer.com/blogs/datadog-github-troubleshooting-agent/): Automating the entire troubleshooting loop across Datadog logs and GitHub Actions. No tickets, no waiting.
-- [How xpander.ai Embraces the Model Context Protocol in Practice](https://dudutwizer.com/blogs/how-xpander-embraces-mcp-in-practice/): An engineering deep-dive: SSE streaming, multi-tenant security, and weaving MCP into a production agent platform.
-- [Announcing Agent Graph System: 4x Better Multi-Step Tool Use](https://dudutwizer.com/blogs/announcing-agent-graph-system/): 98% success on multi-step tasks versus 24% for GPT-4o alone — 38% faster with 31.5% fewer tokens.
-- [From Manual to Autonomous: Revolutionize Business Tasks In-House](https://dudutwizer.com/blogs/from-manual-to-autonomous/): How enterprises build AI agents in-house while keeping full control over data, security, and cost.
-- [xpander.ai + OpenAI Realtime API](https://dudutwizer.com/blogs/xpander-openai-realtime-api/): Real-time function calls across any system: first-party APIs, third-party services, or custom platforms.
-- [xpander.ai + NVIDIA NIM](https://dudutwizer.com/blogs/xpander-nvidia-nim-integration/): A Text-to-Action runtime that turns text inputs into tangible results with graph-driven agents.
+- [llms.txt Is the Cheapest RAG You'll Ever Ship](/blogs/llms-txt-cheapest-rag/): this site's agent reads llms.txt at prompt time — no search, no vector DB
+- [Get iOS Push Notifications When Your Agent Finishes](/blogs/ios-push-notifications-for-agent-tasks/): webhook → phone buzz on task success/failure
+- [Two API Calls to Put an AI Agent on a Static Site](/blogs/chatbot-static-site-cloudflare-worker/): how this site's chat works
+- [Build a Production-Ready Autonomous Expense Agent](/blogs/build-production-ready-autonomous-expense-agent/): invoice → classified, filed, audited
+- [Introducing Slack-Native AI Agents](/blogs/introducing-slack-native-ai-agents/): agents as coworkers in Slack
+- [An Agent That Closes the Troubleshooting Loop](/blogs/datadog-github-troubleshooting-agent/): Datadog logs × GitHub Actions
+- [How xpander.ai Embraces MCP in Practice](/blogs/how-xpander-embraces-mcp-in-practice/): SSE, multi-tenant security, production MCP
+- [Announcing Agent Graph System](/blogs/announcing-agent-graph-system/): 98% vs 24% on multi-step tool use
+- [From Manual to Autonomous](/blogs/from-manual-to-autonomous/): building enterprise agents in-house
+- [xpander.ai + OpenAI Realtime API](/blogs/xpander-openai-realtime-api/)
+- [xpander.ai + NVIDIA NIM](/blogs/xpander-nvidia-nim-integration/)
 
 ## Homelab & Meta
 
-- [Self-Hosting Immich on EC2, with the Photo Library on S3](https://dudutwizer.com/blogs/self-hosting-immich-ec2-s3/): Running his own Google Photos — Immich on a Graviton EC2 box, originals on an S3 rclone mount, hot data on EBS, private over Tailscale, real TLS with zero open ports.
-- [My Home Assistant Setup, and the Blinds That Track the Sun](https://dudutwizer.com/blogs/home-assistant-lutron-covers/): Home Assistant OS on a Raspberry Pi 4, seven Lutron Caséta blinds driven by the Adaptive Cover integration, and an OpenClaw agent on the Pi as an add-on.
-- [How This Site Is Built](https://dudutwizer.com/blogs/how-this-site-is-built/): A static Hugo site on GitHub Pages with zero backend — except one small Cloudflare Worker for the chat.
-
-## Pages
-
-- [My Productivity Stack](https://dudutwizer.com/stack/): The software David actually pays for, how he uses it, and a graveyard of the tools that didn't survive his workflow.
-- [Archives](https://dudutwizer.com/archives/): Every post, by year.
+- [Self-Hosting Immich on EC2, with the Photo Library on S3](/blogs/self-hosting-immich-ec2-s3/): own Google Photos — S3 originals, EBS hot path, Tailscale-only
+- [My Home Assistant Setup, and the Blinds That Track the Sun](/blogs/home-assistant-lutron-covers/): Pi 4, Lutron Caséta, Adaptive Cover
+- [How This Site Is Built](/blogs/how-this-site-is-built/): Hugo + GitHub Pages + one Worker
+- [My Productivity Stack](/stack/): tools David pays for, and the graveyard
 
 ## Optional
 
-- [Optimizing EC2 Workloads with Amazon CloudWatch](https://dudutwizer.com/blogs/optimize-ec2-workloads-with-cloudwatch/): AWS-era post (2021) on right-sizing and monitoring EC2 workloads with CloudWatch.
-- [Running SQL Server with Amazon FSx as Shared Storage](https://dudutwizer.com/blogs/sql-on-fsx/): AWS-era post (2020) on SQL Server failover clusters backed by Amazon FSx for Windows File Server.
+- [Optimizing EC2 Workloads with Amazon CloudWatch](/blogs/optimize-ec2-workloads-with-cloudwatch/): AWS-era, 2021
+- [Running SQL Server with Amazon FSx](/blogs/sql-on-fsx/): AWS-era, 2020
+- [Archives](/archives/)

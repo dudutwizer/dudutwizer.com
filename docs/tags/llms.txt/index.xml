@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Llms.txt on David Twizer&#39;s Site</title>
+    <link>https://dudutwizer.com/tags/llms.txt/</link>
+    <description>Recent content in Llms.txt on David Twizer&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>David Twizer</managingEditor>
+    <webMaster>David Twizer</webMaster>
+    <lastBuildDate>Tue, 28 Jul 2026 21:30:00 -0700</lastBuildDate><atom:link href="https://dudutwizer.com/tags/llms.txt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>llms.txt Is the Cheapest RAG You&#39;ll Ever Ship</title>
+      <link>https://dudutwizer.com/blogs/llms-txt-cheapest-rag/</link>
+      <pubDate>Tue, 28 Jul 2026 21:30:00 -0700</pubDate>
+      <author>David Twizer</author>
+      <guid>https://dudutwizer.com/blogs/llms-txt-cheapest-rag/</guid>
+      <description>My site&amp;rsquo;s chat agent answers with exact deep links to my posts - no search tool, no vector database. It reads /llms.txt at prompt time, and the whole &amp;lsquo;retrieval pipeline&amp;rsquo; is one HTTP GET.</description>
+    </item>
+    
+  </channel>
+</rss>

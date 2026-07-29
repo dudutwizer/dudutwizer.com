@@ -8,7 +8,16 @@
     <language>en</language>
     <managingEditor>David Twizer</managingEditor>
     <webMaster>David Twizer</webMaster>
-    <lastBuildDate>Sun, 26 Jul 2026 13:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/categories/meta/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Jul 2026 21:30:00 -0700</lastBuildDate><atom:link href="https://dudutwizer.com/categories/meta/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>llms.txt Is the Cheapest RAG You&#39;ll Ever Ship</title>
+      <link>https://dudutwizer.com/blogs/llms-txt-cheapest-rag/</link>
+      <pubDate>Tue, 28 Jul 2026 21:30:00 -0700</pubDate>
+      <author>David Twizer</author>
+      <guid>https://dudutwizer.com/blogs/llms-txt-cheapest-rag/</guid>
+      <description>My site&amp;rsquo;s chat agent answers with exact deep links to my posts - no search tool, no vector database. It reads /llms.txt at prompt time, and the whole &amp;lsquo;retrieval pipeline&amp;rsquo; is one HTTP GET.</description>
+    </item>
+    
     <item>
       <title>Two API Calls to Put an AI Agent on a Static Site</title>
       <link>https://dudutwizer.com/blogs/chatbot-static-site-cloudflare-worker/</link>

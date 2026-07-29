@@ -18,6 +18,9 @@
   #dm-msgs .bot { align-self: flex-start; background: var(--code-bg, #f2f2f2); }
   #dm-msgs .me { align-self: flex-end; background: #216e39; color: #fff; }
   #dm-msgs .bot.typing::after { content: '▍'; opacity: 0.5; }
+  #dm-msgs .bot a { color: #216e39; text-decoration: underline; word-break: break-all; }
+  body.dark #dm-msgs .bot a { color: #56d364; }
+  #dm-msgs .bot code { background: rgba(128,128,128,0.18); border-radius: 4px; padding: 1px 4px; font-size: 0.85em; }
   #dm-form { display: flex; gap: 8px; padding: 10px; border-top: 1px solid var(--border, #eee); }
   #dm-input { flex: 1; padding: 9px 11px; border-radius: 10px; border: 1px solid var(--border, #ddd); font: inherit; background: transparent; color: inherit; }
   #dm-form button { padding: 0 14px; border-radius: 10px; border: 0; background: #216e39; color: #fff; cursor: pointer; font-weight: 600; }
@@ -43,6 +46,22 @@
   var conversationId = (window.crypto && crypto.randomUUID) ? crypto.randomUUID() : 'c-' + Date.now() + '-' + Math.floor(Math.random() * 1e9);
 
   function add(text, who) { var d = document.createElement('div'); d.className = 'm ' + who; d.textContent = text; msgs.appendChild(d); msgs.scrollTop = msgs.scrollHeight; return d; }
+
+  // Minimal, XSS-safe markdown for bot replies: escape everything first, then re-introduce
+  // only the tags we generate ourselves (links restricted to http(s) and same-site paths).
+  function md(s) {
+    var h = s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    h = h.replace(/`([^`\n]+)`/g, '<code>$1</code>');
+    h = h.replace(/\*\*([^*\n]+)\*\*/g, '<strong>$1</strong>');
+    h = h.replace(/\[([^\]\n]+)\]\((https?:\/\/[^\s)]+|\/[^\s)]*)\)/g,
+      '<a href="$2" target="_blank" rel="noopener">$1</a>');
+    h = h.replace(/(^|[\s(])(https?:\/\/[^\s<)]+)/g,
+      '$1<a href="$2" target="_blank" rel="noopener">$2</a>');
+    h = h.replace(/(^|\n)\s*[-*] /g, '$1• ');
+    h = h.replace(/(^|\n)#{1,4} ([^\n]+)/g, '$1<strong>$2</strong>');
+    return h;
+  }
+  function setBot(el, text) { el.innerHTML = md(text); msgs.scrollTop = msgs.scrollHeight; }
   function open() { panel.classList.add('open'); input.focus(); if (!greeted) { greeted = true; add("Hey, I'm David's AI. Ask me about his work, or tell me you'd like to meet and I'll help you book a time.", 'bot'); } }
   btn.addEventListener('click', function () { panel.classList.contains('open') ? panel.classList.remove('open') : open(); });
   document.getElementById('dm-close').addEventListener('click', function () { panel.classList.remove('open'); });
@@ -66,8 +85,8 @@
         var dl = record.split(/\r?\n/).filter(function (l) { return l.indexOf('data:') === 0; }).map(function (l) { return l.slice(5).trim(); }).join('');
         if (!dl) return;
         var ev; try { ev = JSON.parse(dl); } catch (_) { return; }
-        if (ev.type === 'chunk' && typeof ev.data === 'string') { acc += ev.data; bot.textContent = acc; msgs.scrollTop = msgs.scrollHeight; }
-        else if (ev.type === 'task_finished' && ev.data && ev.data.result) { acc = ev.data.result; bot.textContent = acc; }
+        if (ev.type === 'chunk' && typeof ev.data === 'string') { acc += ev.data; setBot(bot, acc); }
+        else if (ev.type === 'task_finished' && ev.data && ev.data.result) { acc = ev.data.result; setBot(bot, acc); }
       }
       while (true) {
         var r = await reader.read();
