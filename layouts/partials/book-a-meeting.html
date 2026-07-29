@@ -43,6 +43,13 @@
   #dm-input:focus { border-color: var(--xp); box-shadow: 0 0 0 3px rgba(117,60,255,0.18); }
   #dm-form button { padding: 0 18px; border-radius: 12px; border: 0; background: var(--xp-grad); color: #fff; cursor: pointer; font-weight: 700; }
   #dm-form button:hover { filter: brightness(1.08); }
+  /* Docked mode (desktop default): panel lives alongside the page - no backdrop,
+     the content slides over to make room instead of being dimmed. */
+  body.dm-docked { transition: padding-right .28s cubic-bezier(.32,.72,.33,1); }
+  @media (min-width: 1150px) {
+    body.dm-docked { padding-right: 430px; }
+    #dm-panel.docked { box-shadow: -8px 0 32px rgba(24,25,29,0.12); }
+  }
 </style>
 
 <button id="dm-btn" aria-label="Chat with David's AI to book a meeting" title="Chat with my AI">💬</button>
@@ -83,12 +90,41 @@
   }
   function setBot(el, text) { el.innerHTML = md(text); msgs.scrollTop = msgs.scrollHeight; }
   var backdrop = document.getElementById('dm-backdrop');
-  function open() { panel.classList.add('open'); backdrop.classList.add('open'); input.focus(); if (!greeted) { greeted = true; add("Hey, I'm David's AI. Ask me about his work, or tell me you'd like to meet and I'll help you book a time.", 'bot'); } }
-  function close() { panel.classList.remove('open'); backdrop.classList.remove('open'); }
-  btn.addEventListener('click', function () { panel.classList.contains('open') ? close() : open(); });
-  document.getElementById('dm-close').addEventListener('click', close);
-  backdrop.addEventListener('click', close);
-  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+  var GREETING = "Hey, I'm David's AI. Ask me about his work, or tell me you'd like to meet and I'll help you book a time.";
+
+  // Typewriter greeting: the panel says hello like a live terminal, cursor blinking.
+  function greet() {
+    if (greeted) return; greeted = true;
+    var d = add('', 'bot'); d.classList.add('typing');
+    var i = 0;
+    (function tick() {
+      d.textContent = GREETING.slice(0, ++i);
+      if (i < GREETING.length) setTimeout(tick, 14 + Math.random() * 26);
+      else setTimeout(function () { d.classList.remove('typing'); }, 1200);
+    })();
+  }
+  function open(docked) {
+    panel.classList.add('open');
+    if (docked) { panel.classList.add('docked'); document.body.classList.add('dm-docked'); }
+    else { backdrop.classList.add('open'); input.focus(); }
+    greet();
+  }
+  function close(byUser) {
+    panel.classList.remove('open'); panel.classList.remove('docked');
+    backdrop.classList.remove('open'); document.body.classList.remove('dm-docked');
+    if (byUser) try { sessionStorage.setItem('dm-dismissed', '1'); } catch (_) {}
+  }
+  btn.addEventListener('click', function () { panel.classList.contains('open') ? close(true) : open(false); });
+  document.getElementById('dm-close').addEventListener('click', function () { close(true); });
+  backdrop.addEventListener('click', function () { close(true); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(true); });
+
+  // Open by default on wide screens (docked beside the content, not over it),
+  // unless the visitor dismissed it earlier this session.
+  var dismissed = false; try { dismissed = sessionStorage.getItem('dm-dismissed') === '1'; } catch (_) {}
+  if (!dismissed && window.matchMedia('(min-width: 1150px)').matches) {
+    setTimeout(function () { open(true); }, 700);
+  }
 
   form.addEventListener('submit', async function (e) {
     e.preventDefault();
