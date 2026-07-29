@@ -10,12 +10,12 @@
     <webMaster>Dudu Twizer</webMaster>
     <lastBuildDate>Sun, 26 Jul 2026 11:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/automation/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My Home Assistant Setup, and the Lutron Shade Automation I Love</title>
+      <title>My Home Assistant Setup, and the Blinds That Track the Sun</title>
       <link>https://dudutwizer.com/blogs/home-assistant-lutron-covers/</link>
       <pubDate>Sun, 26 Jul 2026 11:00:00 +0300</pubDate>
       <author>Dudu Twizer</author>
       <guid>https://dudutwizer.com/blogs/home-assistant-lutron-covers/</guid>
-      <description>Home Assistant on a Raspberry Pi 4, Lutron shades, an agent plugin, and the sun-tracking cover automation that quietly runs my windows for me.</description>
+      <description>Home Assistant OS on a Raspberry Pi 4, seven Lutron Caséta blinds driven by the Adaptive Cover integration, and an OpenClaw agent living on the Pi as an add-on.</description>
     </item>
     
     <item>

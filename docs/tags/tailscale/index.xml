@@ -10,12 +10,12 @@
     <webMaster>Dudu Twizer</webMaster>
     <lastBuildDate>Sun, 26 Jul 2026 10:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/tailscale/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Self-Hosting Immich on EC2 with Unlimited S3 Storage</title>
+      <title>Self-Hosting Immich on EC2, with the Photo Library on S3</title>
       <link>https://dudutwizer.com/blogs/self-hosting-immich-ec2-s3/</link>
       <pubDate>Sun, 26 Jul 2026 10:00:00 +0300</pubDate>
       <author>Dudu Twizer</author>
       <guid>https://dudutwizer.com/blogs/self-hosting-immich-ec2-s3/</guid>
-      <description>How I run my own Google Photos: Immich on a Linux EC2 box, photos on an S3 mount for effectively unlimited storage, private over Tailscale, with SSL at Cloudflare.</description>
+      <description>How I run my own Google Photos: Immich on a Graviton EC2 box, originals on an S3 rclone mount, hot data on EBS, private over Tailscale, with a real Let&amp;rsquo;s Encrypt cert and zero open ports.</description>
     </item>
     
   </channel>

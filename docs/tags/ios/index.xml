@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>IOS on Dudu Twizer&#39;s Site</title>
+    <link>https://dudutwizer.com/tags/ios/</link>
+    <description>Recent content in IOS on Dudu Twizer&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>Dudu Twizer</managingEditor>
+    <webMaster>Dudu Twizer</webMaster>
+    <lastBuildDate>Mon, 27 Jul 2026 09:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get iOS Push Notifications When Your Agent Finishes (or Fails)</title>
+      <link>https://dudutwizer.com/blogs/ios-push-notifications-for-agent-tasks/</link>
+      <pubDate>Mon, 27 Jul 2026 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/ios-push-notifications-for-agent-tasks/</guid>
+      <description>Wire an xpander agent&amp;rsquo;s success/error webhook into hark.ryan.ceo and your phone buzzes the moment a long-running agent task finishes - no polling, no forgotten tabs.</description>
+    </item>
+    
+  </channel>
+</rss>

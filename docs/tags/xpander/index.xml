@@ -8,7 +8,16 @@
     <language>en</language>
     <managingEditor>Dudu Twizer</managingEditor>
     <webMaster>Dudu Twizer</webMaster>
-    <lastBuildDate>Sun, 26 Jul 2026 13:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/xpander/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Jul 2026 09:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/xpander/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get iOS Push Notifications When Your Agent Finishes (or Fails)</title>
+      <link>https://dudutwizer.com/blogs/ios-push-notifications-for-agent-tasks/</link>
+      <pubDate>Mon, 27 Jul 2026 09:00:00 +0300</pubDate>
+      <author>Dudu Twizer</author>
+      <guid>https://dudutwizer.com/blogs/ios-push-notifications-for-agent-tasks/</guid>
+      <description>Wire an xpander agent&amp;rsquo;s success/error webhook into hark.ryan.ceo and your phone buzzes the moment a long-running agent task finishes - no polling, no forgotten tabs.</description>
+    </item>
+    
     <item>
       <title>Two API Calls to Put an AI Agent on a Static Site</title>
       <link>https://dudutwizer.com/blogs/chatbot-static-site-cloudflare-worker/</link>
