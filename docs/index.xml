@@ -15,7 +15,7 @@
       <pubDate>Wed, 19 Aug 2026 10:00:00 +0300</pubDate>
       <author>David Twizer</author>
       <guid>https://dudutwizer.com/blogs/self-hosted-speech-to-text-that-is-actually-useful/</guid>
-      <description>parrot: a minimal macOS dictation daemon. Hold Fn, speak, release - text appears at your cursor. Whisper running on the Apple Neural Engine, fully on-device, no cloud, no subscription.</description>
+      <description>parrot: a minimal macOS dictation daemon. Hold Fn, speak, release - text appears at your cursor. Whisper on the Apple Neural Engine, fully on-device, running as a login daemon - plus a hotword hack that routes &amp;ldquo;Jarvis, &amp;hellip;&amp;rdquo; straight into Claude Code.</description>
     </item>
     
     <item>
