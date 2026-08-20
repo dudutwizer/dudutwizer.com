@@ -2,16 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dudutwizer.com/tags/ai-agents/</loc>
-    <lastmod>2026-07-28T21:30:00-07:00</lastmod>
-  </url><url>
     <loc>https://dudutwizer.com/blogs/</loc>
-    <lastmod>2026-07-28T21:30:00-07:00</lastmod>
+    <lastmod>2026-08-19T10:00:00+03:00</lastmod>
   </url><url>
     <loc>https://dudutwizer.com/categories/</loc>
-    <lastmod>2026-07-28T21:30:00-07:00</lastmod>
+    <lastmod>2026-08-19T10:00:00+03:00</lastmod>
   </url><url>
     <loc>https://dudutwizer.com/</loc>
+    <lastmod>2026-08-19T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/dictation/</loc>
+    <lastmod>2026-08-19T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/categories/homelab/</loc>
+    <lastmod>2026-08-19T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/macos/</loc>
+    <lastmod>2026-08-19T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/blogs/self-hosted-speech-to-text-that-is-actually-useful/</loc>
+    <lastmod>2026-08-19T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/self-hosting/</loc>
+    <lastmod>2026-08-19T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/speech-to-text/</loc>
+    <lastmod>2026-08-19T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/</loc>
+    <lastmod>2026-08-19T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/whisper/</loc>
+    <lastmod>2026-08-19T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://dudutwizer.com/tags/ai-agents/</loc>
     <lastmod>2026-07-28T21:30:00-07:00</lastmod>
   </url><url>
     <loc>https://dudutwizer.com/tags/llms.txt/</loc>
@@ -24,9 +48,6 @@
     <lastmod>2026-07-28T21:30:00-07:00</lastmod>
   </url><url>
     <loc>https://dudutwizer.com/tags/rag/</loc>
-    <lastmod>2026-07-28T21:30:00-07:00</lastmod>
-  </url><url>
-    <loc>https://dudutwizer.com/tags/</loc>
     <lastmod>2026-07-28T21:30:00-07:00</lastmod>
   </url><url>
     <loc>https://dudutwizer.com/tags/xpander/</loc>
@@ -74,9 +95,6 @@
     <loc>https://dudutwizer.com/tags/home-assistant/</loc>
     <lastmod>2026-07-26T11:00:00+03:00</lastmod>
   </url><url>
-    <loc>https://dudutwizer.com/categories/homelab/</loc>
-    <lastmod>2026-07-26T11:00:00+03:00</lastmod>
-  </url><url>
     <loc>https://dudutwizer.com/tags/homelab/</loc>
     <lastmod>2026-07-26T11:00:00+03:00</lastmod>
   </url><url>
@@ -93,9 +111,6 @@
     <lastmod>2026-07-26T10:00:00+03:00</lastmod>
   </url><url>
     <loc>https://dudutwizer.com/tags/immich/</loc>
-    <lastmod>2026-07-26T10:00:00+03:00</lastmod>
-  </url><url>
-    <loc>https://dudutwizer.com/tags/self-hosting/</loc>
     <lastmod>2026-07-26T10:00:00+03:00</lastmod>
   </url><url>
     <loc>https://dudutwizer.com/blogs/self-hosting-immich-ec2-s3/</loc>

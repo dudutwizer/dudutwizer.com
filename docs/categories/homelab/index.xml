@@ -8,7 +8,16 @@
     <language>en</language>
     <managingEditor>David Twizer</managingEditor>
     <webMaster>David Twizer</webMaster>
-    <lastBuildDate>Sun, 26 Jul 2026 11:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/categories/homelab/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Aug 2026 10:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/categories/homelab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Self-Hosted Speech-to-Text That Is Actually Useful</title>
+      <link>https://dudutwizer.com/blogs/self-hosted-speech-to-text-that-is-actually-useful/</link>
+      <pubDate>Wed, 19 Aug 2026 10:00:00 +0300</pubDate>
+      <author>David Twizer</author>
+      <guid>https://dudutwizer.com/blogs/self-hosted-speech-to-text-that-is-actually-useful/</guid>
+      <description>parrot: a minimal macOS dictation daemon. Hold Fn, speak, release - text appears at your cursor. Whisper running on the Apple Neural Engine, fully on-device, no cloud, no subscription.</description>
+    </item>
+    
     <item>
       <title>My Home Assistant Setup, and the Blinds That Track the Sun</title>
       <link>https://dudutwizer.com/blogs/home-assistant-lutron-covers/</link>

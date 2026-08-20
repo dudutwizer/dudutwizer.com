@@ -8,7 +8,52 @@
     <language>en</language>
     <managingEditor>David Twizer</managingEditor>
     <webMaster>David Twizer</webMaster>
-    <lastBuildDate>Tue, 28 Jul 2026 21:30:00 -0700</lastBuildDate><atom:link href="https://dudutwizer.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Aug 2026 10:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dictation</title>
+      <link>https://dudutwizer.com/tags/dictation/</link>
+      <pubDate>Wed, 19 Aug 2026 10:00:00 +0300</pubDate>
+      <author>David Twizer</author>
+      <guid>https://dudutwizer.com/tags/dictation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MacOS</title>
+      <link>https://dudutwizer.com/tags/macos/</link>
+      <pubDate>Wed, 19 Aug 2026 10:00:00 +0300</pubDate>
+      <author>David Twizer</author>
+      <guid>https://dudutwizer.com/tags/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-Hosting</title>
+      <link>https://dudutwizer.com/tags/self-hosting/</link>
+      <pubDate>Wed, 19 Aug 2026 10:00:00 +0300</pubDate>
+      <author>David Twizer</author>
+      <guid>https://dudutwizer.com/tags/self-hosting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Speech-to-Text</title>
+      <link>https://dudutwizer.com/tags/speech-to-text/</link>
+      <pubDate>Wed, 19 Aug 2026 10:00:00 +0300</pubDate>
+      <author>David Twizer</author>
+      <guid>https://dudutwizer.com/tags/speech-to-text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Whisper</title>
+      <link>https://dudutwizer.com/tags/whisper/</link>
+      <pubDate>Wed, 19 Aug 2026 10:00:00 +0300</pubDate>
+      <author>David Twizer</author>
+      <guid>https://dudutwizer.com/tags/whisper/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>AI Agents</title>
       <link>https://dudutwizer.com/tags/ai-agents/</link>
@@ -177,15 +222,6 @@
       <pubDate>Sun, 26 Jul 2026 10:00:00 +0300</pubDate>
       <author>David Twizer</author>
       <guid>https://dudutwizer.com/tags/immich/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Self-Hosting</title>
-      <link>https://dudutwizer.com/tags/self-hosting/</link>
-      <pubDate>Sun, 26 Jul 2026 10:00:00 +0300</pubDate>
-      <author>David Twizer</author>
-      <guid>https://dudutwizer.com/tags/self-hosting/</guid>
       <description></description>
     </item>
     

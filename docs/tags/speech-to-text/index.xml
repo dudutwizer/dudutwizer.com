@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Speech-to-Text on David Twizer&#39;s Site</title>
+    <link>https://dudutwizer.com/tags/speech-to-text/</link>
+    <description>Recent content in Speech-to-Text on David Twizer&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>David Twizer</managingEditor>
+    <webMaster>David Twizer</webMaster>
+    <lastBuildDate>Wed, 19 Aug 2026 10:00:00 +0300</lastBuildDate><atom:link href="https://dudutwizer.com/tags/speech-to-text/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Self-Hosted Speech-to-Text That Is Actually Useful</title>
+      <link>https://dudutwizer.com/blogs/self-hosted-speech-to-text-that-is-actually-useful/</link>
+      <pubDate>Wed, 19 Aug 2026 10:00:00 +0300</pubDate>
+      <author>David Twizer</author>
+      <guid>https://dudutwizer.com/blogs/self-hosted-speech-to-text-that-is-actually-useful/</guid>
+      <description>parrot: a minimal macOS dictation daemon. Hold Fn, speak, release - text appears at your cursor. Whisper running on the Apple Neural Engine, fully on-device, no cloud, no subscription.</description>
+    </item>
+    
+  </channel>
+</rss>
