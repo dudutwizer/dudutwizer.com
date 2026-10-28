@@ -2,7 +2,7 @@
 
 > David (Dudu) Twizer — Co-Founder & CEO of xpander.ai, agent infrastructure that runs in your own environment so AI agents can own real multi-step workflows for hours or days. Ex-AWS: ~7 years, most recently leading GenAI Specialist Solutions Architecture across EMEA. Thesis: every role is becoming a human+AI role.
 
-Site: https://dudutwizer.com (static Hugo). Email: david@twizer.net. X: @DuduTwizer. To book a meeting with David, use the site's chat widget. All post URLs are under https://dudutwizer.com/blogs/<slug>/.
+Site: https://dudutwizer.com (static Hugo). Email: david@twizer.net. X: @DuduTwizer. All post URLs are under https://dudutwizer.com/blogs/<slug>/.
 
 ## Essays: AI Agents & the Industry
 
