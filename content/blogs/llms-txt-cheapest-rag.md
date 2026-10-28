@@ -12,7 +12,7 @@ tags:
   - RAG
 ---
 
-Ask the chat widget on this site for "the link to the iOS push post" and it answers with the exact URL, instantly. There is no search tool behind that. No vector database, no embeddings, no retrieval pipeline. The agent simply *knows* my site - because at prompt-build time it reads one file: [`/llms.txt`](/llms.txt).
+When this site had a chat widget, you could ask it for "the link to the iOS push post" and it answered with the exact URL, instantly. There was no search tool behind that. No vector database, no embeddings, no retrieval pipeline. The agent simply *knew* my site - because at prompt-build time it reads one file: [`/llms.txt`](/llms.txt).
 
 ## The two pieces
 

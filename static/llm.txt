@@ -24,7 +24,7 @@ Site: https://dudutwizer.com (static Hugo). Email: david@twizer.net. X: @DuduTwi
 
 - [llms.txt Is the Cheapest RAG You'll Ever Ship](/blogs/llms-txt-cheapest-rag/): this site's agent reads llms.txt at prompt time — no search, no vector DB
 - [Get iOS Push Notifications When Your Agent Finishes](/blogs/ios-push-notifications-for-agent-tasks/): webhook → phone buzz on task success/failure
-- [Two API Calls to Put an AI Agent on a Static Site](/blogs/chatbot-static-site-cloudflare-worker/): how this site's chat works
+- [Two API Calls to Put an AI Agent on a Static Site](/blogs/chatbot-static-site-cloudflare-worker/): how this site's (now retired) chat worked
 - [Build a Production-Ready Autonomous Expense Agent](/blogs/build-production-ready-autonomous-expense-agent/): invoice → classified, filed, audited
 - [Introducing Slack-Native AI Agents](/blogs/introducing-slack-native-ai-agents/): agents as coworkers in Slack
 - [An Agent That Closes the Troubleshooting Loop](/blogs/datadog-github-troubleshooting-agent/): Datadog logs × GitHub Actions
